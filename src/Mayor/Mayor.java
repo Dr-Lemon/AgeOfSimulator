@@ -5,11 +5,11 @@ import PNJ.PNJ;
 public class Mayor {
     private int ressources, money;
 
-    public void AddPNJ(PNJ test){
+    public void AddPNJ(){
 
     }
 
-    public void AddMaison(){
+    public void AddHouse(){
 
     }
 
