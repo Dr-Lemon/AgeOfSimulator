@@ -1,4 +1,9 @@
 package PNJ.Poor.Butcher;
 
-public class Butcher {
+import PNJ.Poor.Poor;
+
+public class Butcher extends Poor {
+    public Butcher() {
+        this.setJob("Butcher");
+    }
 }

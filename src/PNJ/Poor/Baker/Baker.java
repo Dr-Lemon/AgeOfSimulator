@@ -1,4 +1,9 @@
 package PNJ.Poor.Baker;
 
-public class Baker {
+import PNJ.Poor.Poor;
+
+public class Baker extends Poor {
+    public Baker() {
+        this.setJob("Baker");
+    }
 }

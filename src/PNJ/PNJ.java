@@ -9,8 +9,22 @@ public class PNJ {
     private String Name;
     private String Job;
 
-    public PNJ() {
+    public PNJ(String name) {
+        this.life = true;
+        this.seek = false;
+        this.humor = 2;
+        this.sleep = 0;
+        this.item = 0;
+        this.setName(name);
+    }
 
+    public PNJ() {
+        this.life = true;
+        this.seek = false;
+        this.humor = 2;
+        this.sleep = 0;
+        this.item = 0;
+        this.setName("Kevin");
     }
 
     public String getJob() {
