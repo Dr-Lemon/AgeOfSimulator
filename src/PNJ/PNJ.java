@@ -86,4 +86,17 @@ public class PNJ {
     public void setName(String name) {
         Name = name;
     }
+
+    @Override
+    public String toString() {
+        return "PNJ{" +
+                "life=" + life +
+                ", seek=" + seek +
+                ", humor=" + humor +
+                ", sleep=" + sleep +
+                ", item=" + item +
+                ", Name='" + Name + '\'' +
+                ", Job='" + Job + '\'' +
+                '}';
+    }
 }

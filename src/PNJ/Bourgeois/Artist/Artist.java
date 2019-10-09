@@ -6,4 +6,8 @@ public class Artist extends Bourgeois {
     public Artist() {
         this.setJob("Artist");
     }
+    public Artist(String name){
+        this.setJob("Artist");
+        this.setName(name);
+    }
 }
