@@ -9,6 +9,7 @@ import PNJ.Bourgeois.Bourgeois;
 import PNJ.Poor.Poor;
 import PNJ.Wife.Wife;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class main {
@@ -106,42 +107,55 @@ public class main {
                 house.get(i).getRessources();
 
                 int x;
-                if(house.get(i).getType() == Bourgeois){// Si c’est bourgeois
-                    int ask = (house.get(i).getRessources() div 2);
+                if(house.get(i).getName() == Bourgeois){// Si c’est bourgeois
+                    int ask = (house.get(i).getRessources() / 2);
                     System.out.println("cette maison reclame"+ ask);
                     System.out.println("Combien voulez vous donner ?");
                     x = sc.nextInt();
                     maire.setRessources(maire.getRessources()-x)); // Maire donne un nbr de ressources
-                    maire.setRessources(maire.getRessources()+(house.get(i).getRessources)); // Il récupère toutes les ressources de la maison bourgeoise(Argent qu’ils ont récoltés)
+                    maire.setRessources(maire.getRessources()+(house.get(i).getRessources())); // Il récupère toutes les ressources de la maison bourgeoise(Argent qu’ils ont récoltés)
                     house.get(i).setRessources(0); // On met les ressources de la maison à 0
+                    if( x < ask ){
+                        house.get(i).ChangeHumor(-1);
+                        System.out.println("Cette maison n’as pas bien été rémunéré attention cela va influencer leurs comportement !");
+                    }
+                    if( x > ask ){
+                        house.get(i).ChangeHumor(+1);
+                        System.out.println("Cette maison vous remercie pour votre confiance !");
+                    }
+                    if( x == ask ){
+                        System.out.println("L’échange s'est effectué avec succès !");
+                    }
                 }
 
 
                 else{ // Si c’est pauvre
-                    int ask = (house.get(i).getRessources())
-                    System.out.println("cette maison reclame"+ ask);
-                    System.out.println("Combien voulez vous donner ?");
-                    x = sc.nextInt();
-                    maire.setRessources(maire.getRessources()-x); // Maire donne un nbr de ressources
-                    maire.setRessources(maire.getRessources()+(house.get(i).getRessources)); // Il récupère toutes les ressources de la maison pauvre(Ressources qu’ils ont récoltés)
-                    house.get(i).setRessources(0); // On met les ressources de la maison à 0
-                }
+                        int ask = (house.get(i).getRessources());
+                        System.out.println("cette maison reclame"+ ask);
+                        System.out.println("Combien voulez vous donner ?");
+                        x = sc.nextInt();
+                        maire.setRessources(maire.getRessources()-x); // Maire donne un nbr de ressources
+                        maire.setRessources(maire.getRessources()+(house.get(i).getRessources())); // Il récupère toutes les ressources de la maison pauvre(Ressources qu’ils ont récoltés)
+                        house.get(i).setRessources(0); // On met les ressources de la maison à 0
+                        if( x < ask ){
+                        PNJ.ChangeHumor(-1);
+                        System.out.println("Cette maison n’as pas bien été rémunéré attention cela va influencer leurs comportement !");
+                        }
+                        if( x > ask ){
+                            PNJ.ChangeHumor(+1);
+                            System.out.println("Cette maison vous remercie pour votre confiance !");
+                        }
+                        if( x == ask ){
+                            System.out.println("L’échange s'est effectué avec succès !");
+                        }
+                    }
 
-                if( x < NbrRessources ){
-                    PNJ.ChangeHumor(-1);
-                    System.out.println("Cette maison n’as pas bien été rémunéré attention cela va influencer leurs comportement !");
-                }
-                if( x > NbrRessources ){
-                    PNJ.ChangeHumor(+1);
-                    System.out.println("Cette maison vous remercie pour votre confiance !");
-                }
-                if( x == NbrRessources ){
-                    System.out.println("L’échange s'est effectué avec succès !");
-                }
+
             }
             for (int i=0 ; i < house.size(); ++i){
                 System.out.println(house.get(i));
                 //house.get(i).toString();
             }
         }
+}
 }
