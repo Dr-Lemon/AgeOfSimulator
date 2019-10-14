@@ -5,14 +5,18 @@ import PNJ.PNJ;
 import java.util.ArrayList;
 
 public class House {
-    public int item;
-    ArrayList<PNJ>;
+    private int item;
+    private int humor;
+    private String name;
+    private ArrayList<PNJ> Number_ers;
     public House() {
+        this.name = "Maison sans type";
         this.item = 20;
+        this.humor = 3;
     }
 
     private int resources, MaxNumber, NumberPerson;
-    private String name;
+
 
     public int getRessources() {
         return resources;
@@ -30,13 +34,13 @@ public class House {
         this.MaxNumber = MAXNUMBER;
     }
 
-    public int getNumber_pers() {
-        return number_pers;
-    }
-
-    public void setNumber_pers(int number_pers) {
-        this.number_pers = number_pers;
-    }
+//    public int getNumber_pers() {
+//        //return number_pers;
+//    }
+//
+//    public void setNumber_pers(int number_pers) {
+//        this.number_pers = number_pers;
+//    }
 
     public String getName() {
         return name;
@@ -44,5 +48,13 @@ public class House {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getHumor() {
+        return humor;
+    }
+
+    public void setHumor(int humor) {
+        this.humor = humor;
     }
 }

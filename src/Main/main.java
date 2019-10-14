@@ -7,6 +7,7 @@ import House.House;
 import Mayor.Mayor;
 import PNJ.Bourgeois.Bourgeois;
 import PNJ.Poor.Poor;
+import PNJ.Wife.Wife;
 
 import java.util.Scanner;
 
@@ -30,17 +31,17 @@ public class main {
             System.out.println("3- Créer une maison de Pauvres (" + maire.getCoastPoorHouse() + " ) (Disposant déjà d’un H et une F)");
             System.out.println("4- Créer un Pauvre (" + maire.getCoastPoor() + ")");
             System.out.println("5- Continuer");
-            choix = MOOC.readInt();
+            choix = sc.nextInt();
             if (choix == 1){
                 //moneyMayor = maire.(get.Money)
-                if(maire.getMoney() < costBourgeoisHouse){ // Il faudrait définir le prix des maisons
+                if(maire.getMoney() < maire.getCoastBourgeoisHouse() ){ // Il faudrait définir le prix des maisons
                     System.out.println("Pas assez d'argent !");
                 }
                 else{
                     Bourgeois y = new Bourgeois();
                     Wife z = new Wife();
                     Castle x = new Castle();
-                    House.add(x);
+                    house.add(x);
                     x.setRessources(20);
 
                 } }
@@ -49,12 +50,12 @@ public class main {
             }
             else if (choix == 3){
                 //moneyMayor = maire.(get.Money)
-                if(maire.getMoney() < costPoorHouse){ // Dans des variables globale pour y avoir accès partout sans créer d’objet Maison ou alors on créer un objet..
+                if(maire.getMoney() < maire.getCoastPoorHouse()){ // Dans des variables globale pour y avoir accès partout sans créer d’objet Maison ou alors on créer un objet..
                     System.out.println("Pas assez d'argent");
                 }
                 Poor y = new Poor();
                 Wife z = new Wife();
-                Farm x = new home();
+                Farm x = new Farm();
                 house.add(x);
                 x.setRessources(20);
             }
@@ -63,7 +64,7 @@ public class main {
                 int choix2;
                 System.out.println("Etes vous sur de bien vouloir continuer ?");
                 System.out.println("OUI : 1 NON : 2");
-                choix2 = MOOC.readInt();
+                choix2 = sc.nextInt();
                 if (choix2 == 1){
                     break; }
                 else if (choix2 == 2){
@@ -72,11 +73,11 @@ public class main {
                 while (choix <1 || choix>2){
                     System.out.print("Choix incorrect. ");
                     System.out.print("Votre choix: ");
-                    choix = MOOC.readInt();
+                    choix = sc.nextInt();
                 }
-                else{
-                    System.out.println("Choix incorrect !");
-                }
+//                else{
+//                    System.out.println("Choix incorrect !");
+//                }
             }
             while(day != 7){
                 for (int i = 0; i < house.size(); ++i){
@@ -139,11 +140,8 @@ public class main {
                 }
             }
             for (int i=0 ; i < house.size(); ++i){
-//sout(“NbrRessources =” + house.get(i).getRessources());
-//sout(“Nom =” + house.get(i).getNom());
-//sout(“NbrPers =” + house.get(i).getNbrPers());
-//ou
-                house.get(i).toString();
+                System.out.println(house.get(i));
+                //house.get(i).toString();
             }
         }
 }
