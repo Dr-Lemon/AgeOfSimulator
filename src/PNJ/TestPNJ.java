@@ -7,6 +7,7 @@ public class TestPNJ {
     public static void main(String[] args) {
         Bourgeois B1 = new Bourgeois();
         System.out.println(B1);
-        Royal R = new Royal("John")
+        Royal R = new Royal("John");
+        System.out.println(R);
     }
 }

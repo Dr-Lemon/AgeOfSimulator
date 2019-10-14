@@ -1,8 +1,18 @@
 package Main;
 
 
+import House.Castle.Castle;
+import House.Farm.Farm;
+import House.House;
+import Mayor.Mayor;
+import PNJ.Bourgeois.Bourgeois;
+import PNJ.Poor.Poor;
+
+import java.util.Scanner;
+
 public class main {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         Mayor maire = new Mayor() // en paramètres le nom ou pas
         maire.setRessources(20);
         maire.setMoney(400);
@@ -15,22 +25,22 @@ public class main {
 
         while (1){
             System.out.println("Que voulez vous faire ?");
-            System.out.println("1- Créer une maison de Bourgeois (" + maire.get(coastBourgeoisHouse) + ") (Disposant déjà d un H et une F)");
-            System.out.println("2- Créer un Bourgeois (" + maire.get(coastBourgeois) + ")");
-            System.out.println("3- Créer une maison de Pauvres (" + maire.get(coastPoorHouse) + " ) (Disposant déjà d’un H et une F)");
-            System.out.println("4- Créer un Pauvre (" + maire.get(coastPoor) + ")");
+            System.out.println("1- Créer une maison de Bourgeois (" + maire.getCoastBourgeoisHouse() + ") (Disposant déjà d un H et une F)");
+            System.out.println("2- Créer un Bourgeois (" + maire.getCoastBourgeois() + ")");
+            System.out.println("3- Créer une maison de Pauvres (" + maire.getCoastPoorHouse() + " ) (Disposant déjà d’un H et une F)");
+            System.out.println("4- Créer un Pauvre (" + maire.getCoastPoor() + ")");
             System.out.println("5- Continuer");
             choix = MOOC.readInt();
             if (choix == 1){
-                moneyMayor = maire.(get.Money)
-                if(moneyMayor < costBourgeoisHouse){ // Il faudrait définir le prix des maisons
-                    sout (“Pas assez d’argent !”)
+                //moneyMayor = maire.(get.Money)
+                if(maire.getMoney() < costBourgeoisHouse){ // Il faudrait définir le prix des maisons
+                    System.out.println("Pas assez d'argent !");
                 }
                 else{
-                    bourgeoie y = new bourgeoie();
+                    Bourgeois y = new Bourgeois();
                     Wife z = new Wife();
-                    home x = new home();
-                    house.add(x);
+                    Castle x = new Castle();
+                    House.add(x);
                     x.setRessources(20);
 
                 } }
@@ -38,30 +48,34 @@ public class main {
 
             }
             else if (choix == 3){
-                moneyMayor = maire.(get.Money)
-                if(moneyMayor < costPoorHouse){ // Dans des variables globale pour y avoir accès partout sans créer d’objet Maison ou alors on créer un objet..
-                    sout (“Pas assez d’argent !”)
+                //moneyMayor = maire.(get.Money)
+                if(maire.getMoney() < costPoorHouse){ // Dans des variables globale pour y avoir accès partout sans créer d’objet Maison ou alors on créer un objet..
+                    System.out.println("Pas assez d'argent");
                 }
-                pauvre y = new pauvre();
+                Poor y = new Poor();
                 Wife z = new Wife();
-                home x = new home();
+                Farm x = new home();
                 house.add(x);
                 x.setRessources(20);
             }
 
             else if (choix == 5){
                 int choix2;
-                sout(“Etes vous sur de vouloir continuer ?”)
-                sout(“1-Yes  2-No ?”)
+                System.out.println("Etes vous sur de bien vouloir continuer ?");
+                System.out.println("OUI : 1 NON : 2");
                 choix2 = MOOC.readInt();
-                if (choix2 = 1){
+                if (choix2 == 1){
                     break; }
-                elseif (choix2 = 2){
-// On fait rien pour que ça recommence la boucle.
+                else if (choix2 == 2){
+                // On fait rien pour que ça recommence la boucle.
                 }
-                while (choix <1 || choix>2){ System.out.print("Choix incorrect. "); System.out.print("Votre choix: "); choix = MOOC.readInt(); }
-else{
-                    sout(“Choix incorrect”);
+                while (choix <1 || choix>2){
+                    System.out.print("Choix incorrect. ");
+                    System.out.print("Votre choix: ");
+                    choix = MOOC.readInt();
+                }
+                else{
+                    System.out.println("Choix incorrect !");
                 }
             }
             while(day != 7){
@@ -90,54 +104,46 @@ else{
             for (int i = 0; i < house.size(); ++i){
                 house.get(i).getRessources();
 
+                int x;
                 if(house.get(i).getType() == Bourgeois){// Si c’est bourgeois
-                    int ask = (house.get(i).getRessources() div 2)
-                    sout(“Cette maison réclame :” + ask );
-
-                    sout(“Combien voulez vous donnez ?”)
-                    Scanner.readnextint();
-                    x = nextInt;
-
-                    maire.giveRessources(x); // Maire donne un nbr de ressources
-                    maire.TakeRessources(house.get(i).getRessources); // Il récupère toutes les ressources de la maison bourgeoise(Argent qu’ils ont récoltés)
+                    int ask = (house.get(i).getRessources() div 2);
+                    System.out.println("cette maison reclame"+ ask);
+                    System.out.println("Combien voulez vous donner ?");
+                    x = sc.nextInt();
+                    maire.setRessources(maire.getRessources()-x)); // Maire donne un nbr de ressources
+                    maire.setRessources(maire.getRessources()+(house.get(i).getRessources)); // Il récupère toutes les ressources de la maison bourgeoise(Argent qu’ils ont récoltés)
                     house.get(i).setRessources(0); // On met les ressources de la maison à 0
                 }
 
 
                 else{ // Si c’est pauvre
                     int ask = (house.get(i).getRessources())
-                    sout(“Cette maison réclame :” + ask );
-
-                    sout(“Combien voulez vous donnez ?”)
-                    Scanner.readnextint();
-                    x = nextInt;
-
-                    maire.giveMoney(x); // Maire donne un nbr de ressources
-                    maire.TakeRessources(house.get(i).getRessources); // Il récupère toutes les ressources de la maison pauvre(Ressources qu’ils ont récoltés)
+                    System.out.println("cette maison reclame"+ ask);
+                    System.out.println("Combien voulez vous donner ?");
+                    x = sc.nextInt();
+                    maire.setRessources(maire.getRessources()-x); // Maire donne un nbr de ressources
+                    maire.setRessources(maire.getRessources()+(house.get(i).getRessources)); // Il récupère toutes les ressources de la maison pauvre(Ressources qu’ils ont récoltés)
                     house.get(i).setRessources(0); // On met les ressources de la maison à 0
                 }
 
                 if( x < NbrRessources ){
                     PNJ.ChangeHumor(-1);
-                    sout(“Cette maison n’as pas bien été rémunéré attention cela va influencer leurs comportement”)
+                    System.out.println("Cette maison n’as pas bien été rémunéré attention cela va influencer leurs comportement !");
                 }
                 if( x > NbrRessources ){
                     PNJ.ChangeHumor(+1);
-                    sout(“Cette maison vous remercie pour votre confiance !”)
+                    System.out.println("Cette maison vous remercie pour votre confiance !");
                 }
                 if( x == NbrRessources ){
-                    sout(“L’échange s'est effectué avec succès”)
+                    System.out.println("L’échange s'est effectué avec succès !");
                 }
             }
             for (int i=0 ; i < house.size(); ++i){
 //sout(“NbrRessources =” + house.get(i).getRessources());
 //sout(“Nom =” + house.get(i).getNom());
 //sout(“NbrPers =” + house.get(i).getNbrPers());
-
 //ou
-
                 house.get(i).toString();
             }
-
         }
 }

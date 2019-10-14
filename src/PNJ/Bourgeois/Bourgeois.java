@@ -4,6 +4,10 @@ import PNJ.PNJ;
 
 public class Bourgeois extends PNJ {
 
+    public Bourgeois(String name) {
+        super(name);
+    }
+
     public Bourgeois() {
     }
 

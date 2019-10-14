@@ -1,23 +1,33 @@
 package House;
 
+import PNJ.PNJ;
+
+import java.util.ArrayList;
+
 public class House {
-    private int ressources, MAXNUMBER, number_pers;
+    public int item;
+    ArrayList<PNJ>;
+    public House() {
+        this.item = 20;
+    }
+
+    private int resources, MaxNumber, NumberPerson;
     private String name;
 
     public int getRessources() {
-        return ressources;
+        return resources;
     }
 
     public void setRessources(int ressources) {
-        this.ressources = ressources;
+        this.resources = ressources;
     }
 
     public int getMAXNUMBER() {
-        return MAXNUMBER;
+        return MaxNumber;
     }
 
     public void setMAXNUMBER(int MAXNUMBER) {
-        this.MAXNUMBER = MAXNUMBER;
+        this.MaxNumber = MAXNUMBER;
     }
 
     public int getNumber_pers() {
