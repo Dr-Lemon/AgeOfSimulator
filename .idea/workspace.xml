@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2ddf56b-194f-4e94-aafc-9877662c3f95" name="Default Changelist" comment="" />
+    <list default="true" id="a2ddf56b-194f-4e94-aafc-9877662c3f95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/House.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/Mayor/Mayor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/Mayor/Mayor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/PNJ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/PNJ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/House/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/House/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,11 +82,11 @@
       </method>
     </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main.main" />
+      <option name="MAIN_CLASS_NAME" value="main" />
       <module name="AgeOfSimulator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Main.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,7 +117,7 @@
       <workItem from="1570792405879" duration="319000" />
       <workItem from="1570888213322" duration="1841000" />
       <workItem from="1571056063217" duration="5580000" />
-      <workItem from="1571149585904" duration="4446000" />
+      <workItem from="1571149585904" duration="5483000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouts de classe Bourgeois :&#10;&#10;Artisan&#10;Merchant">
       <created>1570610151119</created>
@@ -152,7 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571154072369</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Squashed commit of the following:&#10;&#10;commit 2014c58709b50d9407e1f334e8dc4dbc6a66222d&#10;Author: RobertPadfiote &lt;nicolas.wasner@gmail.com&gt;&#10;Date:   Tue Oct 15 17:38:28 2019 +0200&#10;&#10;    Correction du main&#10;    &#10;    Ajout de classe Store&#10;    &#10;    Création des méthodes d'ajout de Maison et PNJ">
+      <created>1571154152353</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1571154152353</updated>
+    </task>
+    <task id="LOCAL-00008" summary="REMISE AU PROPRE :&#10;ARRAYLIST HOUSE / PNJ">
+      <created>1571154371013</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1571154371013</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -199,7 +222,9 @@
     <MESSAGE value="Ajouts dans les classe metier : &#10;- un constructeur par default () qui init name à &quot;Kevin&quot;&#10;- un constructeur avec param name qui init avec choix du nom" />
     <MESSAGE value="Correction du main (coordonance avec le pseudo code)&#10;&#10;Erreur avec larayList House" />
     <MESSAGE value="Correction du main (coordonance avec le pseudo code)&#10;&#10;Erreur avec l'ArrayList House&#10;&#10;Ajout de la classe wife avec la methode GiveBirth inactif" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correction du main (coordonance avec le pseudo code)&#10;&#10;Erreur avec l'ArrayList House&#10;&#10;Ajout de la classe wife avec la methode GiveBirth inactif" />
+    <MESSAGE value="Squashed commit of the following:&#10;&#10;commit 2014c58709b50d9407e1f334e8dc4dbc6a66222d&#10;Author: RobertPadfiote &lt;nicolas.wasner@gmail.com&gt;&#10;Date:   Tue Oct 15 17:38:28 2019 +0200&#10;&#10;    Correction du main&#10;    &#10;    Ajout de classe Store&#10;    &#10;    Création des méthodes d'ajout de Maison et PNJ" />
+    <MESSAGE value="REMISE AU PROPRE :&#10;ARRAYLIST HOUSE / PNJ" />
+    <option name="LAST_COMMIT_MESSAGE" value="REMISE AU PROPRE :&#10;ARRAYLIST HOUSE / PNJ" />
   </component>
   <component name="masterDetails">
     <states>

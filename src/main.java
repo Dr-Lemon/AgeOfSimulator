@@ -1,6 +1,3 @@
-package Main;
-
-
 import House.Castle.Castle;
 import House.Farm.Farm;
 import House.House;
@@ -26,58 +23,23 @@ public class main {
 
         while (true){
             System.out.println("Que voulez vous faire ?");
-            System.out.println("1- Créer une maison de Bourgeois (" + Store.getCoastBourgeoisHouse() + ") (Disposant déjà d un H et une F)");
-            System.out.println("2- Créer un Bourgeois (" + Store.getCoastBourgeois() + ")");
-            System.out.println("3- Créer une maison de Pauvres (" + Store.getCoastPoorHouse() + " ) (Disposant déjà d’un H et une F)");
-            System.out.println("4- Créer un Pauvre (" + Store.getCoastPoor() + ")");
-            System.out.println("5- Créer une Femme (" + Store.getCoastWife() + ")");
+            System.out.println("1- Créer une maison de Bourgeois (" + Store.getCoastBourgeoisHouse() + "$) (Disposant déjà d un H et une F)");
+            System.out.println("2- Créer un Bourgeois (" + Store.getCoastBourgeois() + "$)");
+            System.out.println("3- Créer une maison de Pauvres (" + Store.getCoastPoorHouse() + " $) (Disposant déjà d’un H et une F)");
+            System.out.println("4- Créer un Pauvre (" + Store.getCoastPoor() + "$)");
+            System.out.println("5- Créer une Femme (" + Store.getCoastWife() + "$)");
             System.out.println("6- Continuer");
             choix = sc.nextInt();
-            if (choix == 1){
-                //moneyMayor = maire.(get.Money)
-                 }
-            if (choix == 2){
+            break;
+            // SWITCH MENU A FAIRE
 
-            }
-            else if (choix == 3){
-                //moneyMayor = maire.(get.Money)
-                if(maire.getMoney() < Store.getCoastPoorHouse()){
-                    System.out.println("Pas assez d'argent");
-                }
-                Poor y = new Poor();
-                Wife z = new Wife();
-                Farm x = new Farm();
-                house.add(x);
-                x.setRessources(20);
-            }
-
-            else if (choix == 5){
-                int choix2;
-                System.out.println("Etes vous sur de bien vouloir continuer ?");
-                System.out.println("OUI : 1 NON : 2");
-                choix2 = sc.nextInt();
-                if (choix2 == 1){
-                    break; }
-                else if (choix2 == 2){
-                // On fait rien pour que ça recommence la boucle.
-                }
-                while (choix <1 || choix>2){
-                    System.out.print("Choix incorrect. ");
-                    System.out.print("Votre choix: ");
-                    choix = sc.nextInt();
-                }
-//                else{
-//                    System.out.println("Choix incorrect !");
-//                }
-            }
+            // JOUR
             while(day != 7){
                 for (int i = 0; i < house.size(); ++i){
-                    House CurrentHouse = house[i];
+                    House CurrentHouse = house.get(i);
                     //int Numb = SelectHouse.getNumberPNJ();
                     CurrentHouse.Product(); // ON POINTE VERS UNE MAISON
                 }
-
-
                 for (int i = 0; i < house.size(); ++i){
                     house.get(i).toString(); // Affiche l’humeur et les ressources de chaque maison Chaque Jour
                     // Sleep de 500ms pour lui laisser le temps de lire, à faire sur le thread.
@@ -85,15 +47,15 @@ public class main {
                 day += 1;
             }
 
+
+            // FIN DE SEMAINE
             for (int i = 0; i < house.size(); ++i){
                 house.get(i).toString();// Affiche l’humeur et les ressources de chaque maison à la fin de la semaine
                 // Sleep de 500ms pour lui laisser le temps de lire, à faire sur le thread.
             }
 
-
             for (int i = 0; i < house.size(); ++i){
                 house.get(i).getRessources();
-
                 int x;
                 if(house.get(i).getName() == "Bourgeois"){// Si c’est bourgeois
                     int ask = (house.get(i).getRessources() / 2);

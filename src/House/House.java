@@ -9,7 +9,7 @@ public class House {
     private int humor;
     private int resources, MaxNumber;
     private String name;
-    private ArrayList<PNJ> SelectorPnj;
+    private ArrayList<PNJ> CurrentPnj;
 
     public House() {
         this.name = "Maison sans type";
@@ -18,12 +18,12 @@ public class House {
     }
 
     public int getNumberPNJ(){
-        return this.SelectorPnj.size();
+        return this.CurrentPnj.size();
     }
 
     public void Product(){
-        for (int i = 0; i < this.SelectorPnj.size(); ++i) {
-            PNJ PNJ = SelectorPnj.get(i); // ON POINTE VERS UN PNJ
+        for (int i = 0; i < this.CurrentPnj.size(); ++i) {
+            PNJ PNJ = CurrentPnj.get(i); // ON POINTE VERS UN PNJ
             PNJ.Farm(3);
             PNJ.Eat(1);
             this.resources += PNJ.getItem();
