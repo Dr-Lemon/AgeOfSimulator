@@ -23,93 +23,93 @@ public class main {
         int x = 0;
 
         //while (x != 1) {
-            System.out.println("Que voulez vous faire ?");
-            System.out.println("1- Créer une maison de Bourgeois (" + Store.getCoastBourgeoisHouse() + "$) (Disposant déjà d un H et une F)");
-            System.out.println("2- Créer un Bourgeois (" + Store.getCoastBourgeois() + "$)");
-            System.out.println("3- Créer une maison de Pauvres (" + Store.getCoastPoorHouse() + " $) (Disposant déjà d’un H et une F)");
-            System.out.println("4- Créer un Pauvre (" + Store.getCoastPoor() + "$)");
-            System.out.println("5- Créer une Femme (" + Store.getCoastWife() + "$)");
-            System.out.println("6- Continuer");
-            choix = sc.nextInt();
-            System.out.println(choix);
+        System.out.println("Que voulez vous faire ?");
+        System.out.println("1- Créer une maison de Bourgeois (" + Store.getCoastBourgeoisHouse() + "$) (Disposant déjà d un H et une F)");
+        System.out.println("2- Créer un Bourgeois (" + Store.getCoastBourgeois() + "$)");
+        System.out.println("3- Créer une maison de Pauvres (" + Store.getCoastPoorHouse() + " $) (Disposant déjà d’un H et une F)");
+        System.out.println("4- Créer un Pauvre (" + Store.getCoastPoor() + "$)");
+        System.out.println("5- Créer une Femme (" + Store.getCoastWife() + "$)");
+        System.out.println("6- Continuer");
+        choix = sc.nextInt();
+        System.out.println(choix);
 
-            // SWITCH MENU A FAIRE
+        // SWITCH MENU A FAIRE
 
-            // JOUR
-            while(day != 7){
-                for(int i = 0; i < house.size(); ++i){
-                    House CurrentHouse = house.get(i);
-                    System.out.println("COOLC");
-                    //int Numb = SelectHouse.getNumberPNJ();
-                    CurrentHouse.Product(); // ON POINTE VERS UNE MAISON
-                }
-                for (int i = 0; i < house.size(); ++i){
-                    house.get(i).toString(); // Affiche l’humeur et les ressources de chaque maison Chaque Jour
-                    // Sleep de 500ms pour lui laisser le temps de lire, à faire sur le thread.
-                }
-                day += 1;
+        // JOUR
+        while(day != 7){
+            for(int i = 0; i < house.size(); ++i){
+                House CurrentHouse = house.get(i);
+                System.out.println("COOLC");
+                //int Numb = SelectHouse.getNumberPNJ();
+                CurrentHouse.Product(); // ON POINTE VERS UNE MAISON
             }
-
-        System.out.println("coucou");
-            // FIN DE SEMAINE
             for (int i = 0; i < house.size(); ++i){
-                house.get(i).toString();// Affiche l’humeur et les ressources de chaque maison à la fin de la semaine
+                house.get(i).toString(); // Affiche l’humeur et les ressources de chaque maison Chaque Jour
                 // Sleep de 500ms pour lui laisser le temps de lire, à faire sur le thread.
             }
-
-            for (int i = 0; i < house.size(); ++i){
-                house.get(i).getRessources();
-                int x;
-                if(house.get(i).getName() == "Bourgeois"){// Si c’est bourgeois
-                    int ask = (house.get(i).getRessources() / 2);
-                    System.out.println("cette maison reclame"+ ask);
-                    System.out.println("Combien voulez vous donner ?");
-                    x = sc.nextInt();
-                    maire.setRessources(maire.getRessources()-x); // Maire donne un nbr de ressources
-                    maire.setRessources(maire.getRessources()+(house.get(i).getRessources())); // Il récupère toutes les ressources de la maison bourgeoise(Argent qu’ils ont récoltés)
-                    house.get(i).setRessources(0); // On met les ressources de la maison à 0
-                    if( x < ask ){
-                        house.get(i).ChangeHumor(-1);
-                        System.out.println("Cette maison n’as pas bien été rémunéré attention cela va influencer leurs comportement !");
-                    }
-                    if( x > ask ){
-                        house.get(i).ChangeHumor(+1);
-                        System.out.println("Cette maison vous remercie pour votre confiance !");
-                    }
-                    if( x == ask ){
-                        System.out.println("L’échange s'est effectué avec succès !");
-                    }
-                }
-
-
-                else{ // Si c’est pauvre
-                        int ask = (house.get(i).getRessources());
-                        System.out.println("cette maison reclame"+ ask);
-                        System.out.println("Combien voulez vous donner ?");
-                        x = sc.nextInt();
-                        maire.setRessources(maire.getRessources()-x); // Maire donne un nbr de ressources
-                        maire.setRessources(maire.getRessources()+(house.get(i).getRessources())); // Il récupère toutes les ressources de la maison pauvre(Ressources qu’ils ont récoltés)
-                        house.get(i).setRessources(0); // On met les ressources de la maison à 0
-                        if( x < ask ){
-                        house.get(i).ChangeHumor(-1);
-                        System.out.println("Cette maison n’as pas bien été rémunéré attention cela va influencer leurs comportement !");
-                        }
-                        if( x > ask ){
-                            house.get(i).ChangeHumor(+1);
-                            System.out.println("Cette maison vous remercie pour votre confiance !");
-                        }
-                        if( x == ask ){
-                            System.out.println("L’échange s'est effectué avec succès !");
-                        }
-                    }
-
-
-            }
-            for (int i=0 ; i < house.size(); ++i){
-                System.out.println(house.get(i));
-                //house.get(i).toString();
-            }
+            day += 1;
         }
+
+        System.out.println("coucou");
+        // FIN DE SEMAINE
+        for (int i = 0; i < house.size(); ++i){
+            house.get(i).toString();// Affiche l’humeur et les ressources de chaque maison à la fin de la semaine
+            // Sleep de 500ms pour lui laisser le temps de lire, à faire sur le thread.
+        }
+
+        for (int i = 0; i < house.size(); ++i){
+            house.get(i).getRessources();
+            int x;
+            if(house.get(i).getName() == "Bourgeois"){// Si c’est bourgeois
+                int ask = (house.get(i).getRessources() / 2);
+                System.out.println("cette maison reclame"+ ask);
+                System.out.println("Combien voulez vous donner ?");
+                x = sc.nextInt();
+                maire.setRessources(maire.getRessources()-x); // Maire donne un nbr de ressources
+                maire.setRessources(maire.getRessources()+(house.get(i).getRessources())); // Il récupère toutes les ressources de la maison bourgeoise(Argent qu’ils ont récoltés)
+                house.get(i).setRessources(0); // On met les ressources de la maison à 0
+                if( x < ask ){
+                    house.get(i).ChangeHumor(-1);
+                    System.out.println("Cette maison n’as pas bien été rémunéré attention cela va influencer leurs comportement !");
+                }
+                if( x > ask ){
+                    house.get(i).ChangeHumor(+1);
+                    System.out.println("Cette maison vous remercie pour votre confiance !");
+                }
+                if( x == ask ){
+                    System.out.println("L’échange s'est effectué avec succès !");
+                }
+            }
+
+
+            else{ // Si c’est pauvre
+                int ask = (house.get(i).getRessources());
+                System.out.println("cette maison reclame"+ ask);
+                System.out.println("Combien voulez vous donner ?");
+                x = sc.nextInt();
+                maire.setRessources(maire.getRessources()-x); // Maire donne un nbr de ressources
+                maire.setRessources(maire.getRessources()+(house.get(i).getRessources())); // Il récupère toutes les ressources de la maison pauvre(Ressources qu’ils ont récoltés)
+                house.get(i).setRessources(0); // On met les ressources de la maison à 0
+                if( x < ask ){
+                    house.get(i).ChangeHumor(-1);
+                    System.out.println("Cette maison n’as pas bien été rémunéré attention cela va influencer leurs comportement !");
+                }
+                if( x > ask ){
+                    house.get(i).ChangeHumor(+1);
+                    System.out.println("Cette maison vous remercie pour votre confiance !");
+                }
+                if( x == ask ){
+                    System.out.println("L’échange s'est effectué avec succès !");
+                }
+            }
+
+
+        }
+        for (int i=0 ; i < house.size(); ++i){
+            System.out.println(house.get(i));
+            //house.get(i).toString();
+        }
+    }
 }
 
 

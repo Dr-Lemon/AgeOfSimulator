@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2ddf56b-194f-4e94-aafc-9877662c3f95" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Main/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
     </list>
@@ -61,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager" selected="Application.main (1)">
     <configuration name="TestPNJ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PNJ.TestPNJ" />
       <module name="AgeOfSimulator" />
@@ -75,8 +77,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main" />
+      <module name="AgeOfSimulator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.main" />
       <module name="AgeOfSimulator" />
       <extension name="coverage">
         <pattern>
@@ -90,6 +99,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main (1)" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.TestPNJ" />
       </list>
@@ -111,7 +121,8 @@
       <workItem from="1570792405879" duration="319000" />
       <workItem from="1570888213322" duration="1841000" />
       <workItem from="1571056063217" duration="5580000" />
-      <workItem from="1571149585904" duration="6262000" />
+      <workItem from="1571149585904" duration="6359000" />
+      <workItem from="1571156032794" duration="551000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouts de classe Bourgeois :&#10;&#10;Artisan&#10;Merchant">
       <created>1570610151119</created>
@@ -176,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571155167780</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Sortie du Main">
+      <created>1571155993392</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1571155993392</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
