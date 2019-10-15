@@ -18,10 +18,11 @@ public class main {
         maire.setRessources(20);
         maire.setMoney(400);
         ArrayList<House> house = new ArrayList<House>();
-        int day = 0;
-        int choix;
+        int day = 1;
+        int choix =0;
+        int x = 0;
 
-        while (true){
+        //while (x != 1) {
             System.out.println("Que voulez vous faire ?");
             System.out.println("1- Créer une maison de Bourgeois (" + Store.getCoastBourgeoisHouse() + "$) (Disposant déjà d un H et une F)");
             System.out.println("2- Créer un Bourgeois (" + Store.getCoastBourgeois() + "$)");
@@ -30,13 +31,15 @@ public class main {
             System.out.println("5- Créer une Femme (" + Store.getCoastWife() + "$)");
             System.out.println("6- Continuer");
             choix = sc.nextInt();
-            break;
+            System.out.println(choix);
+
             // SWITCH MENU A FAIRE
 
             // JOUR
             while(day != 7){
-                for (int i = 0; i < house.size(); ++i){
+                for(int i = 0; i < house.size(); ++i){
                     House CurrentHouse = house.get(i);
+                    System.out.println("COOLC");
                     //int Numb = SelectHouse.getNumberPNJ();
                     CurrentHouse.Product(); // ON POINTE VERS UNE MAISON
                 }
@@ -47,7 +50,7 @@ public class main {
                 day += 1;
             }
 
-
+        System.out.println("coucou");
             // FIN DE SEMAINE
             for (int i = 0; i < house.size(); ++i){
                 house.get(i).toString();// Affiche l’humeur et les ressources de chaque maison à la fin de la semaine
@@ -108,5 +111,5 @@ public class main {
             }
         }
 }
-}
+
 
