@@ -81,12 +81,14 @@ public class main {
 
                 for (int i = 0; i < house.size(); ++i){
                     house.get(i).toString(); // Affiche l’humeur et les ressources de chaque maison Chaque Jour
+                    // Sleep de 500ms pour lui laisser le temps de lire, à faire sur le thread.
                 }
                 day += 1;
             }
 
             for (int i = 0; i < house.size(); ++i){
                 house.get(i).toString();// Affiche l’humeur et les ressources de chaque maison à la fin de la semaine
+                // Sleep de 500ms pour lui laisser le temps de lire, à faire sur le thread.
             }
 
 
