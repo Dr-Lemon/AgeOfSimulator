@@ -5,6 +5,7 @@ import House.Castle.Castle;
 import House.Farm.Farm;
 import House.House;
 import Mayor.Mayor;
+import Store.Store;
 import PNJ.Bourgeois.Bourgeois;
 import PNJ.PNJ;
 import PNJ.Poor.Poor;
@@ -25,11 +26,12 @@ public class main {
 
         while (true){
             System.out.println("Que voulez vous faire ?");
-            System.out.println("1- Créer une maison de Bourgeois (" + maire.getCoastBourgeoisHouse() + ") (Disposant déjà d un H et une F)");
-            System.out.println("2- Créer un Bourgeois (" + maire.getCoastBourgeois() + ")");
-            System.out.println("3- Créer une maison de Pauvres (" + maire.getCoastPoorHouse() + " ) (Disposant déjà d’un H et une F)");
-            System.out.println("4- Créer un Pauvre (" + maire.getCoastPoor() + ")");
-            System.out.println("5- Continuer");
+            System.out.println("1- Créer une maison de Bourgeois (" + Store.getCoastBourgeoisHouse() + ") (Disposant déjà d un H et une F)");
+            System.out.println("2- Créer un Bourgeois (" + Store.getCoastBourgeois() + ")");
+            System.out.println("3- Créer une maison de Pauvres (" + Store.getCoastPoorHouse() + " ) (Disposant déjà d’un H et une F)");
+            System.out.println("4- Créer un Pauvre (" + Store.getCoastPoor() + ")");
+            System.out.println("5- Créer une Femme (" + Store.getCoastWife() + ")");
+            System.out.println("6- Continuer");
             choix = sc.nextInt();
             if (choix == 1){
                 //moneyMayor = maire.(get.Money)
@@ -39,7 +41,7 @@ public class main {
             }
             else if (choix == 3){
                 //moneyMayor = maire.(get.Money)
-                if(maire.getMoney() < maire.getCoastPoorHouse()){
+                if(maire.getMoney() < Store.getCoastPoorHouse()){
                     System.out.println("Pas assez d'argent");
                 }
                 Poor y = new Poor();
