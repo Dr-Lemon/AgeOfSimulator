@@ -7,9 +7,9 @@ import java.util.ArrayList;
 public class House {
     private int item;
     private int humor;
+    private int resources, MaxNumber;
     private String name;
-    private ArrayList<PNJ> Number_Pers;
-
+    private ArrayList<PNJ> SelectorPnj;
 
     public House() {
         this.name = "Maison sans type";
@@ -17,8 +17,19 @@ public class House {
         this.humor = 3;
     }
 
-    private int resources, MaxNumber;
+    public int getNumberPNJ(){
+        return this.SelectorPnj.size();
+    }
 
+    public void Product(){
+        for (int i = 0; i < this.SelectorPnj.size(); ++i) {
+            PNJ PNJ = SelectorPnj.get(i); // ON POINTE VERS UN PNJ
+            PNJ.Farm(3);
+            PNJ.Eat(1);
+            this.resources += PNJ.getItem();
+            PNJ.setItem(0);
+        }
+    }
 
     public int getRessources() {
         return resources;

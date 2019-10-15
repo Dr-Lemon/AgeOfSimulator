@@ -6,6 +6,7 @@ import House.Farm.Farm;
 import House.House;
 import Mayor.Mayor;
 import PNJ.Bourgeois.Bourgeois;
+import PNJ.PNJ;
 import PNJ.Poor.Poor;
 import PNJ.Wife.Wife;
 
@@ -69,13 +70,9 @@ public class main {
             }
             while(day != 7){
                 for (int i = 0; i < house.size(); ++i){
-                    countHouse = house.get(i);
-                    Numb = countHouse.get(NbrPers);
-                    for(int t = 0; t < Numb.size(); ++t){
-                        Numb.product(); // va produire pour chaque PNJ un nbr de ressources
-                        Numb.eat(); // va retirer un certain Nombres (on le fait aussi pour les riches )
-                        Numb.giveRessources(); // donne le restant à la maison
-                    }
+                    House CurrentHouse = house[i];
+                    //int Numb = SelectHouse.getNumberPNJ();
+                    CurrentHouse.Product(); // ON POINTE VERS UNE MAISON
                 }
 
 

@@ -27,6 +27,14 @@ public class PNJ {
         this.setName("Kevin");
     }
 
+    public void Eat(int item){
+        this.item -=item;
+    }
+
+    public void Farm(int item){
+        this.item +=item;
+    }
+
     public String getJob() {
         return Job;
     }
@@ -35,9 +43,6 @@ public class PNJ {
         Job = job;
     }
 
-    public void Eat(int item){
-        this.item -= item;
-    }
 
     public boolean isLife() {
         return life;
