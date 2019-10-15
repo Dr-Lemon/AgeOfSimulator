@@ -15,17 +15,14 @@ import java.util.Scanner;
 public class main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Mayor maire = new Mayor() // en paramètres le nom ou pas
+        Mayor maire = new Mayor(); // en paramètres le nom ou pas
         maire.setRessources(20);
         maire.setMoney(400);
         ArrayList<House> house = new ArrayList<House>();
         int day = 0;
-
-// ArrayList c’est comme un tableau mais qu’on peut agrandir comme on veux on a juste a faire Pauvres.add (Thierry) et ça nous ajoute un élément pour le comptage des PNJ et si on veut ajouter un PNJ ce sera plus simple. //
-
         int choix;
 
-        while (1){
+        while (true){
             System.out.println("Que voulez vous faire ?");
             System.out.println("1- Créer une maison de Bourgeois (" + maire.getCoastBourgeoisHouse() + ") (Disposant déjà d un H et une F)");
             System.out.println("2- Créer un Bourgeois (" + maire.getCoastBourgeois() + ")");
@@ -35,23 +32,13 @@ public class main {
             choix = sc.nextInt();
             if (choix == 1){
                 //moneyMayor = maire.(get.Money)
-                if(maire.getMoney() < maire.getCoastBourgeoisHouse() ){ // Il faudrait définir le prix des maisons
-                    System.out.println("Pas assez d'argent !");
-                }
-                else{
-                    Bourgeois y = new Bourgeois();
-                    Wife z = new Wife();
-                    Castle x = new Castle();
-                    house.add(x);
-                    x.setRessources(20);
-
-                } }
+                 }
             if (choix == 2){
 
             }
             else if (choix == 3){
                 //moneyMayor = maire.(get.Money)
-                if(maire.getMoney() < maire.getCoastPoorHouse()){ // Dans des variables globale pour y avoir accès partout sans créer d’objet Maison ou alors on créer un objet..
+                if(maire.getMoney() < maire.getCoastPoorHouse()){
                     System.out.println("Pas assez d'argent");
                 }
                 Poor y = new Poor();
@@ -93,13 +80,13 @@ public class main {
 
 
                 for (int i = 0; i < house.size(); ++i){
-                    house.get(i).toString(); // Affiche l’humeur et les ressources de chaque maison
+                    house.get(i).toString(); // Affiche l’humeur et les ressources de chaque maison Chaque Jour
                 }
                 day += 1;
             }
 
             for (int i = 0; i < house.size(); ++i){
-                house.get(i).toString();// Affiche l’humeur et les ressources de chaque maison
+                house.get(i).toString();// Affiche l’humeur et les ressources de chaque maison à la fin de la semaine
             }
 
 
@@ -107,12 +94,12 @@ public class main {
                 house.get(i).getRessources();
 
                 int x;
-                if(house.get(i).getName() == Bourgeois){// Si c’est bourgeois
+                if(house.get(i).getName() == "Bourgeois"){// Si c’est bourgeois
                     int ask = (house.get(i).getRessources() / 2);
                     System.out.println("cette maison reclame"+ ask);
                     System.out.println("Combien voulez vous donner ?");
                     x = sc.nextInt();
-                    maire.setRessources(maire.getRessources()-x)); // Maire donne un nbr de ressources
+                    maire.setRessources(maire.getRessources()-x); // Maire donne un nbr de ressources
                     maire.setRessources(maire.getRessources()+(house.get(i).getRessources())); // Il récupère toutes les ressources de la maison bourgeoise(Argent qu’ils ont récoltés)
                     house.get(i).setRessources(0); // On met les ressources de la maison à 0
                     if( x < ask ){
@@ -138,11 +125,11 @@ public class main {
                         maire.setRessources(maire.getRessources()+(house.get(i).getRessources())); // Il récupère toutes les ressources de la maison pauvre(Ressources qu’ils ont récoltés)
                         house.get(i).setRessources(0); // On met les ressources de la maison à 0
                         if( x < ask ){
-                        PNJ.ChangeHumor(-1);
+                        house.get(i).ChangeHumor(-1);
                         System.out.println("Cette maison n’as pas bien été rémunéré attention cela va influencer leurs comportement !");
                         }
                         if( x > ask ){
-                            PNJ.ChangeHumor(+1);
+                            house.get(i).ChangeHumor(+1);
                             System.out.println("Cette maison vous remercie pour votre confiance !");
                         }
                         if( x == ask ){
@@ -159,3 +146,4 @@ public class main {
         }
 }
 }
+
