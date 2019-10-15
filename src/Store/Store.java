@@ -8,6 +8,8 @@ import PNJ.Bourgeois.Bourgeois;
 import PNJ.Poor.Poor;
 import PNJ.Wife.Wife;
 
+import java.util.ArrayList;
+
 public class Store {
 
     private static final int coastBourgeois = 10;
@@ -16,9 +18,27 @@ public class Store {
     private static final int coastBourgeoisHouse = 20;
     private static final int coastPoorHouse = 20;
 
+    public static int getCoastBourgeois() {
+        return coastBourgeois;
+    }
 
+    public static int getCoastPoor() {
+        return coastPoor;
+    }
 
-    public void addBourgeoisHouse(Mayor may){
+    public static int getCoastWife() {
+        return coastWife;
+    }
+
+    public static int getCoastBourgeoisHouse() {
+        return coastBourgeoisHouse;
+    }
+
+    public static int getCoastPoorHouse() {
+        return coastPoorHouse;
+    }
+
+    public void addBourgeoisHouse(Mayor may, ArrayList<House> house){
         if(may.getMoney() < coastBourgeoisHouse ){
             System.out.println("Pas assez d'argent !");
         }
@@ -27,6 +47,7 @@ public class Store {
             Wife z = new Wife();
             Castle x = new Castle();
             x.setRessources(20);
+            house.add(x);
 
         }
     }
@@ -59,12 +80,13 @@ public class Store {
             System.out.println("Pas assez d'argent !");
         }
         else{
+
             Poor y = new Poor();
 
         }
     }
 
-    public void addPoorHouse(Mayor may){
+    public void addPoorHouse(Mayor may, ArrayList<House> house){
         if(may.getMoney() < coastPoorHouse ){
             System.out.println("Pas assez d'argent !");
         }
@@ -73,6 +95,7 @@ public class Store {
             Wife z = new Wife();
             Farm x = new Farm();
             x.setRessources(20);
+            house.add(x);
 
         }
     }

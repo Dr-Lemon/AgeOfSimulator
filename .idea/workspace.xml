@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2ddf56b-194f-4e94-aafc-9877662c3f95" name="Default Changelist" comment="Correction du main (coordonance avec le pseudo code)&#10;&#10;Erreur avec l'ArrayList House&#10;&#10;Ajout de la classe wife avec la methode GiveBirth inactif">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/House/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/House/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PNJ/PNJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PNJ/PNJ.java" afterDir="false" />
-    </list>
+    <list default="true" id="a2ddf56b-194f-4e94-aafc-9877662c3f95" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +108,7 @@
       <workItem from="1570792405879" duration="319000" />
       <workItem from="1570888213322" duration="1841000" />
       <workItem from="1571056063217" duration="5580000" />
-      <workItem from="1571149585904" duration="4193000" />
+      <workItem from="1571149585904" duration="4446000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouts de classe Bourgeois :&#10;&#10;Artisan&#10;Merchant">
       <created>1570610151119</created>
@@ -151,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571058748849</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Correction du main (coordonance avec le pseudo code)&#10;&#10;Erreur avec l'ArrayList House&#10;&#10;Ajout de la classe wife avec la methode GiveBirth inactif">
+      <created>1571154072368</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571154072369</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
