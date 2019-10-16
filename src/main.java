@@ -10,7 +10,9 @@ import PNJ.Wife.Wife;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
+//
+//
+//
 public class main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -20,19 +22,32 @@ public class main {
         ArrayList<House> house = new ArrayList<House>();
         int day = 1;
         int choix =0;
-        int x = 0;
+        PNJ P1 = new Poor();
+        PNJ P3 = new Wife();
+        PNJ P4 = new Bourgeois();
+        PNJ P5 = new Wife();
 
-        //while (x != 1) {
-        System.out.println("Que voulez vous faire ?");
-        System.out.println("1- Créer une maison de Bourgeois (" + Store.getCoastBourgeoisHouse() + "$) (Disposant déjà d un H et une F)");
-        System.out.println("2- Créer un Bourgeois (" + Store.getCoastBourgeois() + "$)");
-        System.out.println("3- Créer une maison de Pauvres (" + Store.getCoastPoorHouse() + " $) (Disposant déjà d’un H et une F)");
-        System.out.println("4- Créer un Pauvre (" + Store.getCoastPoor() + "$)");
-        System.out.println("5- Créer une Femme (" + Store.getCoastWife() + "$)");
-        System.out.println("6- Continuer");
-        choix = sc.nextInt();
-        System.out.println(choix);
+        House H1 = new Farm();
+        House H2 = new Castle();
+        house.add(H1);
+        house.add(H2);
+        H1.PushPNJ(P1);
+        H1.PushPNJ(P3);
+        H2.PushPNJ(P4);
+        H2.PushPNJ(P5);
 
+        while (choix != 6) {
+            System.out.println("Que voulez vous faire ?");
+            System.out.println("1- Créer une maison de Bourgeois (" + Store.getCoastBourgeoisHouse() + "$) (Disposant déjà d un H et une F)");
+            System.out.println("2- Créer un Bourgeois (" + Store.getCoastBourgeois() + "$)");
+            System.out.println("3- Créer une maison de Pauvres (" + Store.getCoastPoorHouse() + " $) (Disposant déjà d’un H et une F)");
+            System.out.println("4- Créer un Pauvre (" + Store.getCoastPoor() + "$)");
+            System.out.println("5- Créer une Femme (" + Store.getCoastWife() + "$)");
+            System.out.println("6- Continuer");
+            choix = sc.nextInt();
+            System.out.println(choix);
+
+        }
         // SWITCH MENU A FAIRE
 
         // JOUR
@@ -44,16 +59,17 @@ public class main {
                 CurrentHouse.Product(); // ON POINTE VERS UNE MAISON
             }
             for (int i = 0; i < house.size(); ++i){
-                house.get(i).toString(); // Affiche l’humeur et les ressources de chaque maison Chaque Jour
-                // Sleep de 500ms pour lui laisser le temps de lire, à faire sur le thread.
+                System.out.println(house.get(i));; // Affiche l’humeur et les ressources de chaque maison Chaque Jour
+
             }
+            sc.next();
             day += 1;
         }
 
         System.out.println("coucou");
         // FIN DE SEMAINE
         for (int i = 0; i < house.size(); ++i){
-            house.get(i).toString();// Affiche l’humeur et les ressources de chaque maison à la fin de la semaine
+            System.out.println(house.get(i));;// Affiche l’humeur et les ressources de chaque maison à la fin de la semaine
             // Sleep de 500ms pour lui laisser le temps de lire, à faire sur le thread.
         }
 

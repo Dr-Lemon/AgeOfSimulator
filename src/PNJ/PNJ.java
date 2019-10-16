@@ -8,6 +8,7 @@ public class PNJ {
     private int item;
     private String Name;
     private String Job;
+    private String Social;
 
     public PNJ(String name) {
         this.life = true;
@@ -90,6 +91,14 @@ public class PNJ {
 
     public void setName(String name) {
         Name = name;
+    }
+
+    public String getSocial() {
+        return Social;
+    }
+
+    public void setSocial(String social) {
+        Social = social;
     }
 
     @Override

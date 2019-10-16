@@ -1,6 +1,8 @@
 package House;
 
+import PNJ.Bourgeois.Bourgeois;
 import PNJ.PNJ;
+import PNJ.Wife.Wife;
 
 import java.util.ArrayList;
 
@@ -9,14 +11,19 @@ public class House {
     private int humor;
     private int resources, MaxNumber;
     private String name;
-    private ArrayList<PNJ> CurrentPnj;
+    private ArrayList<PNJ> CurrentPnj = new ArrayList<PNJ>();
 
     public House() {
         this.name = "Maison sans type";
-        this.item = 20;
+        this.resources = 20;
         this.humor = 3;
-    }
+        //Bourgeois Thierry = new Bourgeois();
+        //Wife Phillipine = new Wife();
 
+    }
+    public void PushPNJ(PNJ pnj){
+        this.CurrentPnj.add(pnj);
+    }
     public int getNumberPNJ(){
         return this.CurrentPnj.size();
     }
@@ -24,8 +31,15 @@ public class House {
     public void Product(){
         for (int i = 0; i < this.CurrentPnj.size(); ++i) {
             PNJ PNJ = CurrentPnj.get(i); // ON POINTE VERS UN PNJ
-            PNJ.Farm(3);
-            PNJ.Eat(1);
+            if(PNJ.getSocial()=="Bourgeois"){
+                PNJ.Eat(1);
+            }
+            if(PNJ.getSocial()=="Poor"){
+                PNJ.Farm(3);
+                PNJ.Eat(1);
+            }
+
+
             this.resources += PNJ.getItem();
             PNJ.setItem(0);
         }
@@ -78,7 +92,7 @@ public class House {
         }
         if (i == 1) {
             //TEST SI HUMOR = 3 NE RIEN FAIRE
-            this.humor -= 1;
+            this.humor += 1;
         }
     }
 

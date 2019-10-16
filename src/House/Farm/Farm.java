@@ -10,8 +10,8 @@ public class Farm extends House {
     }
     @Override
     public String toString() {
-        return "Name{" + this.getName() +
-                ",item=" + this.getRessources() +
+        return "{" + this.getName() +
+                ",Ressources=" + this.getRessources() +
                 ", humor=" + this.getHumor() +
                 '}';
     }
