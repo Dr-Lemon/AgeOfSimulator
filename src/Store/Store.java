@@ -46,7 +46,7 @@ public class Store {
             Bourgeois y = new Bourgeois();
             Wife z = new Wife();
             Castle x = new Castle();
-            x.setRessources(20);
+            x.setItem(20);
             house.add(x);
 
         }
@@ -94,7 +94,7 @@ public class Store {
             Poor y = new Poor();
             Wife z = new Wife();
             Farm x = new Farm();
-            x.setRessources(20);
+            x.setItem(20);
             house.add(x);
 
         }

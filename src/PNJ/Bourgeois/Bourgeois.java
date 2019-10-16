@@ -6,6 +6,7 @@ public class Bourgeois extends PNJ {
 
     public Bourgeois(String name) {
         super(name);
+        this.setRessources(10);
         this.setSocial("Bourgeois");
     }
 
@@ -13,8 +14,9 @@ public class Bourgeois extends PNJ {
         this.setSocial("Bourgeois");
     }
 
-    public void MakeMoney(int money){
-        this.setItem(this.getItem()+2);
+    @Override
+    public void Farm(int item){
+        this.setMoney(this.getMoney()+item);
     }
 
 }

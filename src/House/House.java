@@ -9,13 +9,13 @@ import java.util.ArrayList;
 public class House {
     private int item;
     private int humor;
-    private int resources, MaxNumber;
+    private int MaxNumber;
     private String name;
     private ArrayList<PNJ> CurrentPnj = new ArrayList<PNJ>();
 
     public House() {
         this.name = "Maison sans type";
-        this.resources = 20;
+        this.item = 20;
         this.humor = 3;
         //Bourgeois Thierry = new Bourgeois();
         //Wife Phillipine = new Wife();
@@ -31,26 +31,26 @@ public class House {
     public void Product(){
         for (int i = 0; i < this.CurrentPnj.size(); ++i) {
             PNJ PNJ = CurrentPnj.get(i); // ON POINTE VERS UN PNJ
-            if(PNJ.getSocial()=="Bourgeois"){
-                PNJ.Eat(1);
-            }
+            PNJ.Farm(3);
+            PNJ.Eat(1);
             if(PNJ.getSocial()=="Poor"){
-                PNJ.Farm(3);
-                PNJ.Eat(1);
+                this.item += PNJ.getRessources();
+            }
+            if(PNJ.getSocial()=="Bourgeois"){
+                this.item += PNJ.getMoney();
             }
 
-
-            this.resources += PNJ.getItem();
-            PNJ.setItem(0);
+            PNJ.setRessources(0);
         }
     }
 
-    public int getRessources() {
-        return resources;
+
+    public int getItem() {
+        return item;
     }
 
-    public void setRessources(int ressources) {
-        this.resources = ressources;
+    public void setItem(int item) {
+        this.item = item;
     }
 
     public int getMAXNUMBER() {

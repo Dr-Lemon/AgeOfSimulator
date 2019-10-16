@@ -2,15 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2ddf56b-194f-4e94-aafc-9877662c3f95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/Castle/Castle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/Castle/Castle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/Farm/Farm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/Farm/Farm.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/House.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Bourgeois/Bourgeois.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Bourgeois/Bourgeois.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/PNJ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/PNJ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Poor/Poor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Poor/Poor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/House/Castle/Castle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/House/Castle/Castle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/House/Farm/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/House/Farm/Farm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/House/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/House/House.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PNJ/Bourgeois/Bourgeois.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PNJ/Bourgeois/Bourgeois.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PNJ/PNJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PNJ/PNJ.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PNJ/Poor/Poor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PNJ/Poor/Poor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PNJ/Wife/Wife.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PNJ/Wife/Wife.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,6 +64,9 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="PNJ.Bourgeois" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -133,7 +142,7 @@
       <workItem from="1570888213322" duration="1841000" />
       <workItem from="1571056063217" duration="5580000" />
       <workItem from="1571149585904" duration="6359000" />
-      <workItem from="1571156032794" duration="3700000" />
+      <workItem from="1571156032794" duration="5552000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouts de classe Bourgeois :&#10;&#10;Artisan&#10;Merchant">
       <created>1570610151119</created>
@@ -212,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571156709407</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Sortie du Main">
+      <created>1571239925368</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1571239925368</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">

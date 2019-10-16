@@ -5,7 +5,8 @@ public class PNJ {
     private boolean seek;
     private int humor;
     private int sleep;
-    private int item;
+    private int money;
+    private int ressources;
     private String Name;
     private String Job;
     private String Social;
@@ -15,7 +16,8 @@ public class PNJ {
         this.seek = false;
         this.humor = 2;
         this.sleep = 0;
-        this.item = 0;
+        this.ressources = 0;
+        this.money=0;
         this.setName(name);
     }
 
@@ -24,16 +26,15 @@ public class PNJ {
         this.seek = false;
         this.humor = 2;
         this.sleep = 0;
-        this.item = 0;
         this.setName("Kevin");
     }
 
     public void Eat(int item){
-        this.item -=item;
+        this.ressources -=item;
     }
 
-    public void Farm(int item){
-        this.item +=item;
+   public void Farm(int item){
+       System.out.println("Error classe non surchargé");
     }
 
     public String getJob() {
@@ -77,14 +78,6 @@ public class PNJ {
         this.sleep = sleep;
     }
 
-    public int getItem() {
-        return item;
-    }
-
-    public void setItem(int item) {
-        this.item = item;
-    }
-
     public String getName() {
         return Name;
     }
@@ -101,6 +94,22 @@ public class PNJ {
         Social = social;
     }
 
+    public int getMoney() {
+        return money;
+    }
+
+    public void setMoney(int money) {
+        this.money = money;
+    }
+
+    public int getRessources() {
+        return ressources;
+    }
+
+    public void setRessources(int ressources) {
+        this.ressources = ressources;
+    }
+
     @Override
     public String toString() {
         return "PNJ{" +
@@ -108,9 +117,11 @@ public class PNJ {
                 ", seek=" + seek +
                 ", humor=" + humor +
                 ", sleep=" + sleep +
-                ", item=" + item +
+                ", money=" + money +
+                ", ressources=" + ressources +
                 ", Name='" + Name + '\'' +
                 ", Job='" + Job + '\'' +
+                ", Social='" + Social + '\'' +
                 '}';
     }
 }

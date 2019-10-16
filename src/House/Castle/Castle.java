@@ -12,7 +12,7 @@ public class Castle extends House {
     @Override
     public String toString() {
         return "{" + this.getName() +
-                ",Money=" + this.getRessources() +
+                ",Money=" + this.getItem() +
                 ", humor=" + this.getHumor() +
                 '}';
     }

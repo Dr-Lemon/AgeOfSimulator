@@ -12,7 +12,8 @@ public class Poor extends PNJ {
         this.setSocial("Poor");
     }
 
-    public void MakeProduct(int item){
-        this.setItem(this.getItem()+1);
+    @Override
+    public void Farm(int item){
+        this.setRessources(this.getRessources()+item);
     }
 }
