@@ -6,6 +6,7 @@ public class Poor extends PNJ {
     private static final int coast = 5;
     public Poor() {
         this.setSocial("Poor");
+        this.setSexe("Homme");
     }
 
     public Poor(String name) {

@@ -10,6 +10,7 @@ public class PNJ {
     private String Name;
     private String Job;
     private String Social;
+    private String Sexe;
 
     public PNJ(String name) {
         this.life = true;
@@ -27,6 +28,14 @@ public class PNJ {
         this.humor = 2;
         this.sleep = 0;
         this.setName("Kevin");
+    }
+
+    public String getSexe() {
+        return Sexe;
+    }
+
+    public void setSexe(String sexe) {
+        Sexe = sexe;
     }
 
     public void Eat(int item){

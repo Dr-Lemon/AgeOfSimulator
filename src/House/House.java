@@ -12,6 +12,8 @@ public class House {
     private int MaxNumber;
     private String name;
     private ArrayList<PNJ> CurrentPnj = new ArrayList<PNJ>();
+    private ArrayList<PNJ> WPnj = new ArrayList<PNJ>();
+    private ArrayList<PNJ> HPnj = new ArrayList<PNJ>();
 
     public House() {
         this.name = "Maison sans type";
@@ -23,6 +25,12 @@ public class House {
     }
     public void PushPNJ(PNJ pnj){
         this.CurrentPnj.add(pnj);
+        if (pnj.getSexe() == "Homme"){
+            this.HPnj.add(pnj);
+        }
+        if (pnj.getSexe() == "Femme"){
+            this.WPnj.add(pnj);
+        }
     }
     public int getNumberPNJ(){
         return this.CurrentPnj.size();

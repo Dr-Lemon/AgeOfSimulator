@@ -9,6 +9,7 @@ public class Bourgeois extends PNJ {
         super(name);
         this.setRessources(10);
         this.setSocial("Bourgeois");
+        this.setSexe("Homme");
     }
 
     public static int getCoast() {

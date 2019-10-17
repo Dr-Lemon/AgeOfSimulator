@@ -104,7 +104,7 @@ public class Store {
             System.out.println("Dans quelle maison voulez vous l'ajouter ?");
             for (int i = 0; i < house.size(); i++) {
                 House CurrentHouse = house.get(i);
-                if (CurrentHouse.getNumberPNJ() < 12 && CurrentHouse.getName() == "Chateau") {
+                if (CurrentHouse.getNumberPNJ() < 12 && CurrentHouse.getName() == "Chateaux") {
                     String fa = "Un beau Blond";
                     AskAddPNJ(CurrentHouse, may, z, fa);
 

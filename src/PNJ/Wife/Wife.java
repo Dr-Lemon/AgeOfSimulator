@@ -12,6 +12,7 @@ public class Wife extends PNJ {
         System.out.println("La femme se repose");
     }
     public Wife() {
+        this.setSexe("Femme");
     }
 
     public static int getCoast() {
