@@ -5,14 +5,6 @@ public class Mayor {
     private int ressources, money;
 
 
-    public void AddPNJ(){
-
-    }
-
-    public void AddHouse(){
-
-    }
-
     public void GiveMoney(int money){
         this.money -= money;
     }
@@ -21,9 +13,9 @@ public class Mayor {
         this.ressources -= ressources;
     }
 
-    public Mayor(int ressources, int money) {
-        this.ressources = ressources;
-        this.money = money;
+    public Mayor() {
+        this.setRessources(20);
+        this.setMoney(400);
     }
 
 //    public static int getCoastBourgeois() {
@@ -70,8 +62,7 @@ public class Mayor {
                 "$}";
     }
 
-    public Mayor() {
-    }
+
 
 
 

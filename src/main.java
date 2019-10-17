@@ -19,22 +19,10 @@ public class main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Display affichage = new Display();
-        Mayor maire = new Mayor(); // en paramètres le nom ou pas
-        maire.setRessources(20);
-        maire.setMoney(400);
-        ArrayList<House> house = new ArrayList<House>();
-        PNJ P1 = new Poor();
-        PNJ P3 = new Wife();
-        PNJ P4 = new Bourgeois();
-        PNJ P5 = new Wife();
-        House H1 = new Farm();
-        House H2 = new Castle();
-        house.add(H1);
-        house.add(H2);
-        H1.PushPNJ(P1);
-        H1.PushPNJ(P3);
-        H2.PushPNJ(P4);
-        H2.PushPNJ(P5);
+        Mayor maire = new Mayor();
+        Store store = new Store();
+        //ArrayList<House> Maison = store.getHouse();
+
 
         while (maire.getMoney() != 100000) {
             int day = 1;
@@ -51,10 +39,47 @@ public class main {
                 affichage.IntegerTest();
                 choix = affichage.getIntegre();
                 // SWITCH MENU A FAIRE
+                switch(choix) {
+                    case (1):
+                        store.addBourgeoisHouse(maire);
+                        break;
+
+                    case (2):
+                        store.addBourgeois(maire);
+                        break;
+
+                    case (3):
+                        store.addPoorHouse(maire);
+                        break;
+
+                    case (4):
+                        store.addPoor(maire);
+                        break;
+
+                    case (5):
+                        System.out.println("1- Femme Bourgeoise");
+                        System.out.println("2- Femme Pauvre");
+                        affichage.IntegerTest();
+                        int choix2 = affichage.getIntegre();
+                        switch (choix2){
+                            case(1) :
+                                store.addBourgeoisWife(maire);
+                                break;
+                            case(2) :
+                                store.addPoorWife(maire);
+                                break;
+                        }
+                        break;
+
+                    case (6):
+                        break;
+
+
+                }
             }
                 // JOUR
                 while (day != 7) {
-                    for (int i = 0; i < house.size(); ++i) {
+                    for (int i = 0; i < store.house.size(); ++i) {
                         House CurrentHouse = house.get(i);
                         //int Numb = SelectHouse.getNumberPNJ();
                         CurrentHouse.Product(); // ON POINTE VERS UNE MAISON
