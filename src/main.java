@@ -26,9 +26,11 @@ public class main {
         Mayor maire = new Mayor();
         Store store = new Store();
         ArrayList<House> Maison = store.getHouse();
+        int game = 0;
 
 
-        while (maire.getMoney() != 100000) {
+        while (maire.getMoney() != -1) {
+            store.checkHouse(maire);
             int day = 1;
             int choix = 0;
             while (choix != 6) {
@@ -84,6 +86,7 @@ public class main {
                 // JOUR
                 System.out.println("---------------------");
                 System.out.println("");
+                store.checkHouse(maire);
                 while (day != 7) {
                     System.out.println("JOUR " + day + ":");
                     for (int i = 0; i < Maison.size(); ++i) {
@@ -170,8 +173,9 @@ public class main {
                     System.out.println(Maison.get(i));
                     //house.get(i).toString();
                 }
-                store.checkHouse();
+                store.checkHouse(maire);
             }
+        System.out.println("GAME OVER");
         }
     }
 

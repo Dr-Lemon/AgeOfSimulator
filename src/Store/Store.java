@@ -80,15 +80,23 @@ public class Store {
         return coastPoorHouse;
     }
 
-    public static void checkHouse(){
+    public static void checkHouse(Mayor maire){
         for (int i = 0; i < house.size() ; i++) {
             House CurrentHouse = house.get(i);
            int NBRPNJ = CurrentHouse.getNumberPNJ();
            if (NBRPNJ == 0){
+               System.out.println("Maison" + i + "Détruite");
                house.remove(i);
            }
+           if(house.size() == 0){
+               System.out.println("-1");
+               maire.setMoney(-1);
+           }
            else{};
+
         }
+        System.out.println(house.size());
+
     }
 
     public void addBourgeoisHouse(Mayor may){ // Ajouter Maison de Bourgeois
