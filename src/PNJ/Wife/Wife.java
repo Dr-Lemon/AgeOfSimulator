@@ -9,7 +9,7 @@ public class Wife extends PNJ {
     }
     @Override
     public void Farm(int item){
-        System.out.println("*La femme se repose*");
+        System.out.println("*La femme se repose");
     }
     public Wife() {
         this.setSexe("Femme");

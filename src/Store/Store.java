@@ -14,7 +14,7 @@ import javax.swing.plaf.ColorUIResource;
 import java.util.ArrayList;
 
 public class Store {
-    private static int SetB, SetP = 0;
+//    private static int SetB, SetP = 0;
     private static Display affichage = new Display();
     private static ArrayList<House> house = new ArrayList<House>();
     private static final int coastBourgeois = 10;
@@ -23,21 +23,21 @@ public class Store {
     private static final int coastBourgeoisHouse = 20;
     private static final int coastPoorHouse = 20;
 
-    public static int getSetB() {
-        return SetB;
-    }
-
-    public static void setSetB(int set) {
-        SetB = set;
-    }
-
-    public static int getSetP() {
-        return SetP;
-    }
-
-    public static void setSetP(int set) {
-        SetP = set;
-    }
+//    public static int getSetB() {
+//        return SetB;
+//    }
+//
+//    public static void setSetB(int set) {
+//        SetB = set;
+//    }
+//
+//    public static int getSetP() {
+//        return SetP;
+//    }
+//
+//    public static void setSetP(int set) {
+//        SetP = set;
+//    }
 
     public Store() {
         PNJ P1 = new Poor();
@@ -126,10 +126,10 @@ public class Store {
                     String fa = "Un beau Blond";
                     AskAddPNJ(CurrentHouse, may, z, fa);
                 }
-                else if (CurrentHouse.getNumberPNJ() < 12 && CurrentHouse.getName() == "Chateaux" && (CurrentHouse.getNumberPNJ()/2) == CurrentHouse.getNumberWPNJ() && this.SetB == 0 ){
+                else if (CurrentHouse.getNumberPNJ() < 12 && CurrentHouse.getName() == "Chateaux" && (CurrentHouse.getNumberPNJ()/2) == CurrentHouse.getNumberWPNJ() && CurrentHouse.getSet() == 0 ){
                         String fa = "Un beau Blond";
                         AskAddPNJ(CurrentHouse, may, z, fa);
-                       this.SetB = 1;
+                       CurrentHouse.setSet(1);
                     }
                 else if(CurrentHouse.getName() == "Chateaux"){
                     System.out.println("Pas assez de place ou de femme dans la maison pour ajouter un Homme !");
@@ -152,7 +152,7 @@ public class Store {
                 if (CurrentHouse.getNumberPNJ()< 12&& CurrentHouse.getName() == "Chateaux"){
                     String fa = "Une belle Blonde";
                     AskAddPNJ(CurrentHouse, may,z, fa);
-                    this.SetB=0;
+
                 }
             }
 
@@ -171,7 +171,7 @@ public class Store {
                 if (CurrentHouse.getNumberPNJ()< 9&& CurrentHouse.getName() == "Ferme"){
                     String fa = "Une belle Brune";
                     AskAddPNJ(CurrentHouse, may,z, fa);
-                    this.SetP=0;
+
                 }
             }
 
@@ -192,10 +192,10 @@ public class Store {
                     String fa = "Un beau Brun";
                     AskAddPNJ(CurrentHouse, may, z, fa);
                 }
-                else if (CurrentHouse.getNumberPNJ() < 12 && CurrentHouse.getName() == "Ferme" && (CurrentHouse.getNumberPNJ()/2) == CurrentHouse.getNumberWPNJ() && this.SetP == 0 ){
+                else if (CurrentHouse.getNumberPNJ() < 12 && CurrentHouse.getName() == "Ferme" && (CurrentHouse.getNumberPNJ()/2) == CurrentHouse.getNumberWPNJ() && CurrentHouse.getSet() == 0 ){
                     String fa = "Un beau Brun";
                     AskAddPNJ(CurrentHouse, may, z, fa);
-                    this.SetP = 1;
+                    CurrentHouse.setSet(1);
                 }
                 else if(CurrentHouse.getName() == "Ferme"){
                     System.out.println("Pas assez de place ou de femme dans la maison pour ajouter un Homme !");

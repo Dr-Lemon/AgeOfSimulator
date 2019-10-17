@@ -11,9 +11,18 @@ public class House {
     private int humor;
     private int MaxNumber;
     private String name;
+    private static int Set = 0;
     private ArrayList<PNJ> CurrentPnj = new ArrayList<PNJ>();
     private ArrayList<PNJ> WPnj = new ArrayList<PNJ>();
     private ArrayList<PNJ> HPnj = new ArrayList<PNJ>();
+
+    public static int getSet() {
+        return Set;
+    }
+
+    public static void setSet(int set) {
+        Set = set;
+    }
 
     public House() {
         this.name = "Maison sans type";
@@ -98,6 +107,7 @@ public class House {
 
     public void ChangeHumor(int i){
         if (i == -1) {
+
             // TEST SI HUMOR = 1 MAISON DISPARAIT
             this.humor -= 1;
         }

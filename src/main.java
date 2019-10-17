@@ -155,8 +155,6 @@ public class main {
                     System.out.println(Maison.get(i));
                     //house.get(i).toString();
                 }
-                store.setSetB(store.getSetB() + 1);
-                store.setSetP(store.getSetP() + 1);
             }
         }
     }
