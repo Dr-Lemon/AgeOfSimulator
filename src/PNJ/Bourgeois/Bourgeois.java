@@ -12,7 +12,7 @@ public class Bourgeois extends PNJ {
         this.setSexe("Homme");
     }
 
-    public static int getCoast() {
+    public int getCoast() {
         return coast;
     }
 

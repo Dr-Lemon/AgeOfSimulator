@@ -14,7 +14,7 @@ public class Poor extends PNJ {
         this.setSocial("Poor");
     }
 
-    public static int getCoast() {
+    public int getCoast() {
         return coast;
     }
 

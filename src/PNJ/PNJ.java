@@ -1,6 +1,6 @@
 package PNJ;
 
-public class PNJ {
+public abstract class PNJ {
     private boolean life;
     private boolean seek;
     private int humor;
@@ -29,6 +29,8 @@ public class PNJ {
         this.sleep = 0;
         this.setName("Kevin");
     }
+
+    public abstract int getCoast();
 
     public String getSexe() {
         return Sexe;
@@ -134,7 +136,5 @@ public class PNJ {
                 '}';
     }
 
-    public static int getCoast() {
-        return 0;
-    }
+
 }
