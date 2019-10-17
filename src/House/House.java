@@ -25,15 +25,18 @@ public class House {
     }
     public void PushPNJ(PNJ pnj){
         this.CurrentPnj.add(pnj);
-        if (pnj.getSexe() == "Homme"){
-            this.HPnj.add(pnj);
-        }
+//        if (pnj.getSexe() == "Homme"){
+//            this.HPnj.add(pnj);
+//        }
         if (pnj.getSexe() == "Femme"){
             this.WPnj.add(pnj);
         }
     }
     public int getNumberPNJ(){
         return this.CurrentPnj.size();
+    }
+    public int getNumberWPNJ(){
+        return this.WPnj.size();
     }
 
     public void Product(){

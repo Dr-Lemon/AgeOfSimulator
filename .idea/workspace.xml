@@ -3,12 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="a2ddf56b-194f-4e94-aafc-9877662c3f95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/House.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Bourgeois/Bourgeois.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Bourgeois/Bourgeois.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/PNJ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/PNJ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Poor/Poor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Poor/Poor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/House/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/House/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PNJ/Bourgeois/Bourgeois.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PNJ/Bourgeois/Bourgeois.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PNJ/PNJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PNJ/PNJ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PNJ/Poor/Poor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PNJ/Poor/Poor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PNJ/Wife/Wife.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PNJ/Wife/Wife.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+            <state relative-caret-position="333">
+              <caret line="158" column="51" lean-forward="true" selection-start-line="158" selection-start-column="51" selection-end-line="158" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -34,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/src/Mayor/Mayor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -42,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/House/House.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+            <state relative-caret-position="459">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -60,10 +61,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Store/Store.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="106" column="91" selection-start-line="106" selection-start-column="91" selection-end-line="106" selection-end-column="91" />
+            <state relative-caret-position="404">
+              <caret line="173" column="32" selection-start-line="173" selection-start-column="32" selection-end-line="173" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#813#814#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#887#888#0" expanded="true" />
+                <element signature="e#914#915#0" expanded="true" />
+                <element signature="e#956#957#0" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
                 <element signature="e#970#971#0" expanded="true" />
                 <element signature="e#998#999#0" expanded="true" />
                 <element signature="e#1063#1064#0" expanded="true" />
@@ -93,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/src/PNJ/Bourgeois/Bourgeois.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding>
                 <element signature="e#304#305#0" expanded="true" />
                 <element signature="e#341#342#0" expanded="true" />
@@ -157,15 +166,15 @@
         <option value="$PROJECT_DIR$/src/display/Display.java" />
         <option value="$PROJECT_DIR$/src/Display/Display.java" />
         <option value="$PROJECT_DIR$/src/Mayor/Mayor.java" />
-        <option value="$PROJECT_DIR$/src/main.java" />
         <option value="$PROJECT_DIR$/src/House/Farm/Farm.java" />
         <option value="$PROJECT_DIR$/src/House/Castle/Castle.java" />
-        <option value="$PROJECT_DIR$/src/Store/Store.java" />
         <option value="$PROJECT_DIR$/src/PNJ/PNJ.java" />
         <option value="$PROJECT_DIR$/src/PNJ/Wife/Wife.java" />
         <option value="$PROJECT_DIR$/src/PNJ/Poor/Poor.java" />
         <option value="$PROJECT_DIR$/src/PNJ/Bourgeois/Bourgeois.java" />
         <option value="$PROJECT_DIR$/src/House/House.java" />
+        <option value="$PROJECT_DIR$/src/main.java" />
+        <option value="$PROJECT_DIR$/src/Store/Store.java" />
       </list>
     </option>
   </component>
@@ -363,7 +372,7 @@
       <workItem from="1571149585904" duration="6359000" />
       <workItem from="1571156032794" duration="5552000" />
       <workItem from="1571293899943" duration="2751000" />
-      <workItem from="1571311180575" duration="6911000" />
+      <workItem from="1571311180575" duration="8722000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouts de classe Bourgeois :&#10;&#10;Artisan&#10;Merchant">
       <created>1570610151119</created>
@@ -498,11 +507,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571317018357</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Ajout des listes Hommes Femme pour algo d'ajout d'homme">
+      <created>1571318264011</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1571318264011</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9662000" />
+    <option name="totallyTimeSpent" value="11473000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -517,7 +533,7 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25305623" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25305623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -527,7 +543,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32922733" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32922733" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -632,7 +648,8 @@
     <MESSAGE value="V1 avec petite modifs" />
     <MESSAGE value="V1 avec petite modifs(V2)" />
     <MESSAGE value="Enfaite il y a des petits bugs mais np" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enfaite il y a des petits bugs mais np" />
+    <MESSAGE value="Ajout des listes Hommes Femme pour algo d'ajout d'homme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout des listes Hommes Femme pour algo d'ajout d'homme" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Display/Display.java">
@@ -648,14 +665,7 @@
     <entry file="file://$PROJECT_DIR$/src/Mayor/Mayor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="51" column="37" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -714,7 +724,7 @@
     <entry file="file://$PROJECT_DIR$/src/PNJ/Bourgeois/Bourgeois.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <element signature="e#304#305#0" expanded="true" />
             <element signature="e#341#342#0" expanded="true" />
@@ -724,17 +734,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/House/House.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        <state relative-caret-position="459">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="158" column="51" lean-forward="true" selection-start-line="158" selection-start-column="51" selection-end-line="158" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Store/Store.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="106" column="91" selection-start-line="106" selection-start-column="91" selection-end-line="106" selection-end-column="91" />
+        <state relative-caret-position="404">
+          <caret line="173" column="32" selection-start-line="173" selection-start-column="32" selection-end-line="173" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
             <element signature="e#970#971#0" expanded="true" />
             <element signature="e#998#999#0" expanded="true" />
             <element signature="e#1063#1064#0" expanded="true" />
