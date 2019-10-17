@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2ddf56b-194f-4e94-aafc-9877662c3f95" name="Default Changelist" comment="V1.0">
+    <list default="true" id="a2ddf56b-194f-4e94-aafc-9877662c3f95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/Castle/Castle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/Castle/Castle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/Farm/Farm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/Farm/Farm.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/House.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/Mayor/Mayor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/Mayor/Mayor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/PNJ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/PNJ.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Display/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Display/Display.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/House/Castle/Castle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/House/Castle/Castle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/House/Farm/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/House/Farm/Farm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/House/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/House/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mayor/Mayor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mayor/Mayor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PNJ/PNJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PNJ/PNJ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PNJ/TestPNJ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Store/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -293,7 +303,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571321221870</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Finalize ( Destruction Habitant marche pas de fou )">
+      <created>1571328711939</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1571328711939</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Finalize ( Destruction Habitant marche pas de fou )">
+      <created>1571328738870</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1571328738870</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,6 +368,7 @@
     <MESSAGE value="Ajout des listes Hommes Femme pour algo d'ajout d'homme" />
     <MESSAGE value="V11111111111111111111111111111111" />
     <MESSAGE value="V11111111111111111111111111111111 (v2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="V11111111111111111111111111111111 (v2)" />
+    <MESSAGE value="Finalize ( Destruction Habitant marche pas de fou )" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finalize ( Destruction Habitant marche pas de fou )" />
   </component>
 </project>

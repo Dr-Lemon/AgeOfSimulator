@@ -2,6 +2,8 @@ package House.Farm;
 
 import House.House;
 
+import static Display.Display.*;
+
 public class Farm extends House {
     private static final int  MAXNUMBER = 9;
 

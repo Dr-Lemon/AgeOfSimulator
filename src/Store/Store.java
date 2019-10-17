@@ -14,7 +14,6 @@ import javax.swing.plaf.ColorUIResource;
 import java.util.ArrayList;
 
 public class Store {
-//    private static int SetB, SetP = 0;
     private static Display affichage = new Display();
     private static ArrayList<House> house = new ArrayList<House>();
     private static final int coastBourgeois = 10;
@@ -23,21 +22,6 @@ public class Store {
     private static final int coastBourgeoisHouse = 20;
     private static final int coastPoorHouse = 20;
 
-//    public static int getSetB() {
-//        return SetB;
-//    }
-//
-//    public static void setSetB(int set) {
-//        SetB = set;
-//    }
-//
-//    public static int getSetP() {
-//        return SetP;
-//    }
-//
-//    public static void setSetP(int set) {
-//        SetP = set;
-//    }
 
     public Store() {
         PNJ P1 = new Poor();
@@ -94,6 +78,17 @@ public class Store {
 
     public static int getCoastPoorHouse() {
         return coastPoorHouse;
+    }
+
+    public static void checkHouse(){
+        for (int i = 0; i < house.size() ; i++) {
+            House CurrentHouse = house.get(i);
+           int NBRPNJ = CurrentHouse.getNumberPNJ();
+           if (NBRPNJ == 0){
+               house.remove(i);
+           }
+           else{};
+        }
     }
 
     public void addBourgeoisHouse(Mayor may){ // Ajouter Maison de Bourgeois

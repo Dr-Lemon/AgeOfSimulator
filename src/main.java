@@ -11,6 +11,8 @@ import PNJ.Wife.Wife;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+
+import static Display.Display.*;
 //
 //
 //
@@ -18,17 +20,7 @@ import java.util.Scanner;
 public class main {
 
     public static void main(String[] args) {
-        String ANSI_RESET = "\u001B[0m"; // PERMET L'AFFIFICHAGE EN COULEUR
-        String ANSI_BLACK = "\u001B[30m";
-        String ANSI_RED = "\u001B[31m";
-        String ANSI_GREEN = "\u001B[32m";
-        String ANSI_YELLOW = "\u001B[33m";
-        String ANSI_BLUE = "\u001B[34m";
-        String ANSI_PURPLE = "\u001B[35m";
-        String ANSI_CYAN = "\u001B[36m";
-        String ANSI_WHITE = "\u001B[37m";
 
-        String newLine = System.getProperty("line.separator");
         Scanner sc = new Scanner(System.in);
         Display affichage = new Display();
         Mayor maire = new Mayor();
@@ -178,6 +170,7 @@ public class main {
                     System.out.println(Maison.get(i));
                     //house.get(i).toString();
                 }
+                store.checkHouse();
             }
         }
     }

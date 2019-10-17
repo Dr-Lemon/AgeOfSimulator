@@ -1,7 +1,9 @@
 package PNJ;
 
+import static Display.Display.*;
+
 public abstract class PNJ {
-    public static String newLine = System.getProperty("line.separator");
+
     private boolean life;
     private boolean seek;
     private int humor;
