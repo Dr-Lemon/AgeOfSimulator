@@ -21,7 +21,7 @@ public class main {
         Display affichage = new Display();
         Mayor maire = new Mayor();
         Store store = new Store();
-        //ArrayList<House> Maison = store.getHouse();
+        ArrayList<House> Maison = store.getHouse();
 
 
         while (maire.getMoney() != 100000) {
@@ -79,13 +79,13 @@ public class main {
             }
                 // JOUR
                 while (day != 7) {
-                    for (int i = 0; i < store.house.size(); ++i) {
-                        House CurrentHouse = house.get(i);
+                    for (int i = 0; i < Maison.size(); ++i) {
+                        House CurrentHouse = Maison.get(i);
                         //int Numb = SelectHouse.getNumberPNJ();
                         CurrentHouse.Product(); // ON POINTE VERS UNE MAISON
                     }
-                    for (int i = 0; i < house.size(); ++i) {
-                        System.out.println(house.get(i));
+                    for (int i = 0; i < Maison.size(); ++i) {
+                        System.out.println(Maison.get(i));
                         ; // Affiche l’humeur et les ressources de chaque maison Chaque Jour
 
                     }
@@ -96,52 +96,52 @@ public class main {
 
 
                 // FIN DE SEMAINE
-                for (int i = 0; i < house.size(); ++i) {
-                    System.out.println(house.get(i));
+                for (int i = 0; i < Maison.size(); ++i) {
+                    System.out.println(Maison.get(i));
                     ;// Affiche l’humeur et les ressources de chaque maison à la fin de la semaine
                     // Sleep de 500ms pour lui laisser le temps de lire, à faire sur le thread.
                 }
 
-                for (int i = 0; i < house.size(); ++i) {
-                    house.get(i).getItem();
+                for (int i = 0; i < Maison.size(); ++i) {
+                    Maison.get(i).getItem();
                     int x;
-                    if (house.get(i).getName() == "Chateaux") {// Si c’est bourgeois
-                        int ask = (house.get(i).getItem() / 2);
+                    if (Maison.get(i).getName() == "Chateaux") {// Si c’est bourgeois
+                        int ask = (Maison.get(i).getItem() / 2);
                         System.out.println("cette maison reclame : " + ask + "Ressources");
                         System.out.println(maire);
                         System.out.println("Combien voulez vous donner ?");
                         affichage.IntegerTest();
                         x = affichage.getIntegre();
                         maire.setRessources(maire.getRessources() - x); // Maire donne un nbr de ressources
-                        maire.setMoney(maire.getMoney() + (house.get(i).getItem())); // Il récupère toutes les ressources de la maison bourgeoise(Argent qu’ils ont récoltés)
-                        house.get(i).setItem(0); // On met les ressources de la maison à 0
+                        maire.setMoney(maire.getMoney() + (Maison.get(i).getItem())); // Il récupère toutes les ressources de la maison bourgeoise(Argent qu’ils ont récoltés)
+                        Maison.get(i).setItem(0); // On met les ressources de la maison à 0
                         if (x < ask) {
-                            house.get(i).ChangeHumor(-1);
+                            Maison.get(i).ChangeHumor(-1);
                             System.out.println("Cette maison n’as pas bien été rémunéré attention cela va influencer leurs comportement !");
                         }
                         if (x > ask) {
-                            house.get(i).ChangeHumor(+1);
+                            Maison.get(i).ChangeHumor(+1);
                             System.out.println("Cette maison vous remercie pour votre confiance !");
                         }
                         if (x == ask) {
                             System.out.println("L’échange s'est effectué avec succès !");
                         }
                     } else { // Si c’est pauvre
-                        int ask = (house.get(i).getItem());
+                        int ask = (Maison.get(i).getItem());
                         System.out.println("cette maison reclame :" + ask + "$");
                         System.out.println(maire);
                         System.out.println("Combien voulez vous donner ?");
                         affichage.IntegerTest();
                         x = affichage.getIntegre();
                         maire.setMoney(maire.getMoney() - x); // Maire donne un nbr de ressources
-                        maire.setRessources(maire.getRessources() + (house.get(i).getItem())); // Il récupère toutes les ressources de la maison pauvre(Ressources qu’ils ont récoltés)
-                        house.get(i).setItem(0); // On met les ressources de la maison à 0
+                        maire.setRessources(maire.getRessources() + (Maison.get(i).getItem())); // Il récupère toutes les ressources de la maison pauvre(Ressources qu’ils ont récoltés)
+                        Maison.get(i).setItem(0); // On met les ressources de la maison à 0
                         if (x < ask) {
-                            house.get(i).ChangeHumor(-1);
+                            Maison.get(i).ChangeHumor(-1);
                             System.out.println("Cette maison n’as pas bien été rémunéré attention cela va influencer leurs comportement !");
                         }
                         if (x > ask) {
-                            house.get(i).ChangeHumor(+1);
+                            Maison.get(i).ChangeHumor(+1);
                             System.out.println("Cette maison vous remercie pour votre confiance !");
                         }
                         if (x == ask) {
@@ -151,8 +151,8 @@ public class main {
 
 
                 }
-                for (int i = 0; i < house.size(); ++i) {
-                    System.out.println(house.get(i));
+                for (int i = 0; i < Maison.size(); ++i) {
+                    System.out.println(Maison.get(i));
                     //house.get(i).toString();
                 }
             }
