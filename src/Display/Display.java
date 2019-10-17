@@ -97,9 +97,6 @@ public class Display {
             }
         } while (chiffre != true);
 
-
-
-            System.out.println("Ok");
             Integre = toto;
     }
 

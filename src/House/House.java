@@ -35,9 +35,9 @@ public class House {
     }
     public void PushPNJ(PNJ pnj){
         this.CurrentPnj.add(pnj);
-//        if (pnj.getSexe() == "Homme"){
-//            this.HPnj.add(pnj);
-//        }
+        if (pnj.getSexe() == "Homme"){
+            this.HPnj.add(pnj);
+        }
         if (pnj.getSexe() == "Femme"){
             this.WPnj.add(pnj);
         }
@@ -47,6 +47,9 @@ public class House {
     }
     public int getNumberWPNJ(){
         return this.WPnj.size();
+    }
+    public int getNumberHPNJ(){
+        return this.HPnj.size();
     }
 
     public void Product(){

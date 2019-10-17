@@ -14,6 +14,7 @@ import javax.swing.plaf.ColorUIResource;
 import java.util.ArrayList;
 
 public class Store {
+    private static int x;
     private static int choix;
     private static Display affichage = new Display();
     private static ArrayList<House> house = new ArrayList<House>();
@@ -47,7 +48,7 @@ public class Store {
         Store.house = house;
     }
     public static void AskAddPNJ(House CurrentHouse, Mayor may, PNJ z, String fa){
-        System.out.println(CurrentHouse + ANSI_GREEN +"1- Oui" + ANSI_RESET + ANSI_RED + "2- Non" + ANSI_RESET);
+        System.out.println( ANSI_GREEN +"1- Oui" + ANSI_RESET + ANSI_RED + "2- Non" + ANSI_RESET);
         affichage.IntegerTest();
         int choix = affichage.getIntegre();
         switch (choix){
@@ -136,23 +137,30 @@ public class Store {
                     System.out.println("Pas assez d'argent !");
                 } else {
                     Bourgeois z = new Bourgeois();
-                    System.out.println("Dans quelle maison voulez vous l'ajouter ?");
                     for (int i = 0; i < house.size(); i++) {
                         House CurrentHouse = house.get(i);
-                        if (CurrentHouse.getNumberPNJ() < 12 && CurrentHouse.getName() == "Chateaux" && (CurrentHouse.getNumberPNJ() / 2) < CurrentHouse.getNumberWPNJ()) {
-                            System.out.println(i + ": " + house.get(i));
-                            String fa = "Un beau Blond";
-                            AskAddPNJ(CurrentHouse, may, z, fa);
-                        } else if (CurrentHouse.getNumberPNJ() < 12 && CurrentHouse.getName() == "Chateaux" && (CurrentHouse.getNumberPNJ() / 2) == CurrentHouse.getNumberWPNJ() && CurrentHouse.getSet() == 0) {
-                            String fa = "Un beau Blond";
-                            AskAddPNJ(CurrentHouse, may, z, fa);
-                            CurrentHouse.setSet(1);
-                        } else if (CurrentHouse.getName() == "Chateaux") {
-                            System.out.println("Pas assez de place ou de femme dans la maison pour ajouter un Homme !");
+                        if (CurrentHouse.getNumberPNJ() < 12 && CurrentHouse.getName() == "Chateaux" && (CurrentHouse.getNumberHPNJ() / 2) < CurrentHouse.getNumberWPNJ()) {
+                            System.out.println("N°" + i + ":" + CurrentHouse);
+                        }
+                        else if (CurrentHouse.getName() == "Chateaux"){
+                            System.out.println("N°" + i + ":" + CurrentHouse + "(Plein)");
                         }
                     }
+                    System.out.print("Selectionnez la maison dans laquel vous voulez ajouter votre PNJ : ");
+                    affichage.IntegerTest();
+                    x = getIntegre();
+                    if (house.get(x).getNumberPNJ() > 11 || (house.get(x).getNumberHPNJ() / 2) == house.get(x).getNumberWPNJ()){
+                        System.out.println("Maison PLEINE ON TA DIT ON VA TE MANGER ou alors il y pas assez de femme !");}
+                    else {
+                        String fa = "Un Beau Blond";
+                        AskAddPNJ(house.get(x), may, z, fa);
+//                        String fa = "Un beau Brun";
+//                            AskAddPNJ(CurrentHouse, may, z, fa);
+//                        else if (CurrentHouse.getName() == "Ferme") {
+//                            System.out.println("Pas assez de place ou de femme dans la maison pour ajouter un Homme !");
+//                        }
 
-                }
+                    }}
                 break;
             case (2):
                 break;
@@ -169,17 +177,30 @@ public class Store {
                     System.out.println("Pas assez d'argent !");
                 } else {
                     Wife z = new Wife();
-                    System.out.println("Dans quelle maison voulez vous l'ajouter ?");
                     for (int i = 0; i < house.size(); i++) {
                         House CurrentHouse = house.get(i);
-                        if (CurrentHouse.getNumberPNJ() < 12 && CurrentHouse.getName() == "Chateaux") {
-                            String fa = "Une belle Blonde";
-                            AskAddPNJ(CurrentHouse, may, z, fa);
-
+                        if (CurrentHouse.getNumberPNJ() < 12 && CurrentHouse.getName() == "Chateaux" ) {
+                            System.out.println("N°" + i + ":" + CurrentHouse);
+                        }
+                        else if (CurrentHouse.getName() == "Chateaux"){
+                            System.out.println("N°" + i + ":" + CurrentHouse + "(Plein)");
                         }
                     }
+                    System.out.print("Selectionnez la maison dans laquel vous voulez ajouter votre PNJ : ");
+                    affichage.IntegerTest();
+                    x = getIntegre();
+                    if (house.get(x).getNumberPNJ() > 11 ){
+                        System.out.println("Maison PLEINE ON TA DIT ON VA TE MANGER ou alors il y pas assez de femme !");}
+                    else {
+                        String fa = "Une Belle Blonde";
+                        AskAddPNJ(house.get(x), may, z, fa);
+//                        String fa = "Un beau Brun";
+//                            AskAddPNJ(CurrentHouse, may, z, fa);
+//                        else if (CurrentHouse.getName() == "Ferme") {
+//                            System.out.println("Pas assez de place ou de femme dans la maison pour ajouter un Homme !");
+//                        }
 
-                }
+                    }}
                 break;
             case (2):
                 break;
@@ -196,17 +217,30 @@ public class Store {
                     System.out.println("Pas assez d'argent !");
                 } else {
                     Wife z = new Wife();
-                    System.out.println("Dans quelle maison voulez vous l'ajouter ?");
                     for (int i = 0; i < house.size(); i++) {
                         House CurrentHouse = house.get(i);
-                        if (CurrentHouse.getNumberPNJ() < 9 && CurrentHouse.getName() == "Ferme") {
-                            String fa = "Une belle Brune";
-                            AskAddPNJ(CurrentHouse, may, z, fa);
-
+                        if (CurrentHouse.getNumberPNJ() < 9 && CurrentHouse.getName() == "Ferme" ) {
+                            System.out.println("N°" + i + ":" + CurrentHouse);
+                        }
+                        else if (CurrentHouse.getName() == "Ferme"){
+                            System.out.println("N°" + i + ":" + CurrentHouse + "(Plein)");
                         }
                     }
+                    System.out.print("Selectionnez la maison dans laquel vous voulez ajouter votre PNJ : ");
+                    affichage.IntegerTest();
+                    x = getIntegre();
+                    if (house.get(x).getNumberPNJ() > 8){
+                        System.out.println("Maison PLEINE ON TA DIT ON VA TE MANGER");}
+                    else {
+                        String fa = "Une Belle Brune";
+                        AskAddPNJ(house.get(x), may, z, fa);
+//                        String fa = "Un beau Brun";
+//                            AskAddPNJ(CurrentHouse, may, z, fa);
+//                        else if (CurrentHouse.getName() == "Ferme") {
+//                            System.out.println("Pas assez de place ou de femme dans la maison pour ajouter un Homme !");
+//                        }
 
-                }
+                    }}
                 break;
             case (2):
                 break;
@@ -224,21 +258,30 @@ public class Store {
                     System.out.println("Pas assez d'argent !");
                 } else {
                     Poor z = new Poor();
-                    System.out.println("Dans quelle maison voulez vous l'ajouter ?");
                     for (int i = 0; i < house.size(); i++) {
                         House CurrentHouse = house.get(i);
-                        if (CurrentHouse.getNumberPNJ() < 9 && CurrentHouse.getName() == "Ferme" && (CurrentHouse.getNumberPNJ() / 2) < CurrentHouse.getNumberWPNJ()) {
-                            String fa = "Un beau Brun";
-                            AskAddPNJ(CurrentHouse, may, z, fa);
-                        } else if (CurrentHouse.getNumberPNJ() < 12 && CurrentHouse.getName() == "Ferme" && (CurrentHouse.getNumberPNJ() / 2) == CurrentHouse.getNumberWPNJ() && CurrentHouse.getSet() == 0) {
-                            String fa = "Un beau Brun";
-                            AskAddPNJ(CurrentHouse, may, z, fa);
-                            CurrentHouse.setSet(1);
-                        } else if (CurrentHouse.getName() == "Ferme") {
-                            System.out.println("Pas assez de place ou de femme dans la maison pour ajouter un Homme !");
+                        if (CurrentHouse.getNumberPNJ() < 9 && CurrentHouse.getName() == "Ferme" && (CurrentHouse.getNumberHPNJ() / 2) < CurrentHouse.getNumberWPNJ()) {
+                            System.out.println("N°" + i + ":" + CurrentHouse);
+                        }
+                        else if (CurrentHouse.getName() == "Ferme"){
+                            System.out.println("N°" + i + ":" + CurrentHouse + "(Plein)");
                         }
                     }
-                }
+                    System.out.print("Selectionnez la maison dans laquel vous voulez ajouter votre PNJ : ");
+                    affichage.IntegerTest();
+                    x = getIntegre();
+                    if (house.get(x).getNumberPNJ() > 8 || (house.get(x).getNumberHPNJ() / 2) == house.get(x).getNumberWPNJ()){
+                        System.out.println("Maison PLEINE ON TA DIT ON VA TE MANGER ou alors il y pas assez de femme !");}
+                    else {
+                    String fa = "Un beau Brun";
+                    AskAddPNJ(house.get(x), may, z, fa);
+//                        String fa = "Un beau Brun";
+//                            AskAddPNJ(CurrentHouse, may, z, fa);
+//                        else if (CurrentHouse.getName() == "Ferme") {
+//                            System.out.println("Pas assez de place ou de femme dans la maison pour ajouter un Homme !");
+//                        }
+
+                }}
                 break;
             case (2):
                 break;
