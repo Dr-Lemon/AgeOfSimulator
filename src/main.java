@@ -29,8 +29,9 @@ public class main {
         int game = 0;
 
 
-        while (maire.getMoney() != -1) {
+        while (maire.getMoney() <= 100000) {
             store.checkHouse(maire);
+            if (maire.getMoney() == -1){break;}
             int day = 1;
             int choix = 0;
             while (choix != 6) {
@@ -87,6 +88,7 @@ public class main {
                 System.out.println("---------------------");
                 System.out.println("");
                 store.checkHouse(maire);
+                if (maire.getMoney() == -1){break;}
                 while (day != 7) {
                     System.out.println("JOUR " + day + ":");
                     for (int i = 0; i < Maison.size(); ++i) {
@@ -102,7 +104,6 @@ public class main {
                     }
                     System.out.println("---------------------");
                     System.out.println();
-//                sc.next();
                     affichage.promptEnterKey();
                     day += 1;
                 }

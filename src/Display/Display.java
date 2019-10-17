@@ -31,15 +31,20 @@ public class Display {
             str = sc.nextLine();
             try {
                 toto = Integer.parseInt(str);
-                chiffre = true; // si ton exécution arrive jusque là, ça signifie qu'il n'y a aucune exception lancée et que ta saisie est donc bien un chiffre
+                if (toto < 0){
+                    System.out.println("Chiffre Négatif Interdit ! PAS DE TRICHE ICI !");
+                }
+                else{
+                chiffre = true;} // si ton exécution arrive jusque là, ça signifie qu'il n'y a aucune exception lancée et que ta saisie est donc bien un chiffre
             } catch(NumberFormatException e) {
                 System.out.println("Cette valeur n'est pas un chiffre, essaie encore !");
             }
         } while (chiffre != true);
 
-        System.out.println("Ok");
-        Integre = toto;
 
+
+            System.out.println("Ok");
+            Integre = toto;
     }
 
     public static int getIntegre() {
