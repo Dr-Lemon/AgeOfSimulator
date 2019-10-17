@@ -123,7 +123,7 @@ public class House {
     public void ChangeHumor(int i){
         switch (i){
             case (-1):
-                if (this.humor == 1){finalize(); this.humor -=1}
+                if (this.humor == 1){finalize(); this.humor -=1;}
                 else{this.humor -=1;}
                 break;
             case (1):
