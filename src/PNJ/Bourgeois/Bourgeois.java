@@ -3,11 +3,16 @@ package PNJ.Bourgeois;
 import PNJ.PNJ;
 
 public class Bourgeois extends PNJ {
+    private static final int coast = 10;
 
     public Bourgeois(String name) {
         super(name);
         this.setRessources(10);
         this.setSocial("Bourgeois");
+    }
+
+    public static int getCoast() {
+        return coast;
     }
 
     public Bourgeois() {

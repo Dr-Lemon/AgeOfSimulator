@@ -1,5 +1,6 @@
 package Store;
 
+import Display.Display;
 import House.Castle.Castle;
 import House.Farm.Farm;
 import House.House;
@@ -12,6 +13,7 @@ import PNJ.Wife.Wife;
 import java.util.ArrayList;
 
 public class Store {
+    private static Display affichage = new Display();
     private static ArrayList<House> house = new ArrayList<House>();
     private static final int coastBourgeois = 10;
     private static final int coastPoor = 5;
@@ -41,6 +43,19 @@ public class Store {
     public static void setHouse(ArrayList<House> house) {
         Store.house = house;
     }
+    public static void AskAddPNJ(House CurrentHouse, Mayor may, PNJ z){
+        System.out.println(CurrentHouse + "       1- Oui 2- Non");
+        affichage.IntegerTest();
+        int choix = affichage.getIntegre();
+        switch (choix){
+            case (1) :
+                CurrentHouse.PushPNJ(z);
+                may.setMoney(may.getMoney() - z.getCoast());
+                break;
+            case (2) :
+                break;
+        }
+    }
 
     public static int getCoastBourgeois() {
         return coastBourgeois;
@@ -62,7 +77,7 @@ public class Store {
         return coastPoorHouse;
     }
 
-    public void addBourgeoisHouse(Mayor may){
+    public void addBourgeoisHouse(Mayor may){ // Ajouter Maison de Bourgeois
         if(may.getMoney() < coastBourgeoisHouse ){
             System.out.println("Pas assez d'argent !");
         }
@@ -74,66 +89,86 @@ public class Store {
             house.add(x);
             x.PushPNJ(y);
             x.PushPNJ(z);
-
+            may.setMoney(may.getMoney() - coastBourgeoisHouse);
         }
     }
 
-    public void addBourgeois(Mayor may){
+    public void addBourgeois(Mayor may){ // Ajouter un Bourgeois
         if(may.getMoney() < coastBourgeois ){
             System.out.println("Pas assez d'argent !");
         }
         else{
-//            for (int i = 0; i < ; i++) {
-//
-//            }
-            Bourgeois y = new Bourgeois();
+           Bourgeois z = new Bourgeois();
+            System.out.println("Dans quelle maison voulez vous l'ajouter ?");
+            for (int i = 0; i < house.size(); i++) {
+                House CurrentHouse = house.get(i);
+                if (CurrentHouse.getNumberPNJ() < 12 && CurrentHouse.getName() == "Chateau") {
+                    AskAddPNJ(CurrentHouse, may, z);
+                    System.out.println("Un Beau Blond à été ajouté");
 
+                }
+            }
         }
     }
 
-    public void addPoorWife(Mayor may){
+    public void addBourgeoisWife(Mayor may){ // Ajouter une Bourgeoise
         if(may.getMoney() < coastWife ){
             System.out.println("Pas assez d'argent !");
         }
         else{
             Wife z = new Wife();
+            System.out.println("Dans quelle maison voulez vous l'ajouter ?");
             for (int i = 0; i < house.size() ; i++) {
                 House CurrentHouse = house.get(i);
-                if (CurrentHouse.getNumberPNJ()< 9){CurrentHouse.PushPNJ(z);}
+                if (CurrentHouse.getNumberPNJ()< 12&& CurrentHouse.getName() == "Chateaux"){
+                    AskAddPNJ(CurrentHouse, may,z);
+                    System.out.println("Une Belle Blonde à été ajoutée");
+
+                }
             }
 
         }
     }
 
-    public void addBourgeoisWife(Mayor may){
+    public void addPoorWife(Mayor may){ // Ajouter une Pauvre
         if(may.getMoney() < coastWife ){
             System.out.println("Pas assez d'argent !");
         }
         else{
             Wife z = new Wife();
+            System.out.println("Dans quelle maison voulez vous l'ajouter ?");
             for (int i = 0; i < house.size() ; i++) {
                 House CurrentHouse = house.get(i);
-                if (CurrentHouse.getNumberPNJ()< 12){CurrentHouse.PushPNJ(z);}
+                if (CurrentHouse.getNumberPNJ()< 9&& CurrentHouse.getName() == "Ferme"){
+                    AskAddPNJ(CurrentHouse, may,z);
+                    System.out.println("Une Belle Brune à été ajoutée");
+
+                }
             }
 
         }
     }
 
-    public void addPoor(Mayor may){
-        if(may.getMoney() < coastPoor ){
+
+
+    public void addPoor(Mayor may) { // Ajoute un Pauvre
+        if (may.getMoney() < coastPoor) {
             System.out.println("Pas assez d'argent !");
-        }
-        else{
-            for (int i = 0; i <house.size() ; i++) {
+        } else {
+            Poor z = new Poor();
+            System.out.println("Dans quelle maison voulez vous l'ajouter ?");
+            for (int i = 0; i < house.size(); i++) {
                 House CurrentHouse = house.get(i);
+                if (CurrentHouse.getNumberPNJ() < 9 && CurrentHouse.getName() == "Ferme") {
+                    AskAddPNJ(CurrentHouse, may, z);
+                    System.out.println("Un Beau Brun à été ajouté");
 
+                }
             }
-            Poor y = new Poor();
-
         }
     }
 
-    public void addPoorHouse(Mayor may){
+    public void addPoorHouse(Mayor may){ // Ajoute une maison de Pauvres
         if(may.getMoney() < coastPoorHouse ){
             System.out.println("Pas assez d'argent !");
         }
@@ -144,6 +179,7 @@ public class Store {
             house.add(x);
             x.PushPNJ(y);
             x.PushPNJ(z);
+            may.setMoney(may.getMoney() - coastPoorHouse);
 
         }
     }

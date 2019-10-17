@@ -12,8 +12,9 @@ public class Castle extends House {
     @Override
     public String toString() {
         return "{" + this.getName() +
-                ",Money=" + this.getItem() +
-                ", humor=" + this.getHumor() +
+                ",Money = " + this.getItem() +
+                ", Humor = " + this.getHumor() +
+                ", Number of PNJ = " + this.getNumberPNJ() +
                 '}';
     }
 }

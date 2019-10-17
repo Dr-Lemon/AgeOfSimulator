@@ -124,4 +124,8 @@ public class PNJ {
                 ", Social='" + Social + '\'' +
                 '}';
     }
+
+    public static int getCoast() {
+        return 0;
+    }
 }
