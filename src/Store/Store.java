@@ -9,7 +9,7 @@ import PNJ.Bourgeois.Bourgeois;
 import PNJ.PNJ;
 import PNJ.Poor.Poor;
 import PNJ.Wife.Wife;
-
+import static Display.Display.*;
 import javax.swing.plaf.ColorUIResource;
 import java.util.ArrayList;
 
@@ -47,7 +47,7 @@ public class Store {
         Store.house = house;
     }
     public static void AskAddPNJ(House CurrentHouse, Mayor may, PNJ z, String fa){
-        System.out.println(CurrentHouse + "       1- Oui 2- Non");
+        System.out.println(CurrentHouse + ANSI_GREEN +"1- Oui" + ANSI_RESET + ANSI_RED + "2- Non" + ANSI_RESET);
         affichage.IntegerTest();
         int choix = affichage.getIntegre();
         switch (choix){
@@ -140,6 +140,7 @@ public class Store {
                     for (int i = 0; i < house.size(); i++) {
                         House CurrentHouse = house.get(i);
                         if (CurrentHouse.getNumberPNJ() < 12 && CurrentHouse.getName() == "Chateaux" && (CurrentHouse.getNumberPNJ() / 2) < CurrentHouse.getNumberWPNJ()) {
+                            System.out.println(i + ": " + house.get(i));
                             String fa = "Un beau Blond";
                             AskAddPNJ(CurrentHouse, may, z, fa);
                         } else if (CurrentHouse.getNumberPNJ() < 12 && CurrentHouse.getName() == "Chateaux" && (CurrentHouse.getNumberPNJ() / 2) == CurrentHouse.getNumberWPNJ() && CurrentHouse.getSet() == 0) {
@@ -149,8 +150,8 @@ public class Store {
                         } else if (CurrentHouse.getName() == "Chateaux") {
                             System.out.println("Pas assez de place ou de femme dans la maison pour ajouter un Homme !");
                         }
-
                     }
+
                 }
                 break;
             case (2):
