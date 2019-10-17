@@ -43,7 +43,7 @@ public class Store {
     public static void setHouse(ArrayList<House> house) {
         Store.house = house;
     }
-    public static void AskAddPNJ(House CurrentHouse, Mayor may, PNJ z){
+    public static void AskAddPNJ(House CurrentHouse, Mayor may, PNJ z, String fa){
         System.out.println(CurrentHouse + "       1- Oui 2- Non");
         affichage.IntegerTest();
         int choix = affichage.getIntegre();
@@ -51,6 +51,7 @@ public class Store {
             case (1) :
                 CurrentHouse.PushPNJ(z);
                 may.setMoney(may.getMoney() - z.getCoast());
+                System.out.println(fa + " à été ajouté");
                 break;
             case (2) :
                 break;
@@ -90,6 +91,7 @@ public class Store {
             x.PushPNJ(y);
             x.PushPNJ(z);
             may.setMoney(may.getMoney() - coastBourgeoisHouse);
+            System.out.println("Un Magnifique Chateau à été ajouté");
         }
     }
 
@@ -103,8 +105,9 @@ public class Store {
             for (int i = 0; i < house.size(); i++) {
                 House CurrentHouse = house.get(i);
                 if (CurrentHouse.getNumberPNJ() < 12 && CurrentHouse.getName() == "Chateau") {
-                    AskAddPNJ(CurrentHouse, may, z);
-                    System.out.println("Un Beau Blond à été ajouté");
+                    String fa = "Un beau Blond";
+                    AskAddPNJ(CurrentHouse, may, z, fa);
+
 
                 }
             }
@@ -121,8 +124,8 @@ public class Store {
             for (int i = 0; i < house.size() ; i++) {
                 House CurrentHouse = house.get(i);
                 if (CurrentHouse.getNumberPNJ()< 12&& CurrentHouse.getName() == "Chateaux"){
-                    AskAddPNJ(CurrentHouse, may,z);
-                    System.out.println("Une Belle Blonde à été ajoutée");
+                    String fa = "Une belle Blonde";
+                    AskAddPNJ(CurrentHouse, may,z, fa);
 
                 }
             }
@@ -140,8 +143,8 @@ public class Store {
             for (int i = 0; i < house.size() ; i++) {
                 House CurrentHouse = house.get(i);
                 if (CurrentHouse.getNumberPNJ()< 9&& CurrentHouse.getName() == "Ferme"){
-                    AskAddPNJ(CurrentHouse, may,z);
-                    System.out.println("Une Belle Brune à été ajoutée");
+                    String fa = "Une belle Brune";
+                    AskAddPNJ(CurrentHouse, may,z, fa);
 
                 }
             }
@@ -160,8 +163,8 @@ public class Store {
             for (int i = 0; i < house.size(); i++) {
                 House CurrentHouse = house.get(i);
                 if (CurrentHouse.getNumberPNJ() < 9 && CurrentHouse.getName() == "Ferme") {
-                    AskAddPNJ(CurrentHouse, may, z);
-                    System.out.println("Un Beau Brun à été ajouté");
+                    String fa = "Un beau Brun";
+                    AskAddPNJ(CurrentHouse, may, z, fa);
 
                 }
             }
@@ -180,6 +183,7 @@ public class Store {
             x.PushPNJ(y);
             x.PushPNJ(z);
             may.setMoney(may.getMoney() - coastPoorHouse);
+            System.out.println("Une Succulente Ferme à été ajoutée");
 
         }
     }
