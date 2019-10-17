@@ -10,10 +10,9 @@ public class Farm extends House {
     }
     @Override
     public String toString() {
-        return "{" + this.getName() +
-                ",Ressources = " + this.getItem() +
-                ", humor = " + this.getHumor() +
-                ", Number of PNJ = " + this.getNumberPNJ() +
-                '}';
+        return  ANSI_PURPLE +this.getName() + ":"+ newLine +
+                "   Ressources = " + this.getItem() + newLine +
+                "   Humeur = " + this.getHumor() + newLine +
+                "   Number of PNJ = " + this.getNumberPNJ() +ANSI_RESET;
     }
 }

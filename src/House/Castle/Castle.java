@@ -4,17 +4,15 @@ import House.House;
 
 public class Castle extends House {
     private static final int  MAXNUMBER = 12;
-
     public Castle() {
         this.setName("Chateaux");
     }
 
     @Override
     public String toString() {
-        return "{" + this.getName() +
-                ",Money = " + this.getItem() +
-                ", Humor = " + this.getHumor() +
-                ", Number of PNJ = " + this.getNumberPNJ() +
-                '}';
+        return ANSI_CYAN +this.getName() + ":"+ newLine +
+                "   Money = " + this.getItem() + newLine +
+                "   Humeur = " + this.getHumor() + newLine +
+                "   Number of PNJ = " + this.getNumberPNJ()+ ANSI_RESET;
     }
 }

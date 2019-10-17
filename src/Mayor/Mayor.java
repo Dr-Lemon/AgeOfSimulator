@@ -2,6 +2,16 @@ package Mayor;
 
 
 public class Mayor {
+    public static String newLine = System.getProperty("line.separator");
+    public static final String ANSI_RESET = "\u001B[0m"; // PERMET L'AFFIFICHAGE EN COULEUR
+    public static final String ANSI_BLACK = "\u001B[30m";
+    public static final String ANSI_RED = "\u001B[31m";
+    public static final String ANSI_GREEN = "\u001B[32m";
+    public static final String ANSI_YELLOW = "\u001B[33m";
+    public static final String ANSI_BLUE = "\u001B[34m";
+    public static final String ANSI_PURPLE = "\u001B[35m";
+    public static final String ANSI_CYAN = "\u001B[36m";
+    public static final String ANSI_WHITE = "\u001B[37m";
     private int ressources, money;
 
 
@@ -56,10 +66,10 @@ public class Mayor {
 
     @Override
     public String toString() {
-        return "Mayor{" +
-                "ressources=" + ressources +
-                ", money=" + money +
-                "$}";
+        return ANSI_BLUE +"MAIRIE : " + newLine +ANSI_RESET+
+                ANSI_PURPLE +"   Ressources=" + ressources + ANSI_RESET +
+                ANSI_CYAN +"   Money=" + money + ANSI_RESET +
+                " $";
     }
 
 

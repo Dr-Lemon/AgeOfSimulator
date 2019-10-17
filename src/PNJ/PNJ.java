@@ -1,6 +1,7 @@
 package PNJ;
 
 public abstract class PNJ {
+    public static String newLine = System.getProperty("line.separator");
     private boolean life;
     private boolean seek;
     private int humor;
@@ -123,16 +124,16 @@ public abstract class PNJ {
 
     @Override
     public String toString() {
-        return "PNJ{" +
-                "life=" + life +
-                ", seek=" + seek +
-                ", humor=" + humor +
-                ", sleep=" + sleep +
-                ", money=" + money +
-                ", ressources=" + ressources +
-                ", Name='" + Name + '\'' +
-                ", Job='" + Job + '\'' +
-                ", Social='" + Social + '\'' +
+        return "PNJ sans type :" + newLine +
+                "   life=" + life + newLine +
+                "   seek=" + seek + newLine +
+                "   humor=" + humor + newLine +
+                "   sleep=" + sleep + newLine +
+                "   money=" + money + newLine +
+                "   ressources=" + ressources + newLine +
+                "   Name='" + Name + '\'' + newLine +
+                "   Job='" + Job + '\'' + newLine +
+                "   Social='" + Social + '\'' + newLine +
                 '}';
     }
 

@@ -14,9 +14,21 @@ import java.util.Scanner;
 //
 //
 //
+
 public class main {
 
     public static void main(String[] args) {
+        String ANSI_RESET = "\u001B[0m"; // PERMET L'AFFIFICHAGE EN COULEUR
+        String ANSI_BLACK = "\u001B[30m";
+        String ANSI_RED = "\u001B[31m";
+        String ANSI_GREEN = "\u001B[32m";
+        String ANSI_YELLOW = "\u001B[33m";
+        String ANSI_BLUE = "\u001B[34m";
+        String ANSI_PURPLE = "\u001B[35m";
+        String ANSI_CYAN = "\u001B[36m";
+        String ANSI_WHITE = "\u001B[37m";
+
+        String newLine = System.getProperty("line.separator");
         Scanner sc = new Scanner(System.in);
         Display affichage = new Display();
         Mayor maire = new Mayor();
@@ -30,11 +42,11 @@ public class main {
             while (choix != 6) {
                 System.out.println(maire);
                 System.out.println("Que voulez vous faire ?");
-                System.out.println("1- Créer une maison de Bourgeois (" + Store.getCoastBourgeoisHouse() + "$) (Disposant déjà d un H et une F)");
-                System.out.println("2- Créer un Bourgeois (" + Store.getCoastBourgeois() + "$)");
-                System.out.println("3- Créer une maison de Pauvres (" + Store.getCoastPoorHouse() + " $) (Disposant déjà d’un H et une F)");
-                System.out.println("4- Créer un Pauvre (" + Store.getCoastPoor() + "$)");
-                System.out.println("5- Créer une Femme (" + Store.getCoastWife() + "$)");
+                System.out.println(ANSI_CYAN +"1- Créer une maison de Bourgeois (" + Store.getCoastBourgeoisHouse() + "$) (Disposant déjà d un H et une F)"+ANSI_RESET);
+                System.out.println(ANSI_CYAN+"2- Créer un Bourgeois (" + Store.getCoastBourgeois() + "$)"+ANSI_RESET);
+                System.out.println(ANSI_PURPLE+"3- Créer une maison de Pauvres (" + Store.getCoastPoorHouse() + " $) (Disposant déjà d’un H et une F)"+ANSI_RESET);
+                System.out.println(ANSI_PURPLE+"4- Créer un Pauvre (" + Store.getCoastPoor() + "$)"+ANSI_RESET);
+                System.out.println(ANSI_YELLOW+"5- Créer une Femme (" + Store.getCoastWife() + "$)"+ANSI_RESET);
                 System.out.println("6- Continuer");
                 affichage.IntegerTest();
                 choix = affichage.getIntegre();
@@ -78,7 +90,10 @@ public class main {
                 }
             }
                 // JOUR
+                System.out.println("---------------------");
+                System.out.println("");
                 while (day != 7) {
+                    System.out.println("JOUR " + day + ":");
                     for (int i = 0; i < Maison.size(); ++i) {
                         House CurrentHouse = Maison.get(i);
                         //int Numb = SelectHouse.getNumberPNJ();
@@ -89,6 +104,8 @@ public class main {
                         ; // Affiche l’humeur et les ressources de chaque maison Chaque Jour
 
                     }
+                    System.out.println("---------------------");
+                    System.out.println();
 //                sc.next();
                     affichage.promptEnterKey();
                     day += 1;
@@ -96,17 +113,21 @@ public class main {
 
 
                 // FIN DE SEMAINE
+                System.out.println("*****************");
+                System.out.println("FIN DE LA SEMAINE");
                 for (int i = 0; i < Maison.size(); ++i) {
                     System.out.println(Maison.get(i));
                     ;// Affiche l’humeur et les ressources de chaque maison à la fin de la semaine
                     // Sleep de 500ms pour lui laisser le temps de lire, à faire sur le thread.
                 }
-
+                System.out.println("*****************");
+                System.out.println("");
                 for (int i = 0; i < Maison.size(); ++i) {
                     Maison.get(i).getItem();
                     int x;
                     if (Maison.get(i).getName() == "Chateaux") {// Si c’est bourgeois
                         int ask = (Maison.get(i).getItem() / 2);
+                        System.out.println(Maison.get(i));
                         System.out.println("cette maison reclame : " + ask + "Ressources");
                         System.out.println(maire);
                         System.out.println("Combien voulez vous donner ?");
@@ -117,17 +138,18 @@ public class main {
                         Maison.get(i).setItem(0); // On met les ressources de la maison à 0
                         if (x < ask) {
                             Maison.get(i).ChangeHumor(-1);
-                            System.out.println("Cette maison n’as pas bien été rémunéré attention cela va influencer leurs comportement !");
+                            System.out.println("Cette maison n’as pas bien été rémunéré attention cela va influencer leurs comportement !"+newLine);
                         }
                         if (x > ask) {
                             Maison.get(i).ChangeHumor(+1);
-                            System.out.println("Cette maison vous remercie pour votre confiance !");
+                            System.out.println("Cette maison vous remercie pour votre confiance !"+newLine);
                         }
                         if (x == ask) {
-                            System.out.println("L’échange s'est effectué avec succès !");
+                            System.out.println("L’échange s'est effectué avec succès !"+newLine);
                         }
                     } else { // Si c’est pauvre
                         int ask = (Maison.get(i).getItem());
+                        System.out.println(Maison.get(i));
                         System.out.println("cette maison reclame :" + ask + "$");
                         System.out.println(maire);
                         System.out.println("Combien voulez vous donner ?");
@@ -138,14 +160,14 @@ public class main {
                         Maison.get(i).setItem(0); // On met les ressources de la maison à 0
                         if (x < ask) {
                             Maison.get(i).ChangeHumor(-1);
-                            System.out.println("Cette maison n’as pas bien été rémunéré attention cela va influencer leurs comportement !");
+                            System.out.println(ANSI_RED+"Cette maison n’as pas bien été rémunéré attention cela va influencer leurs comportement !"+newLine+ ANSI_RESET);
                         }
                         if (x > ask) {
                             Maison.get(i).ChangeHumor(+1);
-                            System.out.println("Cette maison vous remercie pour votre confiance !");
+                            System.out.println(ANSI_GREEN+"Cette maison vous remercie pour votre confiance !"+newLine+ ANSI_RESET);
                         }
                         if (x == ask) {
-                            System.out.println("L’échange s'est effectué avec succès !");
+                            System.out.println("L’échange s'est effectué avec succès !"+newLine);
                         }
                     }
 
