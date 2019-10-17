@@ -183,7 +183,7 @@ public class Store {
             x.PushPNJ(y);
             x.PushPNJ(z);
             may.setMoney(may.getMoney() - coastPoorHouse);
-            System.out.println("Une Succulente Ferme à été ajoutée");
+            System.out.println("Une Suculente Ferme à été ajoutée");
 
         }
     }
