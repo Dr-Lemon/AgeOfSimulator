@@ -101,6 +101,7 @@ public class main {
                     }
                     for (int i = 0; i < Maison.size(); ++i) {
                         System.out.println(Maison.get(i));
+                        System.out.println("---------------------");
                         ; // Affiche l’humeur et les ressources de chaque maison Chaque Jour
 
                     }

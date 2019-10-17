@@ -116,17 +116,25 @@ public class House {
         this.humor = humor;
     }
 
-    public void ChangeHumor(int i){
-        if (i == -1) {
-
-            // TEST SI HUMOR = 1 MAISON DISPARAIT
-            this.humor -= 1;
-        }
-        if (i == 1) {
-            //TEST SI HUMOR = 3 NE RIEN FAIRE
-            this.humor += 1;
-        }
+    public void finalize(){
+        System.out.println("Tous les habitants de cette maison sont parti");
     }
+
+    public void ChangeHumor(int i){
+        switch (i){
+            case (-1):
+                if (this.humor == 1){finalize(); this.humor -=1}
+                else{this.humor -=1;}
+                break;
+            case (1):
+                if (this.humor == 3){}
+                else{this.humor += 1;}
+                break;
+            }
+        }
+
+
+
 
 
 }

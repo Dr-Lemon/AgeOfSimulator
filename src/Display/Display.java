@@ -27,7 +27,7 @@ public class Display {
             }
         } while (chiffre != true);
 
-        System.out.println("Cette valeur est bien un chiffre : " + str);
+        System.out.println("Ok");
         Integre = toto;
 
     }
