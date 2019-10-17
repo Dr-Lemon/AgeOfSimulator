@@ -62,6 +62,14 @@ public class Mayor {
         this.money = money;
     }
 
+    @Override
+    public String toString() {
+        return "Mayor{" +
+                "ressources=" + ressources +
+                ", money=" + money +
+                "$}";
+    }
+
     public Mayor() {
     }
 
