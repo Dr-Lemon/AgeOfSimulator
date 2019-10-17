@@ -34,56 +34,7 @@ public class main {
             if (maire.getMoney() == -1){break;}
             int day = 1;
             int choix = 0;
-            while (choix != 6) {
-                System.out.println(maire);
-                System.out.println("Que voulez vous faire ?");
-                System.out.println(ANSI_CYAN +"1- Créer une maison de Bourgeois (" + Store.getCoastBourgeoisHouse() + "$) (Disposant déjà d un H et une F)"+ANSI_RESET);
-                System.out.println(ANSI_CYAN+"2- Créer un Bourgeois (" + Store.getCoastBourgeois() + "$)"+ANSI_RESET);
-                System.out.println(ANSI_PURPLE+"3- Créer une maison de Pauvres (" + Store.getCoastPoorHouse() + " $) (Disposant déjà d’un H et une F)"+ANSI_RESET);
-                System.out.println(ANSI_PURPLE+"4- Créer un Pauvre (" + Store.getCoastPoor() + "$)"+ANSI_RESET);
-                System.out.println(ANSI_YELLOW+"5- Créer une Femme (" + Store.getCoastWife() + "$)"+ANSI_RESET);
-                System.out.println("6- Continuer");
-                affichage.IntegerTest();
-                choix = affichage.getIntegre();
-                // SWITCH MENU A FAIRE
-                switch(choix) {
-                    case (1):
-                        store.addBourgeoisHouse(maire);
-                        break;
-
-                    case (2):
-                        store.addBourgeois(maire);
-                        break;
-
-                    case (3):
-                        store.addPoorHouse(maire);
-                        break;
-
-                    case (4):
-                        store.addPoor(maire);
-                        break;
-
-                    case (5):
-                        System.out.println("1- Femme Bourgeoise");
-                        System.out.println("2- Femme Pauvre");
-                        affichage.IntegerTest();
-                        int choix2 = affichage.getIntegre();
-                        switch (choix2){
-                            case(1) :
-                                store.addBourgeoisWife(maire);
-                                break;
-                            case(2) :
-                                store.addPoorWife(maire);
-                                break;
-                        }
-                        break;
-
-                    case (6):
-                        break;
-
-
-                }
-            }
+            affichage.displayMenu(store, maire);
                 // JOUR
                 System.out.println("---------------------");
                 System.out.println("");
