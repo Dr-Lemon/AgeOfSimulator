@@ -102,10 +102,7 @@ public class Store {
                maire.setMoney(-1);
            }
            else{};
-
         }
-        System.out.println(house.size());
-
     }
 
     public void addBourgeoisHouse(Mayor may) { // Ajouter Maison de bourgeois
