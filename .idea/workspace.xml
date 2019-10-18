@@ -2,37 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2ddf56b-194f-4e94-aafc-9877662c3f95" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/Castle/Castle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/Castle/Castle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/Farm/Farm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/Farm/Farm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/House.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/Mayor/Mayor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/Mayor/Mayor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Bourgeois/Artisan/Artisan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Bourgeois/Artisan/Artisan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Bourgeois/Artist/Artist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Bourgeois/Artist/Artist.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Bourgeois/Merchant/Merchant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Bourgeois/Merchant/Merchant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Bourgeois/Royal/Royal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Bourgeois/Royal/Royal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Poor/Baker/Baker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Poor/Baker/Baker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Poor/Butcher/Butcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Poor/Butcher/Butcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Poor/Farmer/Farmer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Poor/Farmer/Farmer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Poor/LumberJack/LumberJack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Poor/LumberJack/LumberJack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Poor/Poor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Poor/Poor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/display/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/display/Display.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/house/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/house/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/house/castle/Castle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/house/castle/Castle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/house/farm/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/house/farm/Farm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mayor/Mayor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mayor/Mayor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pnj/PNJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pnj/PNJ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pnj/bourgeois/Bourgeois.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pnj/bourgeois/Bourgeois.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pnj/bourgeois/artisan/Artisan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pnj/bourgeois/artisan/Artisan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pnj/bourgeois/artist/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pnj/bourgeois/artist/Artist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pnj/bourgeois/merchant/Merchant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pnj/bourgeois/merchant/Merchant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pnj/bourgeois/royal/Royal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pnj/bourgeois/royal/Royal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pnj/poor/Poor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pnj/poor/Poor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pnj/poor/baker/Baker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pnj/poor/baker/Baker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pnj/poor/butcher/Butcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pnj/poor/butcher/Butcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pnj/poor/farmer/Farmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pnj/poor/farmer/Farmer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pnj/poor/lumberJack/LumberJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pnj/poor/lumberJack/LumberJack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/Store.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,103 +17,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mayor/Mayor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/house/castle/Castle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="26" column="20" selection-end-line="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pnj/bourgeois/artist/Artist.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pnj/poor/baker/Baker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/display/Display.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="67" column="7" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pnj/bourgeois/royal/Royal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/house/farm/Farm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="34" selection-end-line="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pnj/bourgeois/artisan/Artisan.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pnj/bourgeois/merchant/Merchant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -157,36 +34,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/Display/Display.java" />
-        <option value="$PROJECT_DIR$/src/House/Farm/Farm.java" />
-        <option value="$PROJECT_DIR$/src/House/Castle/Castle.java" />
-        <option value="$PROJECT_DIR$/src/House/House.java" />
-        <option value="$PROJECT_DIR$/src/Store/Store.java" />
-        <option value="$PROJECT_DIR$/src/pnj/wife/Wife.java" />
-        <option value="$PROJECT_DIR$/src/house/House.java" />
-        <option value="$PROJECT_DIR$/src/display/Display.java" />
-        <option value="$PROJECT_DIR$/src/mayor/Mayor.java" />
-        <option value="$PROJECT_DIR$/src/pnj/PNJ.java" />
-        <option value="$PROJECT_DIR$/src/main.java" />
-        <option value="$PROJECT_DIR$/src/store/Store.java" />
-        <option value="$PROJECT_DIR$/src/pnj/bourgeois/Bourgeois.java" />
-        <option value="$PROJECT_DIR$/src/pnj/poor/Poor.java" />
-        <option value="$PROJECT_DIR$/src/pnj/poor/lumberJack/LumberJack.java" />
-        <option value="$PROJECT_DIR$/src/pnj/poor/farmer/Farmer.java" />
-        <option value="$PROJECT_DIR$/src/pnj/poor/butcher/Butcher.java" />
-        <option value="$PROJECT_DIR$/src/pnj/poor/baker/Baker.java" />
-        <option value="$PROJECT_DIR$/src/pnj/bourgeois/royal/Royal.java" />
-        <option value="$PROJECT_DIR$/src/pnj/bourgeois/merchant/Merchant.java" />
-        <option value="$PROJECT_DIR$/src/pnj/bourgeois/artist/Artist.java" />
-        <option value="$PROJECT_DIR$/src/pnj/bourgeois/artisan/Artisan.java" />
-        <option value="$PROJECT_DIR$/src/house/farm/Farm.java" />
-        <option value="$PROJECT_DIR$/src/house/castle/Castle.java" />
-      </list>
-    </option>
-  </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
       <set>
@@ -201,36 +48,11 @@
   </component>
   <component name="ProjectId" id="1RvMGMP4fmwcYGL5WcryfOAuctF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AgeOfSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AgeOfSimulator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AgeOfSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AgeOfSimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Nouveau dossier" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Nouveau dossier" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -569,77 +391,6 @@
     <option name="localTasksCounter" value="35" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15663000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26100245" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Learn" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987775" weight="0.32922733" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32922733" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5012225" side_tool="true" weight="0.32922733" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.4987775" visible="true" weight="0.32922733" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32922733" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2555012" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Learn" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32922733" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32922733" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32922733" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32922733" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -659,12 +410,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -713,242 +458,6 @@
     <MESSAGE value="V1.10.1" />
     <MESSAGE value="V1.10.2" />
     <option name="LAST_COMMIT_MESSAGE" value="V1.10.2" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="uml://JAVA/main">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>main</OriginalElement>
-          <nodes>
-            <node x="" y="">main</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="37.0" y="14.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MODULES/mdl-AgeOfSimulator">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MODULES</ID>
-          <OriginalElement>mdl-AgeOfSimulator</OriginalElement>
-          <nodes>
-            <node x="" y="">mdl-AgeOfSimulator</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="80.0" y="10.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Test dependencies</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement />
-          <nodes>
-            <node x="" y="">com</node>
-            <node x="" y="">pnj.bourgeois.artisan.Artisan</node>
-            <node x="" y="">house.castle.Castle</node>
-            <node x="" y="">netscape</node>
-            <node x="" y="">pnj.bourgeois.royal.Royal</node>
-            <node x="" y="">main</node>
-            <node x="" y="">display.Display</node>
-            <node x="" y="">toolbarButtonGraphics</node>
-            <node x="" y="">sun</node>
-            <node x="" y="">pnj.poor.farmer.Farmer</node>
-            <node x="" y="">pnj.PNJ</node>
-            <node x="" y="">pnj.wife.Wife</node>
-            <node x="" y="">groovyjarjarasm</node>
-            <node x="" y="">java</node>
-            <node x="" y="">javax</node>
-            <node x="" y="">mayor.Mayor</node>
-            <node x="" y="">house.House</node>
-            <node x="" y="">pnj.poor.baker.Baker</node>
-            <node x="" y="">images</node>
-            <node x="" y="">org</node>
-            <node x="" y="">pnj.poor.Poor</node>
-            <node x="" y="">store.Store</node>
-            <node x="" y="">pnj.bourgeois.artist.Artist</node>
-            <node x="" y="">jdk</node>
-            <node x="" y="">META-INF</node>
-            <node x="" y="">house.farm.Farm</node>
-            <node x="" y="">groovy</node>
-            <node x="" y="">pnj.bourgeois.merchant.Merchant</node>
-            <node x="" y="">pnj.poor.butcher.Butcher</node>
-            <node x="" y="">pnj.poor.lumberJack.LumberJack</node>
-            <node x="" y="">groovyjarjarcommonscli</node>
-            <node x="" y="">groovyjarjarantlr</node>
-            <node x="" y="">pnj.bourgeois.Bourgeois</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.30000000000000016" x="547.0" y="1126.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pnj/wife/Wife.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="49" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/house/House.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="213" column="4" selection-start-line="213" selection-start-column="4" selection-end-line="213" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pnj/PNJ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/Store.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="73" column="43" selection-start-line="73" selection-start-column="43" selection-end-line="73" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pnj/bourgeois/Bourgeois.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="10" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pnj/poor/Poor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pnj/poor/lumberJack/LumberJack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pnj/poor/farmer/Farmer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pnj/poor/butcher/Butcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pnj/poor/baker/Baker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pnj/bourgeois/royal/Royal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pnj/bourgeois/artist/Artist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pnj/bourgeois/merchant/Merchant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pnj/bourgeois/artisan/Artisan.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mayor/Mayor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/house/farm/Farm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="34" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/house/castle/Castle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="20" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/display/Display.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="67" column="7" lean-forward="true" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

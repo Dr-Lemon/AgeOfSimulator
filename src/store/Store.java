@@ -244,7 +244,7 @@ public class Store {
     /**
      * Add bourgeois wife.
      *
-     * @param may the may
+     * @param may the Mayor
      */
     public void addBourgeoisWife(Mayor may) { // Ajouter une Bourgeoise
         System.out.println(ANSI_GREEN + "1 Continuer " + ANSI_RED + " 2- Annuler" + ANSI_RESET);
@@ -288,7 +288,7 @@ public class Store {
     /**
      * Add poor wife.
      *
-     * @param may the may
+     * @param may the Mayor
      */
     public void addPoorWife(Mayor may) { // Ajouter une Pauvre
         System.out.println(ANSI_GREEN + "1 Continuer " + ANSI_RED + " 2- Annuler" + ANSI_RESET);
@@ -333,7 +333,7 @@ public class Store {
     /**
      * Add poor.
      *
-     * @param may the may
+     * @param may the Mayor
      */
     public void addPoor(Mayor may) { // Ajoute un Pauvre
         System.out.println(ANSI_GREEN + "1 Continuer " + ANSI_RED + " 2- Annuler" + ANSI_RESET);
@@ -378,7 +378,7 @@ public class Store {
     /**
      * Add poor house.
      *
-     * @param may the may
+     * @param may the Mayor
      */
     public void addPoorHouse(Mayor may) { // Ajoute une maison de Pauvres
         System.out.println(ANSI_GREEN + "1 Continuer " + ANSI_RED + " 2- Annuler" + ANSI_RESET);

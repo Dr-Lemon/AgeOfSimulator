@@ -14,35 +14,35 @@ public class Display {
      */
     public static String newLine = System.getProperty("line.separator");
     /**
-     * The constant ANSI_RESET.
+     * The constant ANSI_RESET BOUCLE CODE COULEUR FERMETURE.
      */
     public static String ANSI_RESET = "\u001B[0m"; // PERMET L'AFFIFICHAGE EN COULEUR
     /**
-     * The constant ANSI_BLACK.
+     * The constant ANSI_BLACK BOUCLE CODE COULEUR NOIR.
      */
     public static String ANSI_BLACK = "\u001B[30m";
     /**
-     * The constant ANSI_RED.
+     * The constant ANSI_RED BOUCLE CODE COULEUR ROUGE.
      */
     public static String ANSI_RED = "\u001B[31m";
     /**
-     * The constant ANSI_GREEN.
+     * The constant ANSI_GREEN BOUCLE CODE COULEUR VERT.
      */
     public static String ANSI_GREEN = "\u001B[32m";
     /**
-     * The constant ANSI_YELLOW.
+     * The constant ANSI_YELLOW BOUCLE CODE COULEUR JAUNE.
      */
     public static String ANSI_YELLOW = "\u001B[33m";
     /**
-     * The constant ANSI_BLUE.
+     * The constant ANSI_BLUE BOUCLE CODE COULEUR BLEU.
      */
     public static String ANSI_BLUE = "\u001B[34m";
     /**
-     * The constant ANSI_PURPLE.
+     * The constant ANSI_PURPLE BOUCLE CODE COULEUR VIOLET.
      */
     public static String ANSI_PURPLE = "\u001B[35m";
     /**
-     * The constant ANSI_CYAN.
+     * The constant ANSI_CYAN BOUCLE CODE COULEUR CYAN.
      */
     public static String ANSI_CYAN = "\u001B[36m";
     /**
@@ -53,7 +53,7 @@ public class Display {
     private static Scanner sc = new Scanner(System.in);
 
     /**
-     * Prompt enter key.
+     * Prompt enter key // Tempo avec en attente la touche entrée.
      */
     public static void promptEnterKey() {
         System.out.println("Press \"ENTER\" to continue...");
@@ -63,7 +63,7 @@ public class Display {
     /**
      * Display menu.
      *
-     * @param store the store
+     * @param store Le magasin
      * @param maire the maire
      */
     public static void displayMenu(Store store, Mayor maire) {
@@ -123,6 +123,7 @@ public class Display {
 
     /**
      * Integer test.
+     * Permet de tester si le carractère est un chiffre et si il est bien négatif
      */
     public static void IntegerTest() {
 
@@ -156,86 +157,6 @@ public class Display {
         return Integre;
     }
 
-    /**
-     * Gets ansi reset.
-     *
-     * @return the ansi reset
-     */
-    public static String getAnsiReset() {
-        return ANSI_RESET;
-    }
-
-    /**
-     * Gets ansi black.
-     *
-     * @return the ansi black
-     */
-    public static String getAnsiBlack() {
-        return ANSI_BLACK;
-    }
-
-    /**
-     * Gets ansi red.
-     *
-     * @return the ansi red
-     */
-    public static String getAnsiRed() {
-        return ANSI_RED;
-    }
-
-    /**
-     * Gets ansi green.
-     *
-     * @return the ansi green
-     */
-    public static String getAnsiGreen() {
-        return ANSI_GREEN;
-    }
-
-    /**
-     * Gets ansi yellow.
-     *
-     * @return the ansi yellow
-     */
-    public static String getAnsiYellow() {
-        return ANSI_YELLOW;
-    }
-
-    /**
-     * Gets ansi blue.
-     *
-     * @return the ansi blue
-     */
-    public static String getAnsiBlue() {
-        return ANSI_BLUE;
-    }
-
-    /**
-     * Gets ansi purple.
-     *
-     * @return the ansi purple
-     */
-    public static String getAnsiPurple() {
-        return ANSI_PURPLE;
-    }
-
-    /**
-     * Gets ansi cyan.
-     *
-     * @return the ansi cyan
-     */
-    public static String getAnsiCyan() {
-        return ANSI_CYAN;
-    }
-
-    /**
-     * Gets ansi white.
-     *
-     * @return the ansi white
-     */
-    public static String getAnsiWhite() {
-        return ANSI_WHITE;
-    }
 
 }
 

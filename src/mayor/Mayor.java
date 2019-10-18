@@ -39,7 +39,7 @@ public class Mayor {
     /**
      * Gets dept.
      *
-     * @return the dept
+     * @return the dept // Dette
      */
     public int getDept() {
         return dept;
@@ -48,7 +48,7 @@ public class Mayor {
     /**
      * Sets dept.
      *
-     * @param dept the dept
+     * @param dept the dept dette
      */
     public void setDept(int dept) {
         this.dept = dept;

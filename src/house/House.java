@@ -176,16 +176,6 @@ public class House {
     }
 
     /**
-     * Sets maxnumber.
-     *
-     * @param MAXNUMBER the maxnumber
-     */
-    public void setMAXNUMBER(int MAXNUMBER) {
-        this.MaxNumber = MAXNUMBER;
-    }
-
-
-    /**
      * Gets name.
      *
      * @return the name
