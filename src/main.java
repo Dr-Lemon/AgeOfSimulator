@@ -25,6 +25,23 @@ public class main {
         Store store = new Store();
         ArrayList<House> Maison = store.getHouse();
 
+        System.out.println(ANSI_CYAN + "---------------------------------------------------------------------------------------------------------------------");
+        System.out.println("                        Vous êtes le maire d'une ville et vous contrôlez des habitants");
+        System.out.println("                        Il existe deux types d'habitants : les Bourgeois et les Pauvres");
+        System.out.println("            En tant que Maire vous recevez des impôts mais vous devez aussi payer les habitants");
+        System.out.println("    Attention si vous payez moins que ce que les habitants demandent cela pourra faire varier leurs comportements");
+        System.out.println("                Voir même les faires quitter votre belle ville ! Alors ne les contrariait pas !");
+        System.out.println("---------------------------------------------------------------------------------------------------------------------" + ANSI_RESET);
+        affichage.promptEnterKey();
+        System.out.println(ANSI_CYAN + "---------------------------------------------------------------------------------------------------------------------");
+        System.out.println("");
+        System.out.println("                But du jeu : Atteindre 100 000$ tout en gardant le plus de maison possible");
+        System.out.println("                        Mais attention si vous êtes à découvert pendant trois tours  ");
+        System.out.println("                            ou que vous n'avez plus aucune maison vous perdez");
+        System.out.println("");
+        System.out.println("---------------------------------------------------------------------------------------------------------------------" + ANSI_RESET);
+        affichage.promptEnterKey();
+
         while (maire.getMoney() <= 100000) {
 
             store.checkHouse(maire);
