@@ -1,19 +1,12 @@
-import Display.Display;
-import House.Castle.Castle;
-import House.Farm.Farm;
-import House.House;
-import Mayor.Mayor;
-import Store.Store;
-import PNJ.Bourgeois.Bourgeois;
-import PNJ.PNJ;
-import PNJ.Poor.Poor;
-import PNJ.Wife.Wife;
+import display.Display;
+import house.House;
+import mayor.Mayor;
+import store.Store;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.awt.Font;
 
-import static Display.Display.*;
+import static display.Display.*;
 //
 //
 //
