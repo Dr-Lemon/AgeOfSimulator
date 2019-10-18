@@ -62,7 +62,12 @@ public class Store {
         }
     }
 
-
+    public static void checkDept(Mayor maire){
+        if(maire.getMoney()<0 || maire.getMoney()<0){
+            maire.setDept(maire.getDept()+1);
+            System.out.println(ANSI_RED+"Attention vous êtes en négatif !" + " Il vous restes "+(3-maire.getDept()+ "jour")+ANSI_RESET);
+        }
+    }
 
     public static int getCoastBourgeois() {
         return coastBourgeois;

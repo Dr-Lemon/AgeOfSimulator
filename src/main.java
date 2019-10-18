@@ -23,9 +23,9 @@ public class main {
         int game = 0;
 
 
-        while (maire.getMoney() <= 100000) {
+        while (maire.getMoney() <= 100000 || maire .getMoney() >= 0) {
             store.checkHouse(maire);
-            if (maire.getMoney() == -1){break;}
+            if (maire.getMoney() == -1 || maire.getDept() == 3){break;}
             int day = 1;
             int choix = 0;
             affichage.displayMenu(store, maire);
@@ -39,7 +39,7 @@ public class main {
                     for (int i = 0; i < Maison.size(); ++i) {
                         House CurrentHouse = Maison.get(i);
                         //int Numb = SelectHouse.getNumberPNJ();
-                        CurrentHouse.Product(); // ON POINTE VERS UNE MAISON
+                        CurrentHouse.Product(CurrentHouse.getHumor()); // ON POINTE VERS UNE MAISON
                     }
                     for (int i = 0; i < Maison.size(); ++i) {
                         System.out.println(Maison.get(i));
@@ -120,6 +120,7 @@ public class main {
                     //house.get(i).toString();
                 }
                 store.checkHouse(maire);
+                store.checkDept(maire);
             }
         System.out.println("GAME OVER");
         }

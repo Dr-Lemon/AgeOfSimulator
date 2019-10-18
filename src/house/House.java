@@ -55,8 +55,8 @@ public class House {
         return this.HPnj.size();
     }
 
-    public void Product(){
-        for (int i = 0; i < this.CurrentPnj.size(); ++i) {
+    public void Product(int humor){
+        if (humor == 3){for (int i = 0; i < this.CurrentPnj.size(); ++i) {
             PNJ PNJ = CurrentPnj.get(i); // ON POINTE VERS UN pnj
             PNJ.Farm(3);
             PNJ.Eat(1);
@@ -68,7 +68,34 @@ public class House {
             }
 
             PNJ.setRessources(0);
-        }
+        }}
+        if (humor == 2){for (int i = 0; i < this.CurrentPnj.size(); ++i) {
+            PNJ PNJ = CurrentPnj.get(i); // ON POINTE VERS UN pnj
+            PNJ.Farm(2);
+            PNJ.Eat(1);
+            if(PNJ.getSocial()=="poor"){
+                this.item += PNJ.getRessources();
+            }
+            if(PNJ.getSocial()=="bourgeois"){
+                this.item += PNJ.getMoney();
+            }
+
+            PNJ.setRessources(0);
+        }}
+        if (humor == 1){for (int i = 0; i < this.CurrentPnj.size(); ++i) {
+            PNJ PNJ = CurrentPnj.get(i); // ON POINTE VERS UN pnj
+            PNJ.Farm(1);
+            PNJ.Eat(1);
+            if(PNJ.getSocial()=="poor"){
+                this.item += PNJ.getRessources();
+            }
+            if(PNJ.getSocial()=="bourgeois"){
+                this.item += PNJ.getMoney();
+            }
+
+            PNJ.setRessources(0);
+        }}
+
     }
 
 
