@@ -48,7 +48,7 @@ public class Store {
         Store.house = house;
     }
     public static void AskAddPNJ(House CurrentHouse, Mayor may, PNJ z, String fa){
-        System.out.println( ANSI_GREEN +"1- Oui" + ANSI_RESET + ANSI_RED + "2- Non" + ANSI_RESET);
+        System.out.println( ANSI_GREEN +"1- Oui " + ANSI_RESET + ANSI_RED + " 2- Non" + ANSI_RESET);
         affichage.IntegerTest();
         int choix = affichage.getIntegre();
         switch (choix){
@@ -104,7 +104,7 @@ public class Store {
     }
 
     public void addBourgeoisHouse(Mayor may) { // Ajouter Maison de Bourgeois
-        System.out.println(ANSI_GREEN + "1 Continuer" +ANSI_RED + "2- Annuler" + ANSI_RESET);
+        System.out.println(ANSI_GREEN + "1 Continuer " +ANSI_RED + " 2- Annuler" + ANSI_RESET);
         affichage.IntegerTest();
         choix = affichage.getIntegre();
         switch (choix) {
@@ -128,7 +128,7 @@ public class Store {
     }
 
     public void addBourgeois(Mayor may) { // Ajouter un Bourgeois
-        System.out.println(ANSI_GREEN + "1 Continuer" +ANSI_RED + "2- Annuler" + ANSI_RESET);
+        System.out.println(ANSI_GREEN + "1 Continuer " +ANSI_RED + " 2- Annuler" + ANSI_RESET);
         affichage.IntegerTest();
         choix = affichage.getIntegre();
         switch (choix) {
@@ -168,7 +168,7 @@ public class Store {
     }
 
     public void addBourgeoisWife(Mayor may) { // Ajouter une Bourgeoise
-        System.out.println(ANSI_GREEN + "1 Continuer" +ANSI_RED +  "2- Annuler" + ANSI_RESET);
+        System.out.println(ANSI_GREEN + "1 Continuer " +ANSI_RED +  " 2- Annuler" + ANSI_RESET);
         affichage.IntegerTest();
         choix = affichage.getIntegre();
         switch (choix) {
@@ -208,7 +208,7 @@ public class Store {
     }
 
     public void addPoorWife(Mayor may) { // Ajouter une Pauvre
-        System.out.println(ANSI_GREEN + "1 Continuer" +ANSI_RED +  "2- Annuler" + ANSI_RESET);
+        System.out.println(ANSI_GREEN + "1 Continuer " +ANSI_RED +  " 2- Annuler" + ANSI_RESET);
         affichage.IntegerTest();
         int choix = affichage.getIntegre();
         switch (choix) {
@@ -249,7 +249,7 @@ public class Store {
 
 
     public void addPoor(Mayor may) { // Ajoute un Pauvre
-        System.out.println(ANSI_GREEN + "1 Continuer" +ANSI_RED +  "2- Annuler"+ ANSI_RESET);
+        System.out.println(ANSI_GREEN + "1 Continuer " +ANSI_RED +  " 2- Annuler"+ ANSI_RESET);
         affichage.IntegerTest();
         int choix = affichage.getIntegre();
         switch (choix) {
@@ -270,7 +270,7 @@ public class Store {
                     affichage.IntegerTest();
                     x = getIntegre();
                     House CrentHouse = house.get(x);
-                    if (CrentHouse.getName() == "Chateaux") {
+                    if (CrentHouse.getName() == "Ferme") {
                         if (house.get(x).getNumberPNJ() > 8 || (house.get(x).getNumberHPNJ() / 2) == house.get(x).getNumberWPNJ()) {
                             System.out.println(ANSI_RED + "Maison PLEINE ON TA DIT ON VA TE MANGER ou alors il y pas assez de femme !" + ANSI_RESET);
                         } else {
@@ -290,7 +290,7 @@ public class Store {
     }
 
     public void addPoorHouse(Mayor may) { // Ajoute une maison de Pauvres
-        System.out.println(ANSI_GREEN"1 Continuer" +ANSI_RED + "2- Annuler"+ ANSI_RESET);
+        System.out.println(ANSI_GREEN + "1 Continuer " +ANSI_RED + " 2- Annuler"+ ANSI_RESET);
         affichage.IntegerTest();
         int choix = affichage.getIntegre();
         switch (choix) {
