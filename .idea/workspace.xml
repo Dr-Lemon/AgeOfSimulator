@@ -3,25 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a2ddf56b-194f-4e94-aafc-9877662c3f95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/Castle/Castle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/Castle/Castle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/Farm/Farm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/Farm/Farm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/House.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/Mayor/Mayor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/Mayor/Mayor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Bourgeois/Artisan/Artisan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Bourgeois/Artisan/Artisan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Bourgeois/Artist/Artist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Bourgeois/Artist/Artist.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Bourgeois/Bourgeois.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Bourgeois/Bourgeois.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Bourgeois/Merchant/Merchant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Bourgeois/Merchant/Merchant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Bourgeois/Royal/Royal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Bourgeois/Royal/Royal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/PNJ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/PNJ.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Poor/Baker/Baker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Poor/Baker/Baker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Poor/Butcher/Butcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Poor/Butcher/Butcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Poor/Farmer/Farmer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Poor/Farmer/Farmer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Poor/LumberJack/LumberJack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Poor/LumberJack/LumberJack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Poor/Poor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/PNJ/Poor/Poor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/house/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/house/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mayor/Mayor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mayor/Mayor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/Store.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/house/House.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+            <state relative-caret-position="166">
+              <caret line="99" column="20" lean-forward="true" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#632#633#0" expanded="true" />
@@ -76,23 +58,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/house/castle/Castle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-              <folding>
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/store/Store.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="68" column="9" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+            <state relative-caret-position="323">
+              <caret line="103" column="18" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#515#522#0" expanded="true" />
@@ -124,6 +93,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pnj/wife/Wife.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -474,10 +452,10 @@
         <option value="$PROJECT_DIR$/src/House/Castle/Castle.java" />
         <option value="$PROJECT_DIR$/src/House/House.java" />
         <option value="$PROJECT_DIR$/src/Store/Store.java" />
-        <option value="$PROJECT_DIR$/src/house/House.java" />
         <option value="$PROJECT_DIR$/src/mayor/Mayor.java" />
         <option value="$PROJECT_DIR$/src/main.java" />
         <option value="$PROJECT_DIR$/src/store/Store.java" />
+        <option value="$PROJECT_DIR$/src/house/House.java" />
       </list>
     </option>
   </component>
@@ -511,11 +489,6 @@
             <path>
               <item name="AgeOfSimulator" type="b2602c69:ProjectViewProjectNode" />
               <item name="AgeOfSimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AgeOfSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AgeOfSimulator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -523,6 +496,12 @@
               <item name="AgeOfSimulator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="display" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AgeOfSimulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AgeOfSimulator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AgeOfSimulator" type="b2602c69:ProjectViewProjectNode" />
@@ -549,6 +528,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pnj" type="462c0819:PsiDirectoryNode" />
               <item name="poor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AgeOfSimulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AgeOfSimulator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pnj" type="462c0819:PsiDirectoryNode" />
+              <item name="wife" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AgeOfSimulator" type="b2602c69:ProjectViewProjectNode" />
@@ -873,11 +859,25 @@
       <option name="project" value="LOCAL" />
       <updated>1571387790624</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="V1.9">
+      <created>1571398101959</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1571398101959</updated>
+    </task>
+    <task id="LOCAL-00032" summary="V1.10">
+      <created>1571398241590</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1571398241591</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11363000" />
+    <option name="totallyTimeSpent" value="12259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -994,7 +994,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ajouts de classe Bourgeois :&#10;&#10;Artisan&#10;Merchant" />
     <MESSAGE value="Ajouts dans les classe metier : &#10;- un constructeur par default () qui init name à &quot;Kevin&quot;&#10;- un constructeur avec param name qui init avec choix du nom" />
     <MESSAGE value="Correction du main (coordonance avec le pseudo code)&#10;&#10;Erreur avec larayList House" />
     <MESSAGE value="Correction du main (coordonance avec le pseudo code)&#10;&#10;Erreur avec l'ArrayList House&#10;&#10;Ajout de la classe wife avec la methode GiveBirth inactif" />
@@ -1019,7 +1018,8 @@
     <MESSAGE value="V1.7 (Sans bug)" />
     <MESSAGE value="V1.8 (Sans bug)" />
     <MESSAGE value="V1.9" />
-    <option name="LAST_COMMIT_MESSAGE" value="V1.9" />
+    <MESSAGE value="V1.10" />
+    <option name="LAST_COMMIT_MESSAGE" value="V1.10" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pnj/poor/butcher/Butcher.java">
@@ -1047,17 +1047,6 @@
           <folding>
             <element signature="e#274#275#0" expanded="true" />
             <element signature="e#306#307#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pnj/wife/Wife.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-          <folding>
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1408,18 +1397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/house/House.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pnj/bourgeois/Bourgeois.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1466,8 +1443,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/store/Store.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="68" column="9" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+        <state relative-caret-position="323">
+          <caret line="103" column="18" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#515#522#0" expanded="true" />
@@ -1480,6 +1457,25 @@
             <element signature="e#2360#2361#0" expanded="true" />
             <element signature="e#2452#2453#0" expanded="true" />
             <element signature="e#2534#2535#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pnj/wife/Wife.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/house/House.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="99" column="20" lean-forward="true" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
           </folding>
         </state>
       </provider>
