@@ -11,15 +11,23 @@ import static display.Display.*;
 //
 //
 
+/**
+ * The type Main.
+ */
 public class main {
 
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         Display affichage = new Display();
         Mayor maire = new Mayor();
         Store store = new Store();
         ArrayList<House> Maison = store.getHouse();
 
-        while (maire.getMoney() <= 100000 || maire.getMoney() >= 0) {
+        while (maire.getMoney() <= 100000) {
 
             store.checkHouse(maire);
             if (maire.getMoney() == -1 || maire.getDept() == 3) {

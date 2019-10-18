@@ -14,6 +14,9 @@ import static display.Display.*;
 
 import java.util.ArrayList;
 
+/**
+ * The type Store.
+ */
 public class Store {
     private static int x;
     private static int choix;
@@ -26,6 +29,9 @@ public class Store {
     private static final int coastPoorHouse = 20;
 
 
+    /**
+     * Instantiates a new Store.
+     */
     public Store() {
         PNJ P1 = new Poor();
         PNJ P3 = new Wife();
@@ -41,14 +47,32 @@ public class Store {
         H2.PushPNJ(P5);
     }
 
+    /**
+     * Gets house.
+     *
+     * @return the house
+     */
     public static ArrayList<House> getHouse() {
         return house;
     }
 
+    /**
+     * Sets house.
+     *
+     * @param house the house
+     */
     public static void setHouse(ArrayList<House> house) {
         Store.house = house;
     }
 
+    /**
+     * Ask add pnj.
+     *
+     * @param CurrentHouse the current house
+     * @param may          the MAYOR
+     * @param z            the PNJ
+     * @param fa           the Entry String
+     */
     public static void AskAddPNJ(House CurrentHouse, Mayor may, PNJ z, String fa) {
         System.out.println(ANSI_GREEN + "1- Oui " + ANSI_RESET + ANSI_RED + " 2- Non" + ANSI_RESET);
         affichage.IntegerTest();
@@ -64,6 +88,11 @@ public class Store {
         }
     }
 
+    /**
+     * Check dept.
+     *
+     * @param maire the maire
+     */
     public static void checkDept(Mayor maire) {
         if (maire.getMoney() < 0 || maire.getMoney() < 0) {
             maire.setDept(maire.getDept() + 1);
@@ -71,26 +100,56 @@ public class Store {
         }
     }
 
+    /**
+     * Gets coast bourgeois.
+     *
+     * @return the coast bourgeois
+     */
     public static int getCoastBourgeois() {
         return coastBourgeois;
     }
 
+    /**
+     * Gets coast poor.
+     *
+     * @return the coast poor
+     */
     public static int getCoastPoor() {
         return coastPoor;
     }
 
+    /**
+     * Gets coast wife.
+     *
+     * @return the coast wife
+     */
     public static int getCoastWife() {
         return coastWife;
     }
 
+    /**
+     * Gets coast bourgeois house.
+     *
+     * @return the coast bourgeois house
+     */
     public static int getCoastBourgeoisHouse() {
         return coastBourgeoisHouse;
     }
 
+    /**
+     * Gets coast poor house.
+     *
+     * @return the coast poor house
+     */
     public static int getCoastPoorHouse() {
         return coastPoorHouse;
     }
 
+    /**
+     * Check house.
+     *
+     * @param maire the maire
+     */
     public static void checkHouse(Mayor maire) {
         for (int i = 0; i < house.size(); i++) {
             House CurrentHouse = house.get(i);
@@ -108,6 +167,11 @@ public class Store {
         }
     }
 
+    /**
+     * Add bourgeois house.
+     *
+     * @param may the may
+     */
     public void addBourgeoisHouse(Mayor may) { // Ajouter Maison de bourgeois
         System.out.println(ANSI_GREEN + "1 Continuer " + ANSI_RED + " 2- Annuler" + ANSI_RESET);
         affichage.IntegerTest();
@@ -133,6 +197,11 @@ public class Store {
         }
     }
 
+    /**
+     * Add bourgeois.
+     *
+     * @param may the may
+     */
     public void addBourgeois(Mayor may) { // Ajouter un bourgeois
         System.out.println(ANSI_GREEN + "1 Continuer " + ANSI_RED + " 2- Annuler" + ANSI_RESET);
         affichage.IntegerTest();
@@ -172,6 +241,11 @@ public class Store {
         }
     }
 
+    /**
+     * Add bourgeois wife.
+     *
+     * @param may the may
+     */
     public void addBourgeoisWife(Mayor may) { // Ajouter une Bourgeoise
         System.out.println(ANSI_GREEN + "1 Continuer " + ANSI_RED + " 2- Annuler" + ANSI_RESET);
         affichage.IntegerTest();
@@ -211,6 +285,11 @@ public class Store {
         }
     }
 
+    /**
+     * Add poor wife.
+     *
+     * @param may the may
+     */
     public void addPoorWife(Mayor may) { // Ajouter une Pauvre
         System.out.println(ANSI_GREEN + "1 Continuer " + ANSI_RED + " 2- Annuler" + ANSI_RESET);
         affichage.IntegerTest();
@@ -251,6 +330,11 @@ public class Store {
     }
 
 
+    /**
+     * Add poor.
+     *
+     * @param may the may
+     */
     public void addPoor(Mayor may) { // Ajoute un Pauvre
         System.out.println(ANSI_GREEN + "1 Continuer " + ANSI_RED + " 2- Annuler" + ANSI_RESET);
         affichage.IntegerTest();
@@ -291,6 +375,11 @@ public class Store {
         }
     }
 
+    /**
+     * Add poor house.
+     *
+     * @param may the may
+     */
     public void addPoorHouse(Mayor may) { // Ajoute une maison de Pauvres
         System.out.println(ANSI_GREEN + "1 Continuer " + ANSI_RED + " 2- Annuler" + ANSI_RESET);
         affichage.IntegerTest();
