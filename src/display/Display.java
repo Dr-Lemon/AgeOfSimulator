@@ -24,22 +24,22 @@ public class Display {
         sc.nextLine();
     }
 
-    public static void displayMenu(Store store, Mayor maire){
+    public static void displayMenu(Store store, Mayor maire) {
 
         int choix = 0;
         while (choix != 6) {
             System.out.println(maire);
             System.out.println("Que voulez vous faire ?");
-            System.out.println(ANSI_CYAN +"1- Créer une maison de bourgeois (" + Store.getCoastBourgeoisHouse() + "$) (Disposant déjà d un H et une F)"+ANSI_RESET);
-            System.out.println(ANSI_CYAN+"2- Créer un bourgeois (" + Store.getCoastBourgeois() + "$)"+ANSI_RESET);
-            System.out.println(ANSI_PURPLE+"3- Créer une maison de Pauvres (" + Store.getCoastPoorHouse() + " $) (Disposant déjà d’un H et une F)"+ANSI_RESET);
-            System.out.println(ANSI_PURPLE+"4- Créer un Pauvre (" + Store.getCoastPoor() + "$)"+ANSI_RESET);
-            System.out.println(ANSI_YELLOW+"5- Créer une Femme (" + Store.getCoastWife() + "$)"+ANSI_RESET);
-            System.out.println(ANSI_GREEN+"6- Continuer" + ANSI_RESET);
+            System.out.println(ANSI_CYAN + "1- Créer une maison de bourgeois (" + Store.getCoastBourgeoisHouse() + "$) (Disposant déjà d un H et une F)" + ANSI_RESET);
+            System.out.println(ANSI_CYAN + "2- Créer un bourgeois (" + Store.getCoastBourgeois() + "$)" + ANSI_RESET);
+            System.out.println(ANSI_PURPLE + "3- Créer une maison de Pauvres (" + Store.getCoastPoorHouse() + " $) (Disposant déjà d’un H et une F)" + ANSI_RESET);
+            System.out.println(ANSI_PURPLE + "4- Créer un Pauvre (" + Store.getCoastPoor() + "$)" + ANSI_RESET);
+            System.out.println(ANSI_YELLOW + "5- Créer une Femme (" + Store.getCoastWife() + "$)" + ANSI_RESET);
+            System.out.println(ANSI_GREEN + "6- Continuer" + ANSI_RESET);
             IntegerTest();
             choix = getIntegre();
             // SWITCH MENU A FAIRE
-            switch(choix) {
+            switch (choix) {
                 case (1):
                     store.addBourgeoisHouse(maire);
                     break;
@@ -57,15 +57,15 @@ public class Display {
                     break;
 
                 case (5):
-                    System.out.println(ANSI_YELLOW + "1- Femme Bourgeoise"+ ANSI_RESET);
+                    System.out.println(ANSI_YELLOW + "1- Femme Bourgeoise" + ANSI_RESET);
                     System.out.println(ANSI_YELLOW + "2- Femme Pauvre" + ANSI_RESET);
                     IntegerTest();
                     int choix2 = getIntegre();
-                    switch (choix2){
-                        case(1) :
+                    switch (choix2) {
+                        case (1):
                             store.addBourgeoisWife(maire);
                             break;
-                        case(2) :
+                        case (2):
                             store.addPoorWife(maire);
                             break;
                     }
@@ -78,7 +78,8 @@ public class Display {
             }
         }
     }
-    public static void IntegerTest(){
+
+    public static void IntegerTest() {
 
 
         boolean chiffre = false;
@@ -88,17 +89,17 @@ public class Display {
             str = sc.nextLine();
             try {
                 toto = Integer.parseInt(str);
-                if (toto < 0){
+                if (toto < 0) {
                     System.out.println(ANSI_RED + "Chiffre Négatif Interdit ! PAS DE TRICHE ICI !" + ANSI_RESET);
-                }
-                else{
-                chiffre = true;} // si ton exécution arrive jusque là, ça signifie qu'il n'y a aucune exception lancée et que ta saisie est donc bien un chiffre
-            } catch(NumberFormatException e) {
+                } else {
+                    chiffre = true;
+                } // si ton exécution arrive jusque là, ça signifie qu'il n'y a aucune exception lancée et que ta saisie est donc bien un chiffre
+            } catch (NumberFormatException e) {
                 System.out.println(ANSI_RED + "Cette valeur n'est pas un chiffre, essaie encore !" + ANSI_RESET);
             }
         } while (chiffre != true);
 
-            Integre = toto;
+        Integre = toto;
     }
 
     public static int getIntegre() {

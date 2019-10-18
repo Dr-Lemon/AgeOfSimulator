@@ -3,7 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="a2ddf56b-194f-4e94-aafc-9877662c3f95" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/House.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AgeOfSimulator/House/House.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/display/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/display/Display.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/house/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/house/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/house/castle/Castle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/house/castle/Castle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/house/farm/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/house/farm/Farm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mayor/Mayor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mayor/Mayor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pnj/PNJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pnj/PNJ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pnj/bourgeois/Bourgeois.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pnj/bourgeois/Bourgeois.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pnj/bourgeois/artisan/Artisan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pnj/bourgeois/artisan/Artisan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pnj/bourgeois/artist/Artist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pnj/bourgeois/artist/Artist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pnj/bourgeois/merchant/Merchant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pnj/bourgeois/merchant/Merchant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pnj/bourgeois/royal/Royal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pnj/bourgeois/royal/Royal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pnj/poor/Poor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pnj/poor/Poor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pnj/poor/baker/Baker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pnj/poor/baker/Baker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pnj/poor/butcher/Butcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pnj/poor/butcher/Butcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pnj/poor/farmer/Farmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pnj/poor/farmer/Farmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pnj/poor/lumberJack/LumberJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pnj/poor/lumberJack/LumberJack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pnj/wife/Wife.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pnj/wife/Wife.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/Store.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,83 +35,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="27" column="71" lean-forward="true" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
+            <state relative-caret-position="208">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mayor/Mayor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-              <folding>
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/house/House.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="99" column="20" lean-forward="true" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#664#665#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/store/Store.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="103" column="18" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#515#522#0" expanded="true" />
-                <element signature="e#1172#1173#0" expanded="true" />
-                <element signature="e#1200#1201#0" expanded="true" />
-                <element signature="e#1259#1260#0" expanded="true" />
-                <element signature="e#1294#1295#0" expanded="true" />
-                <element signature="e#2216#2217#0" expanded="true" />
-                <element signature="e#2288#2289#0" expanded="true" />
-                <element signature="e#2360#2361#0" expanded="true" />
-                <element signature="e#2452#2453#0" expanded="true" />
-                <element signature="e#2534#2535#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pnj/PNJ.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="45" column="28" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pnj/bourgeois/Bourgeois.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -100,320 +50,59 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pnj/wife/Wife.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+            <state relative-caret-position="187">
+              <caret line="13" column="49" selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement />
-              <nodes>
-                <node x="303.0" y="2885.0">com</node>
-                <node x="655.3473701910143" y="1075.0">pnj.bourgeois.artisan.Artisan</node>
-                <node x="339.5" y="562.0">house.castle.Castle</node>
-                <node x="2288.8473701910143" y="0.0">netscape</node>
-                <node x="895.3473701910143" y="1075.0">pnj.bourgeois.royal.Royal</node>
-                <node x="234.66666666666669" y="2314.0">main</node>
-                <node x="230.4240415657788" y="1470.0">display.Display</node>
-                <node x="1796.8473701910143" y="0.0">toolbarButtonGraphics</node>
-                <node x="585.0" y="2885.0">sun</node>
-                <node x="581.1265839386602" y="2769.0">pnj.poor.farmer.Farmer</node>
-                <node x="847.0833333333334" y="2148.0">pnj.PNJ</node>
-                <node x="564.3473701910143" y="550.5">pnj.wife.Wife</node>
-                <node x="2063.8473701910143" y="0.0">groovyjarjarasm</node>
-                <node x="155.0" y="2885.0">java</node>
-                <node x="0.0" y="2885.0">javax</node>
-                <node x="10.5" y="540.0">mayor.Mayor</node>
-                <node x="427.1131255044389" y="0.0">house.House</node>
-                <node x="465.12658393866025" y="2769.0">pnj.poor.baker.Baker</node>
-                <node x="2640.8473701910143" y="0.0">images</node>
-                <node x="444.0" y="2885.0">org</node>
-                <node x="682.889036857681" y="2579.0">pnj.poor.Poor</node>
-                <node x="337.9240415657788" y="821.0">store.Store</node>
-                <node x="779.3473701910143" y="1075.0">pnj.bourgeois.artist.Artist</node>
-                <node x="726.0" y="2885.0">jdk</node>
-                <node x="2464.8473701910143" y="0.0">META-INF</node>
-                <node x="185.5" y="562.0">house.farm.Farm</node>
-                <node x="2802.8473701910143" y="0.0">groovy</node>
-                <node x="1012.3473701910143" y="1075.0">pnj.bourgeois.merchant.Merchant</node>
-                <node x="705.1265839386602" y="2769.0">pnj.poor.butcher.Butcher</node>
-                <node x="833.1265839386602" y="2769.0">pnj.poor.lumberJack.LumberJack</node>
-                <node x="1522.8473701910143" y="13.951171875">groovyjarjarcommonscli</node>
-                <node x="1253.8473701910143" y="16.201171875">groovyjarjarantlr</node>
-                <node x="779.0506255044389" y="550.5">pnj.bourgeois.Bourgeois</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="house.House" target="display.Display">
-                  <point x="-58.44999999999999" y="235.0" />
-                  <point x="452.16312550443894" y="500.0" />
-                  <point x="175.0" y="500.0" />
-                  <point x="175.0" y="1430.0" />
-                  <point x="284.3129304546677" y="1430.0" />
-                  <point x="-43.111111111111086" y="-289.0" />
-                </edge>
-                <edge source="pnj.bourgeois.artist.Artist" target="pnj.bourgeois.Bourgeois">
-                  <point x="0.0" y="-35.5" />
-                  <point x="826.8473701910143" y="801.0" />
-                  <point x="831.5506255044389" y="801.0" />
-                  <point x="-7.5" y="70.0" />
-                </edge>
-                <edge source="pnj.bourgeois.Bourgeois" target="pnj.PNJ">
-                  <point x="37.5" y="70.0" />
-                  <point x="876.5506255044389" y="781.0" />
-                  <point x="1001.8473701910143" y="781.0" />
-                  <point x="1001.8473701910143" y="2098.0" />
-                  <point x="913.6944444444445" y="2098.0" />
-                  <point x="12.111111111111086" y="-190.5" />
-                </edge>
-                <edge source="main" target="house.House">
-                  <point x="-53.57142857142867" y="-24.5" />
-                  <point x="243.59523809523802" y="2128.0" />
-                  <point x="0.0" y="2128.0" />
-                  <point x="0.0" y="490.0" />
-                  <point x="435.46312550443895" y="490.0" />
-                  <point x="-75.14999999999998" y="235.0" />
-                </edge>
-                <edge source="store.Store" target="mayor.Mayor">
-                  <point x="-117.7916666666668" y="-289.5" />
-                  <point x="348.632374899112" y="791.0" />
-                  <point x="149.10000000000002" y="791.0" />
-                  <point x="61.60000000000002" y="80.5" />
-                </edge>
-                <edge source="store.Store" target="pnj.bourgeois.Bourgeois">
-                  <point x="117.79166666666669" y="-289.5" />
-                  <point x="584.2157082324454" y="791.0" />
-                  <point x="801.5506255044389" y="791.0" />
-                  <point x="-37.5" y="70.0" />
-                </edge>
-                <edge source="pnj.bourgeois.royal.Royal" target="pnj.bourgeois.Bourgeois">
-                  <point x="0.0" y="-35.5" />
-                  <point x="943.3473701910143" y="791.0" />
-                  <point x="861.5506255044389" y="791.0" />
-                  <point x="22.5" y="70.0" />
-                </edge>
-                <edge source="pnj.bourgeois.merchant.Merchant" target="pnj.bourgeois.Bourgeois">
-                  <point x="0.0" y="-35.5" />
-                  <point x="1071.3473701910143" y="771.0" />
-                  <point x="891.5506255044389" y="771.0" />
-                  <point x="52.5" y="70.0" />
-                </edge>
-                <edge source="pnj.poor.farmer.Farmer" target="pnj.poor.Poor">
-                  <point x="0.0" y="-35.5" />
-                  <point x="633.1265839386602" y="2749.0" />
-                  <point x="720.389036857681" y="2749.0" />
-                  <point x="-12.5" y="70.0" />
-                </edge>
-                <edge source="house.farm.Farm" target="house.House">
-                  <point x="0.0" y="-58.5" />
-                  <point x="252.5" y="510.0" />
-                  <point x="468.8631255044389" y="510.0" />
-                  <point x="-41.75" y="235.0" />
-                </edge>
-                <edge source="pnj.wife.Wife" target="pnj.PNJ">
-                  <point x="37.5" y="70.0" />
-                  <point x="651.8473701910143" y="771.0" />
-                  <point x="644.8473701910143" y="771.0" />
-                  <point x="644.8473701910143" y="2078.0" />
-                  <point x="889.4722222222223" y="2078.0" />
-                  <point x="-12.111111111111086" y="-190.5" />
-                </edge>
-                <edge source="display.Display" target="store.Store">
-                  <point x="21.555555555555543" y="-289.0" />
-                  <point x="348.97959712133434" y="1450.0" />
-                  <point x="352.20181934355656" y="1450.0" />
-                  <point x="-114.22222222222223" y="289.5" />
-                </edge>
-                <edge source="display.Display" target="mayor.Mayor">
-                  <point x="-86.22222222222223" y="-289.0" />
-                  <point x="241.20181934355656" y="1450.0" />
-                  <point x="77.60000000000002" y="1450.0" />
-                  <point x="77.60000000000002" y="801.0" />
-                  <point x="87.5" y="801.0" />
-                  <point x="0.0" y="80.5" />
-                </edge>
-                <edge source="store.Store" target="pnj.poor.Poor">
-                  <point x="57.111111111111086" y="289.5" />
-                  <point x="523.5351526768899" y="1440.0" />
-                  <point x="565.5351526768898" y="1440.0" />
-                  <point x="565.5351526768898" y="2559.0" />
-                  <point x="695.389036857681" y="2559.0" />
-                  <point x="-37.5" y="-70.0" />
-                </edge>
-                <edge source="pnj.PNJ" target="display.Display">
-                  <point x="-48.44444444444446" y="-190.5" />
-                  <point x="853.1388888888889" y="2108.0" />
-                  <point x="392.0907082324455" y="2108.0" />
-                  <point x="64.66666666666669" y="289.0" />
-                </edge>
-                <edge source="store.Store" target="house.farm.Farm">
-                  <point x="-96.37500000000011" y="-289.5" />
-                  <point x="370.0490415657787" y="781.0" />
-                  <point x="252.5" y="781.0" />
-                  <point x="0.0" y="58.5" />
-                </edge>
-                <edge source="store.Store" target="pnj.wife.Wife">
-                  <point x="74.95833333333331" y="-289.5" />
-                  <point x="541.3823748991122" y="771.0" />
-                  <point x="601.8473701910143" y="771.0" />
-                  <point x="-12.5" y="70.0" />
-                </edge>
-                <edge source="pnj.poor.Poor" target="pnj.PNJ">
-                  <point x="12.5" y="-70.0" />
-                  <point x="745.389036857681" y="2549.0" />
-                  <point x="874.3333333333334" y="2549.0" />
-                  <point x="-27.25" y="190.5" />
-                </edge>
-                <edge source="groovyjarjarcommonscli" target="groovyjarjarcommonscli">
-                  <point x="-57.25" y="13.5" />
-                  <point x="1580.0973701910143" y="60.951171875" />
-                  <point x="1502.8473701910143" y="60.951171875" />
-                  <point x="1502.8473701910143" y="34.201171875" />
-                  <point x="-114.5" y="6.75" />
-                </edge>
-                <edge source="house.castle.Castle" target="display.Display">
-                  <point x="-44.66666666666666" y="58.5" />
-                  <point x="361.83333333333337" y="801.0" />
-                  <point x="327.4240415657788" y="801.0" />
-                  <point x="0.0" y="-289.0" />
-                </edge>
-                <edge source="store.Store" target="pnj.PNJ">
-                  <point x="114.22222222222217" y="289.5" />
-                  <point x="580.646263788001" y="1420.0" />
-                  <point x="587.5351526768898" y="1420.0" />
-                  <point x="587.5351526768898" y="2098.0" />
-                  <point x="865.25" y="2098.0" />
-                  <point x="-36.33333333333337" y="-190.5" />
-                </edge>
-                <edge source="pnj.poor.lumberJack.LumberJack" target="pnj.poor.Poor">
-                  <point x="0.0" y="-35.5" />
-                  <point x="898.1265839386602" y="2749.0" />
-                  <point x="770.389036857681" y="2749.0" />
-                  <point x="37.5" y="70.0" />
-                </edge>
-                <edge source="store.Store" target="house.castle.Castle">
-                  <point x="-53.54166666666674" y="-289.5" />
-                  <point x="412.88237489911205" y="801.0" />
-                  <point x="406.5" y="801.0" />
-                  <point x="0.0" y="58.5" />
-                </edge>
-                <edge source="main" target="store.Store">
-                  <point x="35.71428571428578" y="-24.5" />
-                  <point x="332.88095238095246" y="2118.0" />
-                  <point x="484.03658864675793" y="2118.0" />
-                  <point x="484.03658864675793" y="1450.0" />
-                  <point x="466.4240415657788" y="1450.0" />
-                  <point x="0.0" y="289.5" />
-                </edge>
-                <edge source="main" target="mayor.Mayor">
-                  <point x="-35.71428571428578" y="-24.5" />
-                  <point x="261.4523809523809" y="2118.0" />
-                  <point x="55.60000000000002" y="2118.0" />
-                  <point x="55.60000000000002" y="801.0" />
-                  <point x="25.899999999999977" y="801.0" />
-                  <point x="-61.60000000000002" y="80.5" />
-                </edge>
-                <edge source="store.Store" target="house.House">
-                  <point x="10.708333333333314" y="-289.5" />
-                  <point x="477.1323748991121" y="741.0" />
-                  <point x="506.33333333333337" y="741.0" />
-                  <point x="506.33333333333337" y="520.0" />
-                  <point x="518.963125504439" y="520.0" />
-                  <point x="8.350000000000023" y="235.0" />
-                </edge>
-                <edge source="groovyjarjarantlr" target="groovyjarjarantlr">
-                  <point x="0.0" y="13.5" />
-                  <point x="1350.8473701910143" y="73.201171875" />
-                  <point x="1223.8473701910143" y="73.201171875" />
-                  <point x="1223.8473701910143" y="29.701171875" />
-                  <point x="-97.0" y="-0.0" />
-                </edge>
-                <edge source="store.Store" target="display.Display">
-                  <point x="-57.111111111111086" y="289.5" />
-                  <point x="409.3129304546677" y="1440.0" />
-                  <point x="392.0907082324455" y="1440.0" />
-                  <point x="64.66666666666669" y="-289.0" />
-                </edge>
-                <edge source="house.castle.Castle" target="house.House">
-                  <point x="0.0" y="-58.5" />
-                  <point x="406.5" y="520.0" />
-                  <point x="485.5631255044389" y="520.0" />
-                  <point x="-25.05000000000001" y="235.0" />
-                </edge>
-                <edge source="pnj.bourgeois.artisan.Artisan" target="pnj.bourgeois.Bourgeois">
-                  <point x="0.0" y="-35.5" />
-                  <point x="707.3473701910143" y="801.0" />
-                  <point x="816.5506255044389" y="801.0" />
-                  <point x="-22.5" y="70.0" />
-                </edge>
-                <edge source="mayor.Mayor" target="display.Display">
-                  <point x="30.80000000000001" y="80.5" />
-                  <point x="118.30000000000001" y="801.0" />
-                  <point x="120.21987489911203" y="801.0" />
-                  <point x="120.21987489911203" y="1440.0" />
-                  <point x="262.7573748991121" y="1440.0" />
-                  <point x="-64.66666666666669" y="-289.0" />
-                </edge>
-                <edge source="pnj.poor.butcher.Butcher" target="pnj.poor.Poor">
-                  <point x="0.0" y="-35.5" />
-                  <point x="759.1265839386602" y="2749.0" />
-                  <point x="745.389036857681" y="2749.0" />
-                  <point x="12.5" y="70.0" />
-                </edge>
-                <edge source="main" target="display.Display">
-                  <point x="0.0" y="-24.5" />
-                  <point x="297.1666666666667" y="2098.0" />
-                  <point x="262.7573748991121" y="2098.0" />
-                  <point x="-64.66666666666667" y="289.0" />
-                </edge>
-                <edge source="house.farm.Farm" target="display.Display">
-                  <point x="-44.66666666666663" y="58.5" />
-                  <point x="207.83333333333337" y="801.0" />
-                  <point x="238.95991727199356" y="801.0" />
-                  <point x="238.95991727199356" y="1420.0" />
-                  <point x="305.86848601022325" y="1420.0" />
-                  <point x="-21.555555555555543" y="-289.0" />
-                </edge>
-                <edge source="house.House" target="pnj.PNJ">
-                  <point x="41.75" y="235.0" />
-                  <point x="552.3631255044389" y="520.0" />
-                  <point x="1140.8473701910143" y="520.0" />
-                  <point x="1140.8473701910143" y="2108.0" />
-                  <point x="925.8055555555555" y="2108.0" />
-                  <point x="24.22222222222217" y="-190.5" />
-                </edge>
-                <edge source="pnj.poor.baker.Baker" target="pnj.poor.Poor">
-                  <point x="0.0" y="-35.5" />
-                  <point x="513.1265839386602" y="2739.0" />
-                  <point x="695.389036857681" y="2739.0" />
-                  <point x="-37.5" y="70.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.30000000000000016" x="-685.0000000000005" y="1012.9999999999995" />
-              <SelectedNodes />
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Methods</Category>
-                <Category>Properties</Category>
-                <Category>Inner Classes</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pnj/poor/Poor.java">
+        <entry file="file://$PROJECT_DIR$/src/mayor/Mayor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-end-line="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/house/House.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="13" selection-end-line="172" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/house/castle/Castle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="15" column="20" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/Store.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="16" column="13" selection-end-line="319" />
+              <folding>
+                <element signature="e#2179#2180#0" expanded="true" />
+                <element signature="e#2216#2217#0" expanded="true" />
+                <element signature="e#2256#2257#0" expanded="true" />
+                <element signature="e#2288#2289#0" expanded="true" />
+                <element signature="e#2328#2329#0" expanded="true" />
+                <element signature="e#2360#2361#0" expanded="true" />
+                <element signature="e#2410#2411#0" expanded="true" />
+                <element signature="e#2452#2453#0" expanded="true" />
+                <element signature="e#2497#2498#0" expanded="true" />
+                <element signature="e#2534#2535#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -421,8 +110,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/display/Display.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="678">
-              <caret line="142" selection-start-line="142" selection-end-line="142" />
+            <state relative-caret-position="66">
+              <caret line="87" column="12" selection-end-line="146" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pnj/bourgeois/artist/Artist.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/house/farm/Farm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="34" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pnj/bourgeois/artisan/Artisan.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -452,10 +168,25 @@
         <option value="$PROJECT_DIR$/src/House/Castle/Castle.java" />
         <option value="$PROJECT_DIR$/src/House/House.java" />
         <option value="$PROJECT_DIR$/src/Store/Store.java" />
-        <option value="$PROJECT_DIR$/src/mayor/Mayor.java" />
-        <option value="$PROJECT_DIR$/src/main.java" />
-        <option value="$PROJECT_DIR$/src/store/Store.java" />
+        <option value="$PROJECT_DIR$/src/pnj/PNJ.java" />
+        <option value="$PROJECT_DIR$/src/pnj/bourgeois/Bourgeois.java" />
+        <option value="$PROJECT_DIR$/src/pnj/wife/Wife.java" />
+        <option value="$PROJECT_DIR$/src/pnj/poor/Poor.java" />
+        <option value="$PROJECT_DIR$/src/display/Display.java" />
         <option value="$PROJECT_DIR$/src/house/House.java" />
+        <option value="$PROJECT_DIR$/src/pnj/poor/lumberJack/LumberJack.java" />
+        <option value="$PROJECT_DIR$/src/pnj/poor/farmer/Farmer.java" />
+        <option value="$PROJECT_DIR$/src/pnj/poor/butcher/Butcher.java" />
+        <option value="$PROJECT_DIR$/src/pnj/poor/baker/Baker.java" />
+        <option value="$PROJECT_DIR$/src/pnj/bourgeois/royal/Royal.java" />
+        <option value="$PROJECT_DIR$/src/pnj/bourgeois/merchant/Merchant.java" />
+        <option value="$PROJECT_DIR$/src/pnj/bourgeois/artist/Artist.java" />
+        <option value="$PROJECT_DIR$/src/pnj/bourgeois/artisan/Artisan.java" />
+        <option value="$PROJECT_DIR$/src/mayor/Mayor.java" />
+        <option value="$PROJECT_DIR$/src/house/farm/Farm.java" />
+        <option value="$PROJECT_DIR$/src/house/castle/Castle.java" />
+        <option value="$PROJECT_DIR$/src/store/Store.java" />
+        <option value="$PROJECT_DIR$/src/main.java" />
       </list>
     </option>
   </component>
@@ -490,57 +221,6 @@
               <item name="AgeOfSimulator" type="b2602c69:ProjectViewProjectNode" />
               <item name="AgeOfSimulator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AgeOfSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AgeOfSimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="display" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AgeOfSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AgeOfSimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="house" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AgeOfSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AgeOfSimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mayor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AgeOfSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AgeOfSimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pnj" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AgeOfSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AgeOfSimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pnj" type="462c0819:PsiDirectoryNode" />
-              <item name="bourgeois" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AgeOfSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AgeOfSimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pnj" type="462c0819:PsiDirectoryNode" />
-              <item name="poor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AgeOfSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AgeOfSimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pnj" type="462c0819:PsiDirectoryNode" />
-              <item name="wife" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AgeOfSimulator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AgeOfSimulator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -873,11 +553,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571398241591</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="V1.10.1">
+      <created>1571400419755</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1571400419755</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12259000" />
+    <option name="totallyTimeSpent" value="13658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -893,15 +580,15 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49938875" visible="true" weight="0.32922733" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987775" visible="true" weight="0.32922733" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32922733" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50061125" side_tool="true" visible="true" weight="0.32922733" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32922733" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5012225" side_tool="true" weight="0.32922733" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4987775" weight="0.32922733" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32922733" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -994,7 +681,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ajouts dans les classe metier : &#10;- un constructeur par default () qui init name à &quot;Kevin&quot;&#10;- un constructeur avec param name qui init avec choix du nom" />
     <MESSAGE value="Correction du main (coordonance avec le pseudo code)&#10;&#10;Erreur avec larayList House" />
     <MESSAGE value="Correction du main (coordonance avec le pseudo code)&#10;&#10;Erreur avec l'ArrayList House&#10;&#10;Ajout de la classe wife avec la methode GiveBirth inactif" />
     <MESSAGE value="Squashed commit of the following:&#10;&#10;commit 2014c58709b50d9407e1f334e8dc4dbc6a66222d&#10;Author: RobertPadfiote &lt;nicolas.wasner@gmail.com&gt;&#10;Date:   Tue Oct 15 17:38:28 2019 +0200&#10;&#10;    Correction du main&#10;    &#10;    Ajout de classe Store&#10;    &#10;    Création des méthodes d'ajout de Maison et PNJ" />
@@ -1019,38 +705,10 @@
     <MESSAGE value="V1.8 (Sans bug)" />
     <MESSAGE value="V1.9" />
     <MESSAGE value="V1.10" />
-    <option name="LAST_COMMIT_MESSAGE" value="V1.10" />
+    <MESSAGE value="V1.10.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="V1.10.1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pnj/poor/butcher/Butcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/house/farm/Farm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/house/castle/Castle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/main">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1089,294 +747,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pnj/bourgeois/Bourgeois.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="uml://JAVA/">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
           <OriginalElement />
           <nodes>
-            <node x="303.0" y="2885.0">com</node>
-            <node x="655.3473701910143" y="1075.0">pnj.bourgeois.artisan.Artisan</node>
-            <node x="339.5" y="562.0">house.castle.Castle</node>
-            <node x="2288.8473701910143" y="0.0">netscape</node>
-            <node x="895.3473701910143" y="1075.0">pnj.bourgeois.royal.Royal</node>
-            <node x="234.66666666666669" y="2314.0">main</node>
-            <node x="230.4240415657788" y="1470.0">display.Display</node>
-            <node x="1796.8473701910143" y="0.0">toolbarButtonGraphics</node>
-            <node x="585.0" y="2885.0">sun</node>
-            <node x="581.1265839386602" y="2769.0">pnj.poor.farmer.Farmer</node>
-            <node x="847.0833333333334" y="2148.0">pnj.PNJ</node>
-            <node x="564.3473701910143" y="550.5">pnj.wife.Wife</node>
-            <node x="2063.8473701910143" y="0.0">groovyjarjarasm</node>
-            <node x="155.0" y="2885.0">java</node>
-            <node x="0.0" y="2885.0">javax</node>
-            <node x="10.5" y="540.0">mayor.Mayor</node>
-            <node x="427.1131255044389" y="0.0">house.House</node>
-            <node x="465.12658393866025" y="2769.0">pnj.poor.baker.Baker</node>
-            <node x="2640.8473701910143" y="0.0">images</node>
-            <node x="444.0" y="2885.0">org</node>
-            <node x="682.889036857681" y="2579.0">pnj.poor.Poor</node>
-            <node x="337.9240415657788" y="821.0">store.Store</node>
-            <node x="779.3473701910143" y="1075.0">pnj.bourgeois.artist.Artist</node>
-            <node x="726.0" y="2885.0">jdk</node>
-            <node x="2464.8473701910143" y="0.0">META-INF</node>
-            <node x="185.5" y="562.0">house.farm.Farm</node>
-            <node x="2802.8473701910143" y="0.0">groovy</node>
-            <node x="1012.3473701910143" y="1075.0">pnj.bourgeois.merchant.Merchant</node>
-            <node x="705.1265839386602" y="2769.0">pnj.poor.butcher.Butcher</node>
-            <node x="833.1265839386602" y="2769.0">pnj.poor.lumberJack.LumberJack</node>
-            <node x="1522.8473701910143" y="13.951171875">groovyjarjarcommonscli</node>
-            <node x="1253.8473701910143" y="16.201171875">groovyjarjarantlr</node>
-            <node x="779.0506255044389" y="550.5">pnj.bourgeois.Bourgeois</node>
+            <node x="" y="">com</node>
+            <node x="" y="">pnj.bourgeois.artisan.Artisan</node>
+            <node x="" y="">house.castle.Castle</node>
+            <node x="" y="">netscape</node>
+            <node x="" y="">pnj.bourgeois.royal.Royal</node>
+            <node x="" y="">main</node>
+            <node x="" y="">display.Display</node>
+            <node x="" y="">toolbarButtonGraphics</node>
+            <node x="" y="">sun</node>
+            <node x="" y="">pnj.poor.farmer.Farmer</node>
+            <node x="" y="">pnj.PNJ</node>
+            <node x="" y="">pnj.wife.Wife</node>
+            <node x="" y="">groovyjarjarasm</node>
+            <node x="" y="">java</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">mayor.Mayor</node>
+            <node x="" y="">house.House</node>
+            <node x="" y="">pnj.poor.baker.Baker</node>
+            <node x="" y="">images</node>
+            <node x="" y="">org</node>
+            <node x="" y="">pnj.poor.Poor</node>
+            <node x="" y="">store.Store</node>
+            <node x="" y="">pnj.bourgeois.artist.Artist</node>
+            <node x="" y="">jdk</node>
+            <node x="" y="">META-INF</node>
+            <node x="" y="">house.farm.Farm</node>
+            <node x="" y="">groovy</node>
+            <node x="" y="">pnj.bourgeois.merchant.Merchant</node>
+            <node x="" y="">pnj.poor.butcher.Butcher</node>
+            <node x="" y="">pnj.poor.lumberJack.LumberJack</node>
+            <node x="" y="">groovyjarjarcommonscli</node>
+            <node x="" y="">groovyjarjarantlr</node>
+            <node x="" y="">pnj.bourgeois.Bourgeois</node>
           </nodes>
           <notes />
-          <edges>
-            <edge source="house.House" target="display.Display">
-              <point x="-58.44999999999999" y="235.0" />
-              <point x="452.16312550443894" y="500.0" />
-              <point x="175.0" y="500.0" />
-              <point x="175.0" y="1430.0" />
-              <point x="284.3129304546677" y="1430.0" />
-              <point x="-43.111111111111086" y="-289.0" />
-            </edge>
-            <edge source="pnj.bourgeois.artist.Artist" target="pnj.bourgeois.Bourgeois">
-              <point x="0.0" y="-35.5" />
-              <point x="826.8473701910143" y="801.0" />
-              <point x="831.5506255044389" y="801.0" />
-              <point x="-7.5" y="70.0" />
-            </edge>
-            <edge source="pnj.bourgeois.Bourgeois" target="pnj.PNJ">
-              <point x="37.5" y="70.0" />
-              <point x="876.5506255044389" y="781.0" />
-              <point x="1001.8473701910143" y="781.0" />
-              <point x="1001.8473701910143" y="2098.0" />
-              <point x="913.6944444444445" y="2098.0" />
-              <point x="12.111111111111086" y="-190.5" />
-            </edge>
-            <edge source="main" target="house.House">
-              <point x="-53.57142857142867" y="-24.5" />
-              <point x="243.59523809523802" y="2128.0" />
-              <point x="0.0" y="2128.0" />
-              <point x="0.0" y="490.0" />
-              <point x="435.46312550443895" y="490.0" />
-              <point x="-75.14999999999998" y="235.0" />
-            </edge>
-            <edge source="store.Store" target="mayor.Mayor">
-              <point x="-117.7916666666668" y="-289.5" />
-              <point x="348.632374899112" y="791.0" />
-              <point x="149.10000000000002" y="791.0" />
-              <point x="61.60000000000002" y="80.5" />
-            </edge>
-            <edge source="store.Store" target="pnj.bourgeois.Bourgeois">
-              <point x="117.79166666666669" y="-289.5" />
-              <point x="584.2157082324454" y="791.0" />
-              <point x="801.5506255044389" y="791.0" />
-              <point x="-37.5" y="70.0" />
-            </edge>
-            <edge source="pnj.bourgeois.royal.Royal" target="pnj.bourgeois.Bourgeois">
-              <point x="0.0" y="-35.5" />
-              <point x="943.3473701910143" y="791.0" />
-              <point x="861.5506255044389" y="791.0" />
-              <point x="22.5" y="70.0" />
-            </edge>
-            <edge source="pnj.bourgeois.merchant.Merchant" target="pnj.bourgeois.Bourgeois">
-              <point x="0.0" y="-35.5" />
-              <point x="1071.3473701910143" y="771.0" />
-              <point x="891.5506255044389" y="771.0" />
-              <point x="52.5" y="70.0" />
-            </edge>
-            <edge source="pnj.poor.farmer.Farmer" target="pnj.poor.Poor">
-              <point x="0.0" y="-35.5" />
-              <point x="633.1265839386602" y="2749.0" />
-              <point x="720.389036857681" y="2749.0" />
-              <point x="-12.5" y="70.0" />
-            </edge>
-            <edge source="house.farm.Farm" target="house.House">
-              <point x="0.0" y="-58.5" />
-              <point x="252.5" y="510.0" />
-              <point x="468.8631255044389" y="510.0" />
-              <point x="-41.75" y="235.0" />
-            </edge>
-            <edge source="pnj.wife.Wife" target="pnj.PNJ">
-              <point x="37.5" y="70.0" />
-              <point x="651.8473701910143" y="771.0" />
-              <point x="644.8473701910143" y="771.0" />
-              <point x="644.8473701910143" y="2078.0" />
-              <point x="889.4722222222223" y="2078.0" />
-              <point x="-12.111111111111086" y="-190.5" />
-            </edge>
-            <edge source="display.Display" target="store.Store">
-              <point x="21.555555555555543" y="-289.0" />
-              <point x="348.97959712133434" y="1450.0" />
-              <point x="352.20181934355656" y="1450.0" />
-              <point x="-114.22222222222223" y="289.5" />
-            </edge>
-            <edge source="display.Display" target="mayor.Mayor">
-              <point x="-86.22222222222223" y="-289.0" />
-              <point x="241.20181934355656" y="1450.0" />
-              <point x="77.60000000000002" y="1450.0" />
-              <point x="77.60000000000002" y="801.0" />
-              <point x="87.5" y="801.0" />
-              <point x="0.0" y="80.5" />
-            </edge>
-            <edge source="store.Store" target="pnj.poor.Poor">
-              <point x="57.111111111111086" y="289.5" />
-              <point x="523.5351526768899" y="1440.0" />
-              <point x="565.5351526768898" y="1440.0" />
-              <point x="565.5351526768898" y="2559.0" />
-              <point x="695.389036857681" y="2559.0" />
-              <point x="-37.5" y="-70.0" />
-            </edge>
-            <edge source="pnj.PNJ" target="display.Display">
-              <point x="-48.44444444444446" y="-190.5" />
-              <point x="853.1388888888889" y="2108.0" />
-              <point x="392.0907082324455" y="2108.0" />
-              <point x="64.66666666666669" y="289.0" />
-            </edge>
-            <edge source="store.Store" target="house.farm.Farm">
-              <point x="-96.37500000000011" y="-289.5" />
-              <point x="370.0490415657787" y="781.0" />
-              <point x="252.5" y="781.0" />
-              <point x="0.0" y="58.5" />
-            </edge>
-            <edge source="store.Store" target="pnj.wife.Wife">
-              <point x="74.95833333333331" y="-289.5" />
-              <point x="541.3823748991122" y="771.0" />
-              <point x="601.8473701910143" y="771.0" />
-              <point x="-12.5" y="70.0" />
-            </edge>
-            <edge source="pnj.poor.Poor" target="pnj.PNJ">
-              <point x="12.5" y="-70.0" />
-              <point x="745.389036857681" y="2549.0" />
-              <point x="874.3333333333334" y="2549.0" />
-              <point x="-27.25" y="190.5" />
-            </edge>
-            <edge source="groovyjarjarcommonscli" target="groovyjarjarcommonscli">
-              <point x="-57.25" y="13.5" />
-              <point x="1580.0973701910143" y="60.951171875" />
-              <point x="1502.8473701910143" y="60.951171875" />
-              <point x="1502.8473701910143" y="34.201171875" />
-              <point x="-114.5" y="6.75" />
-            </edge>
-            <edge source="house.castle.Castle" target="display.Display">
-              <point x="-44.66666666666666" y="58.5" />
-              <point x="361.83333333333337" y="801.0" />
-              <point x="327.4240415657788" y="801.0" />
-              <point x="0.0" y="-289.0" />
-            </edge>
-            <edge source="store.Store" target="pnj.PNJ">
-              <point x="114.22222222222217" y="289.5" />
-              <point x="580.646263788001" y="1420.0" />
-              <point x="587.5351526768898" y="1420.0" />
-              <point x="587.5351526768898" y="2098.0" />
-              <point x="865.25" y="2098.0" />
-              <point x="-36.33333333333337" y="-190.5" />
-            </edge>
-            <edge source="pnj.poor.lumberJack.LumberJack" target="pnj.poor.Poor">
-              <point x="0.0" y="-35.5" />
-              <point x="898.1265839386602" y="2749.0" />
-              <point x="770.389036857681" y="2749.0" />
-              <point x="37.5" y="70.0" />
-            </edge>
-            <edge source="store.Store" target="house.castle.Castle">
-              <point x="-53.54166666666674" y="-289.5" />
-              <point x="412.88237489911205" y="801.0" />
-              <point x="406.5" y="801.0" />
-              <point x="0.0" y="58.5" />
-            </edge>
-            <edge source="main" target="store.Store">
-              <point x="35.71428571428578" y="-24.5" />
-              <point x="332.88095238095246" y="2118.0" />
-              <point x="484.03658864675793" y="2118.0" />
-              <point x="484.03658864675793" y="1450.0" />
-              <point x="466.4240415657788" y="1450.0" />
-              <point x="0.0" y="289.5" />
-            </edge>
-            <edge source="main" target="mayor.Mayor">
-              <point x="-35.71428571428578" y="-24.5" />
-              <point x="261.4523809523809" y="2118.0" />
-              <point x="55.60000000000002" y="2118.0" />
-              <point x="55.60000000000002" y="801.0" />
-              <point x="25.899999999999977" y="801.0" />
-              <point x="-61.60000000000002" y="80.5" />
-            </edge>
-            <edge source="store.Store" target="house.House">
-              <point x="10.708333333333314" y="-289.5" />
-              <point x="477.1323748991121" y="741.0" />
-              <point x="506.33333333333337" y="741.0" />
-              <point x="506.33333333333337" y="520.0" />
-              <point x="518.963125504439" y="520.0" />
-              <point x="8.350000000000023" y="235.0" />
-            </edge>
-            <edge source="groovyjarjarantlr" target="groovyjarjarantlr">
-              <point x="0.0" y="13.5" />
-              <point x="1350.8473701910143" y="73.201171875" />
-              <point x="1223.8473701910143" y="73.201171875" />
-              <point x="1223.8473701910143" y="29.701171875" />
-              <point x="-97.0" y="-0.0" />
-            </edge>
-            <edge source="store.Store" target="display.Display">
-              <point x="-57.111111111111086" y="289.5" />
-              <point x="409.3129304546677" y="1440.0" />
-              <point x="392.0907082324455" y="1440.0" />
-              <point x="64.66666666666669" y="-289.0" />
-            </edge>
-            <edge source="house.castle.Castle" target="house.House">
-              <point x="0.0" y="-58.5" />
-              <point x="406.5" y="520.0" />
-              <point x="485.5631255044389" y="520.0" />
-              <point x="-25.05000000000001" y="235.0" />
-            </edge>
-            <edge source="pnj.bourgeois.artisan.Artisan" target="pnj.bourgeois.Bourgeois">
-              <point x="0.0" y="-35.5" />
-              <point x="707.3473701910143" y="801.0" />
-              <point x="816.5506255044389" y="801.0" />
-              <point x="-22.5" y="70.0" />
-            </edge>
-            <edge source="mayor.Mayor" target="display.Display">
-              <point x="30.80000000000001" y="80.5" />
-              <point x="118.30000000000001" y="801.0" />
-              <point x="120.21987489911203" y="801.0" />
-              <point x="120.21987489911203" y="1440.0" />
-              <point x="262.7573748991121" y="1440.0" />
-              <point x="-64.66666666666669" y="-289.0" />
-            </edge>
-            <edge source="pnj.poor.butcher.Butcher" target="pnj.poor.Poor">
-              <point x="0.0" y="-35.5" />
-              <point x="759.1265839386602" y="2749.0" />
-              <point x="745.389036857681" y="2749.0" />
-              <point x="12.5" y="70.0" />
-            </edge>
-            <edge source="main" target="display.Display">
-              <point x="0.0" y="-24.5" />
-              <point x="297.1666666666667" y="2098.0" />
-              <point x="262.7573748991121" y="2098.0" />
-              <point x="-64.66666666666667" y="289.0" />
-            </edge>
-            <edge source="house.farm.Farm" target="display.Display">
-              <point x="-44.66666666666663" y="58.5" />
-              <point x="207.83333333333337" y="801.0" />
-              <point x="238.95991727199356" y="801.0" />
-              <point x="238.95991727199356" y="1420.0" />
-              <point x="305.86848601022325" y="1420.0" />
-              <point x="-21.555555555555543" y="-289.0" />
-            </edge>
-            <edge source="house.House" target="pnj.PNJ">
-              <point x="41.75" y="235.0" />
-              <point x="552.3631255044389" y="520.0" />
-              <point x="1140.8473701910143" y="520.0" />
-              <point x="1140.8473701910143" y="2108.0" />
-              <point x="925.8055555555555" y="2108.0" />
-              <point x="24.22222222222217" y="-190.5" />
-            </edge>
-            <edge source="pnj.poor.baker.Baker" target="pnj.poor.Poor">
-              <point x="0.0" y="-35.5" />
-              <point x="513.1265839386602" y="2739.0" />
-              <point x="695.389036857681" y="2739.0" />
-              <point x="-37.5" y="70.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.30000000000000016" x="-685.0000000000005" y="1012.9999999999995" />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.30000000000000016" x="546.6666666666656" y="1126.333333333333" />
           <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
@@ -1390,92 +810,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/display/Display.java">
+    <entry file="file://$PROJECT_DIR$/src/pnj/PNJ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="142" selection-start-line="142" selection-end-line="142" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pnj/bourgeois/Bourgeois.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        <state relative-caret-position="289">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pnj/poor/Poor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        <state relative-caret-position="289">
+          <caret line="17" column="10" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pnj/PNJ.java">
+    <entry file="file://$PROJECT_DIR$/src/pnj/poor/lumberJack/LumberJack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="28" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pnj/poor/farmer/Farmer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pnj/poor/butcher/Butcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pnj/poor/baker/Baker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pnj/bourgeois/royal/Royal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pnj/bourgeois/merchant/Merchant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pnj/bourgeois/artist/Artist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pnj/bourgeois/artisan/Artisan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pnj/wife/Wife.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="49" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mayor/Mayor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/house/House.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="13" selection-end-line="172" />
           <folding>
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/house/farm/Farm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="34" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/house/castle/Castle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="20" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/display/Display.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="87" column="12" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/Store.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="16" column="13" selection-end-line="319" />
+          <folding>
+            <element signature="e#2179#2180#0" expanded="true" />
+            <element signature="e#2216#2217#0" expanded="true" />
+            <element signature="e#2256#2257#0" expanded="true" />
+            <element signature="e#2288#2289#0" expanded="true" />
+            <element signature="e#2328#2329#0" expanded="true" />
+            <element signature="e#2360#2361#0" expanded="true" />
+            <element signature="e#2410#2411#0" expanded="true" />
+            <element signature="e#2452#2453#0" expanded="true" />
+            <element signature="e#2497#2498#0" expanded="true" />
+            <element signature="e#2534#2535#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="71" lean-forward="true" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
+        <state relative-caret-position="208">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/Store.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="103" column="18" selection-start-line="103" selection-start-column="18" selection-end-line="103" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#515#522#0" expanded="true" />
-            <element signature="e#1172#1173#0" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
-            <element signature="e#1259#1260#0" expanded="true" />
-            <element signature="e#1294#1295#0" expanded="true" />
-            <element signature="e#2216#2217#0" expanded="true" />
-            <element signature="e#2288#2289#0" expanded="true" />
-            <element signature="e#2360#2361#0" expanded="true" />
-            <element signature="e#2452#2453#0" expanded="true" />
-            <element signature="e#2534#2535#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pnj/wife/Wife.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/house/House.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="99" column="20" lean-forward="true" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
           </folding>
         </state>
       </provider>

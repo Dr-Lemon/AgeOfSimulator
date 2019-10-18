@@ -6,7 +6,8 @@ public class Baker extends Poor {
     public Baker() {
         this.setJob("baker");
     }
-    public Baker(String name){
+
+    public Baker(String name) {
         this.setName(name);
     }
 }

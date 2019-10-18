@@ -7,6 +7,7 @@ public class LumberJack extends Poor {
         this.setJob("lumberJack");
         this.setName(name);
     }
+
     public LumberJack() {
         this.setJob("lumberJack");
     }

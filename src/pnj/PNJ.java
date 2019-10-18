@@ -21,7 +21,7 @@ public abstract class PNJ {
         this.humor = 2;
         this.sleep = 0;
         this.ressources = 0;
-        this.money=0;
+        this.money = 0;
         this.setName(name);
     }
 
@@ -43,12 +43,12 @@ public abstract class PNJ {
         Sexe = sexe;
     }
 
-    public void Eat(int item){
-        this.ressources -=item;
+    public void Eat(int item) {
+        this.ressources -= item;
     }
 
-   public void Farm(int item){
-       System.out.println("Error classe non surchargé");
+    public void Farm(int item) {
+        System.out.println("Error classe non surchargé");
     }
 
     public String getJob() {

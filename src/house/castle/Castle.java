@@ -5,7 +5,8 @@ import house.House;
 import static display.Display.*;
 
 public class Castle extends House {
-    private static final int  MaxNumber = 12;
+    private static final int MaxNumber = 12;
+
     public Castle() {
         this.setName("Chateaux");
     }
@@ -17,9 +18,9 @@ public class Castle extends House {
 
     @Override
     public String toString() {
-        return ANSI_CYAN +this.getName() + ":"+ newLine +
+        return ANSI_CYAN + this.getName() + ":" + newLine +
                 "   Money = " + this.getItem() + newLine +
                 "   Humeur = " + this.getHumor() + newLine +
-                "   Number of pnj = " + this.getNumberPNJ()+ ANSI_RESET;
+                "   Number of pnj = " + this.getNumberPNJ() + ANSI_RESET;
     }
 }

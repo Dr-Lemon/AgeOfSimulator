@@ -6,7 +6,8 @@ public class Farmer extends Poor {
     public Farmer() {
         this.setJob("farmer");
     }
-    public Farmer(String name){
+
+    public Farmer(String name) {
         this.setJob("farmer");
         this.setName(name);
     }

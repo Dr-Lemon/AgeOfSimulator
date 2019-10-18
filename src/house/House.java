@@ -1,6 +1,7 @@
 package house;
 
 import pnj.PNJ;
+
 import static display.Display.*;
 
 import java.util.ArrayList;
@@ -36,63 +37,74 @@ public class House {
         //wife Phillipine = new wife();
 
     }
-    public void PushPNJ(PNJ pnj){
+
+    public void PushPNJ(PNJ pnj) {
         this.CurrentPnj.add(pnj);
-        if (pnj.getSexe() == "Homme"){
+        if (pnj.getSexe() == "Homme") {
             this.HPnj.add(pnj);
         }
-        if (pnj.getSexe() == "Femme"){
+        if (pnj.getSexe() == "Femme") {
             this.WPnj.add(pnj);
         }
     }
-    public int getNumberPNJ(){
+
+    public int getNumberPNJ() {
         return this.CurrentPnj.size();
     }
-    public int getNumberWPNJ(){
+
+    public int getNumberWPNJ() {
         return this.WPnj.size();
     }
-    public int getNumberHPNJ(){
+
+    public int getNumberHPNJ() {
         return this.HPnj.size();
     }
 
-    public void Product(int humor){
-        if (humor == 3){ for (int i = 0; i < this.CurrentPnj.size(); ++i) {
-            PNJ PNJ = CurrentPnj.get(i); // ON POINTE VERS UN pnj
-            PNJ.Farm(4);
-            PNJ.Eat(1);
-            if(PNJ.getSocial()=="poor"){
-                this.item += PNJ.getRessources();
+    public void Product(int humor) {
+        if (humor == 3) {
+            for (int i = 0; i < this.CurrentPnj.size(); ++i) {
+                PNJ PNJ = CurrentPnj.get(i); // ON POINTE VERS UN pnj
+                PNJ.Farm(4);
+                PNJ.Eat(1);
+                if (PNJ.getSocial() == "poor") {
+                    this.item += PNJ.getRessources();
+                }
+                if (PNJ.getSocial() == "bourgeois") {
+                    this.item += PNJ.getMoney();
+                }
+                PNJ.setRessources(0);
             }
-            if(PNJ.getSocial()=="bourgeois"){
-                this.item += PNJ.getMoney();
-            }
-            PNJ.setRessources(0);
-        }}
-        if (humor == 2){for (int i = 0; i < this.CurrentPnj.size(); ++i) {
-            PNJ PNJ = CurrentPnj.get(i); // ON POINTE VERS UN pnj
-            PNJ.Farm(3);
-            PNJ.Eat(1);
-            if(PNJ.getSocial()=="poor"){
-                this.item += PNJ.getRessources();
-            }
-            if(PNJ.getSocial()=="bourgeois"){
-                this.item += PNJ.getMoney();
+        }
+        if (humor == 2) {
+            for (int i = 0; i < this.CurrentPnj.size(); ++i) {
+                PNJ PNJ = CurrentPnj.get(i); // ON POINTE VERS UN pnj
+                PNJ.Farm(3);
+                PNJ.Eat(1);
+                if (PNJ.getSocial() == "poor") {
+                    this.item += PNJ.getRessources();
+                }
+                if (PNJ.getSocial() == "bourgeois") {
+                    this.item += PNJ.getMoney();
 
 
-            PNJ.setRessources(0);
-        }}}
-        if (humor == 1){for (int i = 0; i < this.CurrentPnj.size(); ++i) {
-            PNJ PNJ = CurrentPnj.get(i); // ON POINTE VERS UN pnj
-            PNJ.Farm(2);
-            PNJ.Eat(1);
-            if(PNJ.getSocial()=="poor"){
-                this.item += PNJ.getRessources();
+                    PNJ.setRessources(0);
+                }
             }
-            if(PNJ.getSocial()=="bourgeois"){
-                this.item += PNJ.getMoney();
+        }
+        if (humor == 1) {
+            for (int i = 0; i < this.CurrentPnj.size(); ++i) {
+                PNJ PNJ = CurrentPnj.get(i); // ON POINTE VERS UN pnj
+                PNJ.Farm(2);
+                PNJ.Eat(1);
+                if (PNJ.getSocial() == "poor") {
+                    this.item += PNJ.getRessources();
+                }
+                if (PNJ.getSocial() == "bourgeois") {
+                    this.item += PNJ.getMoney();
+                }
+                PNJ.setRessources(0);
             }
-            PNJ.setRessources(0);
-        }}
+        }
 
     }
 
@@ -133,24 +145,28 @@ public class House {
         this.humor = humor;
     }
 
-    public void finalize(){
+    public void finalize() {
         System.out.println(ANSI_RED + "Tous les habitants de cette maison sont parti" + ANSI_RESET);
         CurrentPnj.clear();
     }
 
-    public void ChangeHumor(int i){
-        switch (i){
+    public void ChangeHumor(int i) {
+        switch (i) {
             case (-1):
-                if (this.humor == 1){this.finalize();}
-                else{this.humor -=1;}
+                if (this.humor == 1) {
+                    this.finalize();
+                } else {
+                    this.humor -= 1;
+                }
                 break;
             case (1):
-                if (this.humor == 3){}
-                else{this.humor += 1;}
+                if (this.humor == 3) {
+                } else {
+                    this.humor += 1;
+                }
                 break;
-            }
         }
-
+    }
 
 
 }

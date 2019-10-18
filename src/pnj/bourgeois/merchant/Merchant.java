@@ -6,7 +6,8 @@ public class Merchant extends Bourgeois {
     public Merchant() {
         this.setJob("merchant");
     }
-    public Merchant(String name){
+
+    public Merchant(String name) {
         this.setName(name);
         this.setJob("merchant");
     }

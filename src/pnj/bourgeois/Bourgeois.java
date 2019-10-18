@@ -21,8 +21,8 @@ public class Bourgeois extends PNJ {
     }
 
     @Override
-    public void Farm(int item){
-        this.setMoney(this.getMoney()+item);
+    public void Farm(int item) {
+        this.setMoney(this.getMoney() + item);
     }
 
 }

@@ -4,6 +4,7 @@ import pnj.PNJ;
 
 public class Poor extends PNJ {
     private static final int coast = 5;
+
     public Poor() {
         this.setSocial("poor");
         this.setSexe("Homme");
@@ -19,7 +20,7 @@ public class Poor extends PNJ {
     }
 
     @Override
-    public void Farm(int item){
-        this.setRessources(this.getRessources()+item);
+    public void Farm(int item) {
+        this.setRessources(this.getRessources() + item);
     }
 }

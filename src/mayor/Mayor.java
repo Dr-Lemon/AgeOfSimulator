@@ -4,14 +4,14 @@ import static display.Display.*;
 
 public class Mayor {
     private int ressources, money;
-    private static int dept=0;
+    private static int dept = 0;
 
 
-    public void GiveMoney(int money){
+    public void GiveMoney(int money) {
         this.money -= money;
     }
 
-    public void GiveRessources(int ressources){
+    public void GiveRessources(int ressources) {
         this.ressources -= ressources;
     }
 
@@ -19,6 +19,7 @@ public class Mayor {
         this.setRessources(20);
         this.setMoney(400);
     }
+
     public int getDept() {
         return dept;
     }
@@ -45,16 +46,11 @@ public class Mayor {
 
     @Override
     public String toString() {
-        return ANSI_BLUE +"MAIRIE : " + newLine +ANSI_RESET+
-                ANSI_PURPLE +"   Ressources=" + ressources + ANSI_RESET +
-                ANSI_CYAN +"   Money=" + money + ANSI_RESET +
+        return ANSI_BLUE + "MAIRIE : " + newLine + ANSI_RESET +
+                ANSI_PURPLE + "   Ressources=" + ressources + ANSI_RESET +
+                ANSI_CYAN + "   Money=" + money + ANSI_RESET +
                 " $";
     }
-
-
-
-
-
 
 
 }

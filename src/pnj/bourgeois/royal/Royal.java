@@ -7,7 +7,8 @@ public class Royal extends Bourgeois {
         this.setJob("royal");
         this.setName(name);
     }
-    public Royal(){
+
+    public Royal() {
         this.setJob("royal");
     }
 }
