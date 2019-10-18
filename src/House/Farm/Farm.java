@@ -5,7 +5,12 @@ import House.House;
 import static Display.Display.*;
 
 public class Farm extends House {
-    private static final int  MAXNUMBER = 9;
+    private static final int  MaxNumber = 9;
+
+
+    public static int getMaxNumber() {
+        return MaxNumber;
+    }
 
     public Farm() {
         this.setName("Ferme");

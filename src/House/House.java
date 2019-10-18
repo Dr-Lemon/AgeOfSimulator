@@ -2,6 +2,7 @@ package House;
 
 import PNJ.Bourgeois.Bourgeois;
 import PNJ.PNJ;
+import static Display.Display.*;
 import PNJ.Wife.Wife;
 
 import java.util.ArrayList;
@@ -10,7 +11,7 @@ public class House {
 
     private int item;
     private int humor;
-    private int MaxNumber;
+    private static int MaxNumber;
     private String name;
     private static int Set = 0;
     private ArrayList<PNJ> CurrentPnj = new ArrayList<PNJ>();
@@ -23,6 +24,10 @@ public class House {
 
     public static void setSet(int set) {
         Set = set;
+    }
+
+    public static int getMaxNumber() {
+        return MaxNumber;
     }
 
     public House() {
@@ -77,10 +82,6 @@ public class House {
         this.item = item;
     }
 
-    public int getMAXNUMBER() {
-        return MaxNumber;
-    }
-
     public void setMAXNUMBER(int MAXNUMBER) {
         this.MaxNumber = MAXNUMBER;
     }
@@ -110,7 +111,7 @@ public class House {
     }
 
     public void finalize(){
-        System.out.println("Tous les habitants de cette maison sont parti");
+        System.out.println(ANSI_RED + "Tous les habitants de cette maison sont parti" + ANSI_RESET);
         CurrentPnj.clear();
     }
 
@@ -126,8 +127,6 @@ public class House {
                 break;
             }
         }
-
-
 
 
 

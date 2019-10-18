@@ -5,9 +5,14 @@ import House.House;
 import static Display.Display.*;
 
 public class Castle extends House {
-    private static final int  MAXNUMBER = 12;
+    private static final int  MaxNumber = 12;
     public Castle() {
         this.setName("Chateaux");
+    }
+
+
+    public static int getMaxNumber() {
+        return MaxNumber;
     }
 
     @Override

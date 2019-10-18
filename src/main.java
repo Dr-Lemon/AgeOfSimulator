@@ -11,6 +11,7 @@ import PNJ.Wife.Wife;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.awt.Font;
 
 import static Display.Display.*;
 //

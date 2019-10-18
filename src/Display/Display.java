@@ -3,10 +3,10 @@ package Display;
 import Mayor.Mayor;
 import Store.Store;
 
+import java.awt.*;
 import java.util.Scanner;
 
 public class Display {
-
     public static String newLine = System.getProperty("line.separator");
     public static String ANSI_RESET = "\u001B[0m"; // PERMET L'AFFIFICHAGE EN COULEUR
     public static String ANSI_BLACK = "\u001B[30m";
@@ -24,7 +24,9 @@ public class Display {
         System.out.println("Press \"ENTER\" to continue...");
         sc.nextLine();
     }
+
     public static void displayMenu(Store store, Mayor maire){
+
         int choix = 0;
         while (choix != 6) {
             System.out.println(maire);
@@ -34,7 +36,7 @@ public class Display {
             System.out.println(ANSI_PURPLE+"3- Créer une maison de Pauvres (" + Store.getCoastPoorHouse() + " $) (Disposant déjà d’un H et une F)"+ANSI_RESET);
             System.out.println(ANSI_PURPLE+"4- Créer un Pauvre (" + Store.getCoastPoor() + "$)"+ANSI_RESET);
             System.out.println(ANSI_YELLOW+"5- Créer une Femme (" + Store.getCoastWife() + "$)"+ANSI_RESET);
-            System.out.println("6- Continuer");
+            System.out.println(ANSI_GREEN+"6- Continuer" + ANSI_RESET);
             IntegerTest();
             choix = getIntegre();
             // SWITCH MENU A FAIRE
@@ -56,8 +58,8 @@ public class Display {
                     break;
 
                 case (5):
-                    System.out.println("1- Femme Bourgeoise");
-                    System.out.println("2- Femme Pauvre");
+                    System.out.println(ANSI_YELLOW + "1- Femme Bourgeoise"+ ANSI_RESET);
+                    System.out.println(ANSI_YELLOW + "2- Femme Pauvre" + ANSI_RESET);
                     IntegerTest();
                     int choix2 = getIntegre();
                     switch (choix2){
@@ -88,12 +90,12 @@ public class Display {
             try {
                 toto = Integer.parseInt(str);
                 if (toto < 0){
-                    System.out.println("Chiffre Négatif Interdit ! PAS DE TRICHE ICI !");
+                    System.out.println(ANSI_RED + "Chiffre Négatif Interdit ! PAS DE TRICHE ICI !" + ANSI_RESET);
                 }
                 else{
                 chiffre = true;} // si ton exécution arrive jusque là, ça signifie qu'il n'y a aucune exception lancée et que ta saisie est donc bien un chiffre
             } catch(NumberFormatException e) {
-                System.out.println("Cette valeur n'est pas un chiffre, essaie encore !");
+                System.out.println(ANSI_RED + "Cette valeur n'est pas un chiffre, essaie encore !" + ANSI_RESET);
             }
         } while (chiffre != true);
 
@@ -139,5 +141,6 @@ public class Display {
     public static String getAnsiWhite() {
         return ANSI_WHITE;
     }
+
 }
 
