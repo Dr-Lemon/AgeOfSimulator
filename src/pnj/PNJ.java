@@ -89,14 +89,7 @@ public abstract class PNJ {
             this.setRessources(this.getRessources() - 1);
         }
     }
-    /**
-     * Farm.
-     *
-     * @param item the item
-     */
-    public void Farm(int item) {
-        System.out.println("Error classe non surchargé");
-    }
+
     public void Farm() {
         System.out.println("Error classe non surchargé");
     }

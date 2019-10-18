@@ -31,19 +31,15 @@ public class Poor extends PNJ {
     }
 
     @Override
-    public void Farm(int item) {
-        this.setRessources(this.getRessources() + item);
-    }
-
     public void Farm(){
          if(this.getHumor()==1){
              this.setRessources(this.getRessources() + 1);
          }
         if(this.getHumor()==2){
-            this.setRessources(this.getRessources() + 1 + (int)(Math.random() * ((2 - 1) + 1)));
+            this.setRessources(this.getRessources() + 1 + (int)(Math.random() * ((3 - 1) + 1)));
         }
         if(this.getHumor()==3){
-            this.setRessources(this.getRessources() + 1 + (int)(Math.random() * ((3 - 1) + 1)));
+            this.setRessources(this.getRessources() + 1 + (int)(Math.random() * ((5 - 1) + 1)));
         }
     }
 }

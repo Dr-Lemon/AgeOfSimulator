@@ -56,8 +56,6 @@ public class House {
         this.name = "Maison sans type";
         this.item = 0;
         this.humor = 3;
-        //bourgeois Thierry = new bourgeois();
-        //wife Phillipine = new wife();
 
     }
 
@@ -109,50 +107,21 @@ public class House {
      * @param humor the humor
      */
     public void Product(int humor) {
-        if (humor == 3) {
-            for (int i = 0; i < this.CurrentPnj.size(); ++i) {
-                PNJ PNJ = CurrentPnj.get(i); // ON POINTE VERS UN pnj
-                PNJ.Farm(4);
-                PNJ.Eat(1);
-                if (PNJ.getSocial() == "poor") {
-                    this.item += PNJ.getRessources();
-                }
-                if (PNJ.getSocial() == "bourgeois") {
-                    this.item += PNJ.getMoney();
-                }
-                PNJ.setRessources(0);
-            }
-        }
-        if (humor == 2) {
+
             for (int i = 0; i < this.CurrentPnj.size(); ++i) {
                 PNJ PNJ = CurrentPnj.get(i); // ON POINTE VERS UN pnj
                 PNJ.Farm();
-                PNJ.Eat();
-                if (PNJ.getSocial() == "poor") {
-                    this.item += PNJ.getRessources();
-                }
-                if (PNJ.getSocial() == "bourgeois") {
-                    this.item += PNJ.getMoney();
-
-
-                    PNJ.setRessources(0);
-                }
-            }
-        }
-        if (humor == 1) {
-            for (int i = 0; i < this.CurrentPnj.size(); ++i) {
-                PNJ PNJ = CurrentPnj.get(i); // ON POINTE VERS UN pnj
-                PNJ.Farm(2);
                 PNJ.Eat(1);
                 if (PNJ.getSocial() == "poor") {
                     this.item += PNJ.getRessources();
+                    PNJ.setRessources(0);
                 }
                 if (PNJ.getSocial() == "bourgeois") {
                     this.item += PNJ.getMoney();
+                    PNJ.setMoney(0);
                 }
-                PNJ.setRessources(0);
+
             }
-        }
 
     }
 

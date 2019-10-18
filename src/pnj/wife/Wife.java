@@ -9,8 +9,12 @@ public class Wife extends PNJ {
         super(name);
     }
 
+//    @Override
+//    public void Farm(int item) {
+//        //System.out.println("*La femme se repose");
+//    }
     @Override
-    public void Farm(int item) {
+    public void Farm() {
         //System.out.println("*La femme se repose");
     }
 

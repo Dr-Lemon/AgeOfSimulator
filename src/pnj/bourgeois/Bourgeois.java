@@ -7,23 +7,6 @@ import pnj.PNJ;
  */
 public class Bourgeois extends PNJ {
     private static final int coast = 10;
-
-    /**
-     * Instantiates a new Bourgeois.
-     *
-     * @param name the name
-     */
-    public Bourgeois(String name) {
-        super(name);
-        this.setRessources(10);
-        this.setSocial("bourgeois");
-        this.setSexe("Homme");
-    }
-
-    public int getCoast() {
-        return coast;
-    }
-
     /**
      * Instantiates a new Bourgeois.
      */
@@ -31,11 +14,11 @@ public class Bourgeois extends PNJ {
         this.setSocial("bourgeois");
     }
 
-    @Override
-    public void Farm(int item) {
-        this.setMoney(this.getMoney() + item);
+    public int getCoast() {
+        return coast;
     }
 
+    @Override
     public void Farm(){
         if(this.getHumor()==1){
             this.setMoney(this.getMoney() + 1);
@@ -47,4 +30,5 @@ public class Bourgeois extends PNJ {
             this.setMoney(this.getMoney() + 1 + (int)(Math.random() * ((3 - 1) + 1)));
         }
     }
+
 }

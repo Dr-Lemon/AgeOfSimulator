@@ -23,9 +23,6 @@ public class Castle extends House {
      *
      * @return the max number
      */
-    public static int getMaxNumber() {
-        return MaxNumber;
-    }
 
     @Override
     public String toString() {

@@ -12,15 +12,6 @@ public class Farm extends House {
 
 
     /**
-     * Gets max number.
-     *
-     * @return the max number
-     */
-    public static int getMaxNumber() {
-        return MaxNumber;
-    }
-
-    /**
      * Instantiates a new Farm.
      */
     public Farm() {

@@ -4,12 +4,10 @@ import mayor.Mayor;
 import store.Store;
 
 import java.util.ArrayList;
-import java.util.Scanner;
+
 
 import static display.Display.*;
-//
-//
-//
+
 
 /**
  * The type Main.
@@ -47,6 +45,7 @@ public class main {
                 for (int i = 0; i < Maison.size(); ++i) {
                     House CurrentHouse = Maison.get(i);
                     CurrentHouse.Product(CurrentHouse.getHumor()); // ON Fait produire chaque maison en fonction de l'humeur
+                    System.out.println("G FAIM MAINTENANT");
                 }
                 for (int i = 0; i < Maison.size(); ++i) {
                     System.out.println(Maison.get(i)); // Affiche l’humeur et les ressources de chaque maison Chaque Jour
@@ -81,7 +80,7 @@ public class main {
                 Maison.get(i).getItem();
                 int x;
                 if (Maison.get(i).getName() == "Chateaux") {// Si c’est bourgeois
-                    int ask = (Maison.get(i).getItem() / 2);
+                    int ask = (Maison.get(i).getItem()/ 2);
                     System.out.println(Maison.get(i));
                     System.out.println("cette maison reclame : " + ask + "Ressources");
                     System.out.println(maire);
