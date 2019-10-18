@@ -17,10 +17,7 @@ public class Display {
      * The constant ANSI_RESET BOUCLE CODE COULEUR FERMETURE.
      */
     public static String ANSI_RESET = "\u001B[0m"; // PERMET L'AFFIFICHAGE EN COULEUR
-    /**
-     * The constant ANSI_BLACK BOUCLE CODE COULEUR NOIR.
-     */
-    public static String ANSI_BLACK = "\u001B[30m";
+
     /**
      * The constant ANSI_RED BOUCLE CODE COULEUR ROUGE.
      */
@@ -29,6 +26,7 @@ public class Display {
      * The constant ANSI_GREEN BOUCLE CODE COULEUR VERT.
      */
     public static String ANSI_GREEN = "\u001B[32m";
+
     /**
      * The constant ANSI_YELLOW BOUCLE CODE COULEUR JAUNE.
      */
@@ -45,10 +43,7 @@ public class Display {
      * The constant ANSI_CYAN BOUCLE CODE COULEUR CYAN.
      */
     public static String ANSI_CYAN = "\u001B[36m";
-    /**
-     * The constant ANSI_WHITE.
-     */
-    public static String ANSI_WHITE = "\u001B[37m";
+
     private static int Integre;
     private static Scanner sc = new Scanner(System.in);
 
