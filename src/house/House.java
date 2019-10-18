@@ -54,7 +54,7 @@ public class House {
      */
     public House() {
         this.name = "Maison sans type";
-        this.item = 20;
+        this.item = 0;
         this.humor = 3;
         //bourgeois Thierry = new bourgeois();
         //wife Phillipine = new wife();
@@ -126,8 +126,8 @@ public class House {
         if (humor == 2) {
             for (int i = 0; i < this.CurrentPnj.size(); ++i) {
                 PNJ PNJ = CurrentPnj.get(i); // ON POINTE VERS UN pnj
-                PNJ.Farm(3);
-                PNJ.Eat(1);
+                PNJ.Farm();
+                PNJ.Eat();
                 if (PNJ.getSocial() == "poor") {
                     this.item += PNJ.getRessources();
                 }

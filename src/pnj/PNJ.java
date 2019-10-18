@@ -78,12 +78,26 @@ public abstract class PNJ {
         this.ressources -= item;
     }
 
+    public void Eat(){
+        if(this.getHumor()==1){
+            this.setRessources(this.getRessources() - 1 + (int)(Math.random() * ((3 - 1) + 1)));
+        }
+        if(this.getHumor()==2){
+            this.setRessources(this.getRessources() - 1 + (int)(Math.random() * ((2 - 1) + 1)));
+        }
+        if(this.getHumor()==3){
+            this.setRessources(this.getRessources() - 1);
+        }
+    }
     /**
      * Farm.
      *
      * @param item the item
      */
     public void Farm(int item) {
+        System.out.println("Error classe non surchargé");
+    }
+    public void Farm() {
         System.out.println("Error classe non surchargé");
     }
 

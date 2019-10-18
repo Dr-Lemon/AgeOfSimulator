@@ -36,4 +36,15 @@ public class Bourgeois extends PNJ {
         this.setMoney(this.getMoney() + item);
     }
 
+    public void Farm(){
+        if(this.getHumor()==1){
+            this.setMoney(this.getMoney() + 1);
+        }
+        if(this.getHumor()==2){
+            this.setMoney(this.getMoney() + 1 + (int)(Math.random() * ((2 - 1) + 1)));
+        }
+        if(this.getHumor()==3){
+            this.setMoney(this.getMoney() + 1 + (int)(Math.random() * ((3 - 1) + 1)));
+        }
+    }
 }

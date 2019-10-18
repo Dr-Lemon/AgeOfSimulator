@@ -33,7 +33,7 @@ public class Mayor {
      */
     public Mayor() {
         this.setRessources(20);
-        this.setMoney(400);
+        this.setMoney(20);
     }
 
     /**
