@@ -151,7 +151,12 @@ public class main {
             store.checkHouse(maire);
             store.checkDept(maire);
         }
-        System.out.println("GAME OVER");
+        if (maire.getDept() == 3 || maire.getMoney() == -1) {
+            System.out.println("GAME OVER");
+        }
+        else{
+            System.out.println("BRAVO !  Vous avez gagné !");
+        }
     }
 }
 

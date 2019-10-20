@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2ddf56b-194f-4e94-aafc-9877662c3f95" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
-    </list>
+    <list default="true" id="a2ddf56b-194f-4e94-aafc-9877662c3f95" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +147,7 @@
       <workItem from="1571330514881" duration="4221000" />
       <workItem from="1571403172244" duration="302000" />
       <workItem from="1571403496415" duration="386000" />
-      <workItem from="1571419217614" duration="1349000" />
+      <workItem from="1571419217614" duration="1462000" />
     </task>
     <task id="LOCAL-00001" summary="Ajouts de classe Bourgeois :&#10;&#10;Artisan&#10;Merchant">
       <created>1570610151119</created>
@@ -405,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571408425522</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="V1.11.3&#10;&#10;Affichage règles au début du jeu">
+      <created>1571420616562</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1571420616562</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +452,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="REMISE AU PROPRE :&#10;ARRAYLIST HOUSE / PNJ" />
     <MESSAGE value="Sortie du Main" />
     <MESSAGE value="Changement du Menu, ajout des test de string et Int" />
     <MESSAGE value="Ajouter Femme&#10;Reconstruction du Main avec enlevement de l'ArrayList House" />
@@ -474,6 +476,7 @@
     <MESSAGE value="V1.10.2" />
     <MESSAGE value="V1.10.3&#10;&#10;ADD JAVADOC" />
     <MESSAGE value="V1.11.0&#10;&#10;1ère Version Effective" />
-    <option name="LAST_COMMIT_MESSAGE" value="V1.11.0&#10;&#10;1ère Version Effective" />
+    <MESSAGE value="V1.11.3&#10;&#10;Affichage règles au début du jeu" />
+    <option name="LAST_COMMIT_MESSAGE" value="V1.11.3&#10;&#10;Affichage règles au début du jeu" />
   </component>
 </project>
